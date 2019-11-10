@@ -1,0 +1,388 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny44-20PU U?
+U 1 1 5DC36EE7
+P 2350 6100
+F 0 "U?" H 1821 6146 50  0000 R CNN
+F 1 "ATtiny44-20PU" H 1821 6055 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2350 6100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf" H 2350 6100 50  0001 C CNN
+	1    2350 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6700 3650 6700
+Wire Wire Line
+	2950 6000 3350 6000
+Wire Wire Line
+	2950 5900 3250 5900
+Wire Wire Line
+	2950 5500 3000 5500
+Wire Wire Line
+	3000 5500 3000 4550
+Wire Wire Line
+	2950 5600 3050 5600
+Wire Wire Line
+	3050 5600 3050 4650
+Wire Wire Line
+	2950 5700 3100 5700
+Wire Wire Line
+	3100 5700 3100 4750
+Wire Wire Line
+	2950 5800 3150 5800
+Wire Wire Line
+	3150 5800 3150 4850
+Text GLabel 3600 4550 2    50   Input ~ 0
+KB_CLK
+Text GLabel 3600 4650 2    50   BiDi ~ 0
+KB_DAT
+Text GLabel 3600 4750 2    50   Input ~ 0
+MS_CLK
+Text GLabel 3600 4850 2    50   BiDi ~ 0
+MS_DAT
+Wire Wire Line
+	3600 4850 3150 4850
+Wire Wire Line
+	3600 4750 3100 4750
+Wire Wire Line
+	3600 4650 3050 4650
+Wire Wire Line
+	3600 4550 3000 4550
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5DC3BA52
+P 4500 5650
+F 0 "J?" H 4550 5967 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 4550 5876 50  0000 C CNN
+F 2 "" H 4500 5650 50  0001 C CNN
+F 3 "~" H 4500 5650 50  0001 C CNN
+	1    4500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DC3D4A6
+P 5100 5400
+F 0 "#PWR?" H 5100 5250 50  0001 C CNN
+F 1 "+5V" H 5115 5573 50  0000 C CNN
+F 2 "" H 5100 5400 50  0001 C CNN
+F 3 "" H 5100 5400 50  0001 C CNN
+	1    5100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC3E4FA
+P 5100 5900
+F 0 "#PWR?" H 5100 5650 50  0001 C CNN
+F 1 "GND" H 5105 5727 50  0000 C CNN
+F 2 "" H 5100 5900 50  0001 C CNN
+F 3 "" H 5100 5900 50  0001 C CNN
+	1    5100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5750 5100 5750
+Wire Wire Line
+	5100 5750 5100 5900
+Wire Wire Line
+	4800 5550 5100 5550
+Wire Wire Line
+	5100 5550 5100 5400
+Wire Wire Line
+	4300 5750 3650 5750
+Wire Wire Line
+	3250 5650 4300 5650
+Wire Wire Line
+	3250 5650 3250 5900
+Text Label 3850 5650 0    50   ~ 0
+AT_SCK
+Text Label 3850 5750 0    50   ~ 0
+AT_RESET
+Wire Wire Line
+	4300 5550 3350 5550
+Wire Wire Line
+	3350 5550 3350 6000
+Text Label 3850 5550 0    50   ~ 0
+AT_MISO
+Wire Wire Line
+	4900 6100 4900 5650
+Wire Wire Line
+	4900 5650 4800 5650
+Text Label 3850 6100 0    50   ~ 0
+AT_MOSI
+$Comp
+L power:+5V #PWR?
+U 1 1 5DC40B21
+P 2350 5200
+F 0 "#PWR?" H 2350 5050 50  0001 C CNN
+F 1 "+5V" H 2365 5373 50  0000 C CNN
+F 2 "" H 2350 5200 50  0001 C CNN
+F 3 "" H 2350 5200 50  0001 C CNN
+	1    2350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC40F48
+P 2350 7000
+F 0 "#PWR?" H 2350 6750 50  0001 C CNN
+F 1 "GND" H 2355 6827 50  0000 C CNN
+F 2 "" H 2350 7000 50  0001 C CNN
+F 3 "" H 2350 7000 50  0001 C CNN
+	1    2350 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DC41322
+P 1350 5350
+F 0 "C?" H 1465 5396 50  0000 L CNN
+F 1 "100n" H 1465 5305 50  0000 L CNN
+F 2 "" H 1388 5200 50  0001 C CNN
+F 3 "~" H 1350 5350 50  0001 C CNN
+	1    1350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DC416DE
+P 1350 5200
+F 0 "#PWR?" H 1350 5050 50  0001 C CNN
+F 1 "+5V" H 1365 5373 50  0000 C CNN
+F 2 "" H 1350 5200 50  0001 C CNN
+F 3 "" H 1350 5200 50  0001 C CNN
+	1    1350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC41A93
+P 1350 5500
+F 0 "#PWR?" H 1350 5250 50  0001 C CNN
+F 1 "GND" H 1355 5327 50  0000 C CNN
+F 2 "" H 1350 5500 50  0001 C CNN
+F 3 "" H 1350 5500 50  0001 C CNN
+	1    1350 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 1100 5800 0    50   ~ 0
+Place near Vcc
+Text Label 3100 6700 0    50   ~ 0
+AT_RESET
+Wire Wire Line
+	3250 5900 3250 6400
+Connection ~ 3250 5900
+Text GLabel 3900 6250 2    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 3900 6400 2    50   Input ~ 0
+I2C1_SCL
+Wire Wire Line
+	2950 6400 3150 6400
+Wire Wire Line
+	3150 6400 3150 6550
+Wire Wire Line
+	3150 6550 3900 6550
+Wire Wire Line
+	3900 6400 3250 6400
+Text GLabel 3900 6550 2    50   Output ~ 0
+KB_IRQ
+Wire Wire Line
+	2950 6100 3350 6100
+Wire Wire Line
+	3350 6250 3350 6100
+Wire Wire Line
+	3350 6250 3900 6250
+Connection ~ 3350 6100
+Wire Wire Line
+	3350 6100 4900 6100
+Wire Notes Line
+	950  7300 5350 7300
+Wire Notes Line
+	5350 7300 5350 4400
+Wire Notes Line
+	5350 4400 950  4400
+Wire Notes Line
+	950  4400 950  7300
+Text Notes 950  4350 0    100  ~ 20
+KEYBOARD/MOUSE CONTROLLER
+$Comp
+L Connector:SD_Card J?
+U 1 1 5DC4FD8D
+P 9700 5650
+F 0 "J?" H 9700 6315 50  0000 C CNN
+F 1 "SD_Card" H 9700 6224 50  0000 C CNN
+F 2 "" H 9700 5650 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 9700 5650 50  0001 C CNN
+	1    9700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 5DC51661
+P 10300 4550
+F 0 "J?" H 10020 4483 50  0000 R CNN
+F 1 "AudioJack3" H 10020 4574 50  0000 R CNN
+F 2 "" H 10300 4550 50  0001 C CNN
+F 3 "~" H 10300 4550 50  0001 C CNN
+	1    10300 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:DB9_Male_MountingHoles J?
+U 1 1 5DC52D6C
+P 10350 3350
+F 0 "J?" H 10500 3850 50  0000 L CNN
+F 1 "DE9_Male_MountingHoles" H 9900 3950 50  0000 L CNN
+F 2 "" H 10350 3350 50  0001 C CNN
+F 3 " ~" H 10350 3350 50  0001 C CNN
+	1    10350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB15_Female_HighDensity_MountingHoles J?
+U 1 1 5DC547F0
+P 9700 1600
+F 0 "J?" H 9700 2467 50  0000 C CNN
+F 1 "DB15_Female_HighDensity_MountingHoles" H 9700 2376 50  0000 C CNN
+F 2 "" H 8750 2000 50  0001 C CNN
+F 3 " ~" H 8750 2000 50  0001 C CNN
+	1    9700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U?
+U 1 1 5DC580F8
+P 8150 1600
+F 0 "U?" H 8150 2581 50  0000 C CNN
+F 1 "74LS245" H 8150 2490 50  0000 C CNN
+F 2 "" H 8150 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J?
+U 1 1 5DC5D4A0
+P 7150 3350
+F 0 "J?" H 7330 3352 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" H 7330 3261 50  0000 L CNN
+F 2 "" H 7150 3350 50  0001 C CNN
+F 3 " ~" H 7150 3350 50  0001 C CNN
+	1    7150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J?
+U 1 1 5DC5F7A8
+P 7150 4600
+F 0 "J?" H 7330 4602 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" H 7330 4511 50  0000 L CNN
+F 2 "" H 7150 4600 50  0001 C CNN
+F 3 " ~" H 7150 4600 50  0001 C CNN
+	1    7150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 1 1 5DC64666
+P 5750 3150
+F 0 "U?" H 5750 3467 50  0000 C CNN
+F 1 "74LS125" H 5750 3376 50  0000 C CNN
+F 2 "" H 5750 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 5750 3150 50  0001 C CNN
+	1    5750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 2 1 5DC65BB6
+P 5750 3850
+F 0 "U?" H 5750 4167 50  0000 C CNN
+F 1 "74LS125" H 5750 4076 50  0000 C CNN
+F 2 "" H 5750 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 5750 3850 50  0001 C CNN
+	2    5750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 3 1 5DC6AD89
+P 4400 3000
+F 0 "U?" H 4400 3317 50  0000 C CNN
+F 1 "74LS125" H 4400 3226 50  0000 C CNN
+F 2 "" H 4400 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4400 3000 50  0001 C CNN
+	3    4400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 4 1 5DC6B6B1
+P 4500 3550
+F 0 "U?" H 4500 3867 50  0000 C CNN
+F 1 "74LS125" H 4500 3776 50  0000 C CNN
+F 2 "" H 4500 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4500 3550 50  0001 C CNN
+	4    4500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U?
+U 5 1 5DC6C141
+P 4800 2200
+F 0 "U?" H 5030 2246 50  0000 L CNN
+F 1 "74LS125" H 5030 2155 50  0000 L CNN
+F 2 "" H 4800 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4800 2200 50  0001 C CNN
+	5    4800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DIN-5_180degree J?
+U 1 1 5DC6D7D9
+P 1300 1150
+F 0 "J?" H 1300 875 50  0000 C CNN
+F 1 "DIN-5_180degree" H 1300 784 50  0000 C CNN
+F 2 "" H 1300 1150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 1300 1150 50  0001 C CNN
+	1    1300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DIN-5_180degree J?
+U 1 1 5DC6E134
+P 2200 1150
+F 0 "J?" H 2200 875 50  0000 C CNN
+F 1 "DIN-5_180degree" H 2200 784 50  0000 C CNN
+F 2 "" H 2200 1150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2200 1150 50  0001 C CNN
+	1    2200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DIN-5_180degree J?
+U 1 1 5DC6F649
+P 3100 1150
+F 0 "J?" H 3100 875 50  0000 C CNN
+F 1 "DIN-5_180degree" H 3100 784 50  0000 C CNN
+F 2 "" H 3100 1150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 3100 1150 50  0001 C CNN
+	1    3100 1150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

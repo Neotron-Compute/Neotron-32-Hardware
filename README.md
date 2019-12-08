@@ -8,14 +8,22 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
 
 ## Hardware
 
-  - **CPU:** Texas Instruments Tiva-C TM4C123 at 80 MHz
+  - **CPU:** Texas Instruments Tiva-C TM4C123
+  - **Processor Core**: 80 MHz ARM Cortex-M4
   - **RAM:** 32 KiB on-chip SRAM
   - **ROM:** 256 KiB on-chip Flash
-  - **GPU:** Software-generated SVGA over 3x SPI peripherals
+  - **GPU:** No GPU - CPU generates 8 colour 400x300 video
   - **GPU RAM:** Shared with main SRAM
-  - **Storage:** SD Card Slot, supports FAT16/FAT32
-  - **USB:** 1x USB2.0 Full-speed OTG port
+  - **Video Output:** VGA (fixed at 800x600 60 Hz)
+  - **Storage:** Full-size SD Card, supports FAT16/FAT32
+  - **USB:** 1x USB 2.0 Full-speed OTG port
   - **Audio:** 3.5mm Line Out
-  - **Video:** SVGA (800x600 @ 60 Hz in 8 colours)
-  - **Other IO:** PS2 Keyboard/Mouse Port, 3x MIDI, Atari Joystick
-  - **Mechanical Form Factor:** Mini ITX
+  - **Keyboard/Mouse:** 2x PS/2 Ports
+  - **MIDI**: 3x 6-pin DIN (In, Out and Through)
+  - **Joystick**: 2x Atari 9-pin ports
+  - **Expansion**: Internal 2.54mm 2x16 header
+  - **RTC**: MCP7940 Real-time clock, with coin-cell battery backup
+  - **Mechanical Form Factor:** Fits Hammond [1598C] case
+
+[1598C]: http://www.hammondmfg.com/pdf/1598C.pdf
+

@@ -18,8 +18,8 @@ L Connector:AudioJack3 J?
 U 1 1 5DF41F43
 P 5900 3350
 AR Path="/5DF41F43" Ref="J?"  Part="1" 
-AR Path="/5DF3EA3F/5DF41F43" Ref="J8"  Part="1" 
-F 0 "J8" H 5600 3150 50  0000 R CNN
+AR Path="/5DF3EA3F/5DF41F43" Ref="J401"  Part="1" 
+F 0 "J401" H 5600 3150 50  0000 R CNN
 F 1 "3.5mm Audio Jack TRS" H 6350 3550 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 5900 3350 50  0001 C CNN
 F 3 "~" H 5900 3350 50  0001 C CNN

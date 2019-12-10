@@ -13,26 +13,168 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 5250 3300 0    50   Output ~ 0
+MCU_SPI_MOSI
+Text HLabel 5250 3700 0    50   Input ~ 0
+MCU_SPI_MISO
+Text HLabel 5250 3500 0    50   Input ~ 0
+MCU_SPI_CLK
+Text HLabel 5250 3200 0    50   Input ~ 0
+~MCU_SD_CS
 $Comp
-L Connector:Micro_SD_Card J?
-U 1 1 5DF3DCD4
-P 5550 3300
-AR Path="/5DF3DCD4" Ref="J?"  Part="1" 
-AR Path="/5DF1D0B0/5DF3DCD4" Ref="J10"  Part="1" 
-F 0 "J10" H 6300 3900 50  0000 C CNN
-F 1 "Amphenol 114-00841-68" H 5550 2600 50  0000 C CNN
-F 2 "Amphenol SD Card:1140084168" H 5550 3300 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/114-00841-68.pdf" H 5550 3300 50  0001 C CNN
-F 4 "114-00841-68-1-ND" H 5550 3300 50  0001 C CNN "Digikey"
-	1    5550 3300
+L Connector:Micro_SD_Card_Det J601
+U 1 1 5DF22812
+P 6250 3500
+F 0 "J601" H 6200 4350 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 6200 4250 50  0000 C CNN
+F 2 "" H 8300 4200 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6250 3600 50  0001 C CNN
+	1    6250 3500
 	1    0    0    -1  
 $EndComp
-Text HLabel 1450 1250 0    50   Output ~ 0
-MCU_SPI_MOSI
-Text HLabel 1450 1400 0    50   Input ~ 0
-MCU_SPI_MISO
-Text HLabel 1450 1550 0    50   Input ~ 0
-MCU_SPI_CLK
-Text HLabel 1450 1700 0    50   Input ~ 0
-~MCU_SD_CS
+$Comp
+L power:+3V3 #PWR0601
+U 1 1 5DF24158
+P 4050 2650
+F 0 "#PWR0601" H 4050 2500 50  0001 C CNN
+F 1 "+3V3" H 4100 2850 50  0000 C CNN
+F 2 "" H 4050 2650 50  0001 C CNN
+F 3 "" H 4050 2650 50  0001 C CNN
+	1    4050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0602
+U 1 1 5DF24591
+P 4400 4150
+F 0 "#PWR0602" H 4400 3900 50  0001 C CNN
+F 1 "GND" H 4450 3950 50  0000 C CNN
+F 2 "" H 4400 4150 50  0001 C CNN
+F 3 "" H 4400 4150 50  0001 C CNN
+	1    4400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3600 5350 3600
+$Comp
+L power:GND #PWR0603
+U 1 1 5DF25504
+P 7150 4350
+F 0 "#PWR0603" H 7150 4100 50  0001 C CNN
+F 1 "GND" H 7200 4150 50  0000 C CNN
+F 2 "" H 7150 4350 50  0001 C CNN
+F 3 "" H 7150 4350 50  0001 C CNN
+	1    7150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R603
+U 1 1 5DF25D3A
+P 7150 4150
+F 0 "R603" H 7250 4200 50  0000 L CNN
+F 1 "DNF" H 7250 4100 50  0000 L CNN
+F 2 "" V 7080 4150 50  0001 C CNN
+F 3 "~" H 7150 4150 50  0001 C CNN
+	1    7150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4000 7150 4000
+Wire Wire Line
+	7150 4300 7150 4350
+Wire Wire Line
+	5250 3200 5350 3200
+Wire Wire Line
+	5250 3300 5350 3300
+Wire Wire Line
+	5250 3500 5350 3500
+Wire Wire Line
+	5250 3700 5350 3700
+$Comp
+L Device:R R601
+U 1 1 5DF267A9
+P 4250 2900
+F 0 "R601" H 4300 3050 50  0000 L CNN
+F 1 "47k" H 4300 2750 50  0000 L CNN
+F 2 "" V 4180 2900 50  0001 C CNN
+F 3 "~" H 4250 2900 50  0001 C CNN
+	1    4250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R602
+U 1 1 5DF273D3
+P 4500 2900
+F 0 "R602" H 4550 3050 50  0000 L CNN
+F 1 "47k" H 4550 2750 50  0000 L CNN
+F 2 "" V 4430 2900 50  0001 C CNN
+F 3 "~" H 4500 2900 50  0001 C CNN
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3100 4500 3100
+Wire Wire Line
+	4500 3100 4500 3050
+Wire Wire Line
+	4250 3800 4250 3050
+Wire Wire Line
+	4050 3400 4050 2700
+Wire Wire Line
+	4050 3400 5350 3400
+Wire Wire Line
+	4400 3600 4400 4150
+Wire Wire Line
+	4050 2700 4250 2700
+Wire Wire Line
+	4250 2700 4250 2750
+Connection ~ 4050 2700
+Wire Wire Line
+	4250 2700 4500 2700
+Wire Wire Line
+	4500 2700 4500 2750
+Connection ~ 4250 2700
+Wire Wire Line
+	4050 2650 4050 2700
+Wire Wire Line
+	4250 3800 5350 3800
+NoConn ~ 5350 3900
+NoConn ~ 5350 4000
+$Comp
+L power:+3V3 #PWR0604
+U 1 1 5E016A44
+P 7850 3000
+F 0 "#PWR0604" H 7850 2850 50  0001 C CNN
+F 1 "+3V3" H 7900 3200 50  0000 C CNN
+F 2 "" H 7850 3000 50  0001 C CNN
+F 3 "" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C601
+U 1 1 5E016EE2
+P 7850 3250
+F 0 "C601" H 7965 3296 50  0000 L CNN
+F 1 "100n" H 7965 3205 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7888 3100 50  0001 C CNN
+F 3 "~" H 7850 3250 50  0001 C CNN
+	1    7850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0605
+U 1 1 5E0170E6
+P 7850 3500
+F 0 "#PWR0605" H 7850 3250 50  0001 C CNN
+F 1 "GND" H 7900 3300 50  0000 C CNN
+F 2 "" H 7850 3500 50  0001 C CNN
+F 3 "" H 7850 3500 50  0001 C CNN
+	1    7850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3000 7850 3100
+Wire Wire Line
+	7850 3400 7850 3500
 $EndSCHEMATC

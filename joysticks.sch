@@ -14,52 +14,325 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:DB9_Female_MountingHoles J?
-U 1 1 5DF34F25
-P 9250 3500
-AR Path="/5DF34F25" Ref="J?"  Part="1" 
-AR Path="/5DF2345B/5DF34F25" Ref="J4"  Part="1" 
-F 0 "J4" H 9430 3502 50  0000 L CNN
-F 1 "DE9 Female (JS)" H 9430 3411 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 9250 3500 50  0001 C CNN
-F 3 " ~" H 9250 3500 50  0001 C CNN
-	1    9250 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:DB9_Female_MountingHoles J?
+L Connector:DB9_Male J?
 U 1 1 5DF34F2B
-P 9250 2250
+P 7550 2650
 AR Path="/5DF34F2B" Ref="J?"  Part="1" 
-AR Path="/5DF2345B/5DF34F2B" Ref="J3"  Part="1" 
-F 0 "J3" H 9430 2252 50  0000 L CNN
-F 1 "DE9 Female (JS)" H 9430 2161 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 9250 2250 50  0001 C CNN
-F 3 " ~" H 9250 2250 50  0001 C CNN
-	1    9250 2250
+AR Path="/5DF2345B/5DF34F2B" Ref="J201"  Part="1" 
+F 0 "J201" H 7730 2652 50  0000 L CNN
+F 1 "DE9 Male" H 7730 2561 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 7550 2650 50  0001 C CNN
+F 3 " ~" H 7550 2650 50  0001 C CNN
+	1    7550 2650
 	1    0    0    -1  
 $EndComp
-Text HLabel 1650 1050 0    50   Output ~ 0
+Text HLabel 4500 2650 0    50   Output ~ 0
 MCU_SPI_MOSI
-Text HLabel 1650 1200 0    50   Input ~ 0
+Text HLabel 4500 2750 0    50   Input ~ 0
 MCU_SPI_MISO
-Text HLabel 1650 1350 0    50   Input ~ 0
+Text HLabel 4500 2550 0    50   Input ~ 0
 MSI_SPI_CLK
-Text HLabel 1650 1500 0    50   Input ~ 0
+Text HLabel 4500 2450 0    50   Input ~ 0
 ~MCU_JS_CS
-Text HLabel 1650 1650 0    50   Output ~ 0
+Text HLabel 4500 3150 0    50   Output ~ 0
 ~MCU_JS_IRQ
+Text HLabel 4500 3350 0    50   Input ~ 0
+~RESET
+Text Label 7100 3050 2    50   ~ 0
+UP_JS1
+Text Label 7100 2850 2    50   ~ 0
+DOWN_JS1
+Text Label 7100 2950 2    50   ~ 0
+A_B_JS1
+Text Label 7100 2750 2    50   ~ 0
+SELECT_JS1
+Text Label 7100 2350 2    50   ~ 0
+START_C_JS1
+Text Label 7100 2650 2    50   ~ 0
+LEFT_GND_JS1
+Text Label 7100 2450 2    50   ~ 0
+RIGHT_GND_JS1
+Text Label 7100 4150 2    50   ~ 0
+UP_JS2
+Text Label 7100 3950 2    50   ~ 0
+DOWN_JS2
+Text Label 7100 4050 2    50   ~ 0
+A_B_JS2
+Text Label 7100 3850 2    50   ~ 0
+SELECT_JS2
+Text Label 7100 3450 2    50   ~ 0
+START_C_JS2
+Text Label 7100 3750 2    50   ~ 0
+LEFT_GND_JS2
+Text Label 7100 3550 2    50   ~ 0
+RIGHT_GND_JS2
 $Comp
-L Interface_Expansion:MCP23S17_SP U2
-U 1 1 5DF6158A
-P 5700 2800
-F 0 "U2" H 5700 4081 50  0000 C CNN
-F 1 "MCP23S17_SP" H 5700 3990 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 5900 1800 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5900 1700 50  0001 L CNN
-	1    5700 2800
+L Connector:DB9_Male J?
+U 1 1 5DF32594
+P 7550 3750
+AR Path="/5DF32594" Ref="J?"  Part="1" 
+AR Path="/5DF2345B/5DF32594" Ref="J202"  Part="1" 
+F 0 "J202" H 7730 3752 50  0000 L CNN
+F 1 "DE9 Male" H 7730 3661 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 7550 3750 50  0001 C CNN
+F 3 " ~" H 7550 3750 50  0001 C CNN
+	1    7550 3750
 	1    0    0    -1  
 $EndComp
-Text HLabel 1650 1800 0    50   Input ~ 0
-~RESET
+Wire Wire Line
+	6100 4150 6100 4050
+Wire Wire Line
+	6100 4050 6000 4050
+Wire Wire Line
+	6000 3950 6200 3950
+Wire Wire Line
+	6200 3950 6200 4050
+Wire Wire Line
+	6300 3950 6300 3850
+Wire Wire Line
+	6300 3850 6000 3850
+Wire Wire Line
+	6000 3750 6400 3750
+Wire Wire Line
+	6400 3750 6400 3850
+Wire Wire Line
+	6500 3750 6500 3650
+Wire Wire Line
+	6500 3650 6000 3650
+Wire Wire Line
+	6000 3150 6700 3150
+Wire Wire Line
+	6700 3150 6700 3050
+Wire Wire Line
+	6600 2950 6600 3050
+Wire Wire Line
+	6600 3050 6000 3050
+Wire Wire Line
+	6500 2850 6500 2950
+Wire Wire Line
+	6500 2950 6000 2950
+Wire Wire Line
+	6400 2750 6400 2850
+Wire Wire Line
+	6400 2850 6000 2850
+Wire Wire Line
+	6300 2650 6300 2750
+Wire Wire Line
+	6300 2750 6000 2750
+Wire Wire Line
+	6200 2450 6200 2650
+Wire Wire Line
+	6200 2650 6000 2650
+Wire Wire Line
+	6000 2550 6100 2550
+Wire Wire Line
+	6100 2550 6100 2350
+Wire Wire Line
+	7250 3650 7200 3650
+Wire Wire Line
+	7250 2550 7200 2550
+Wire Wire Line
+	7200 2550 7200 3150
+Wire Wire Line
+	6100 2350 7250 2350
+Wire Wire Line
+	6200 2450 7250 2450
+Wire Wire Line
+	6300 2650 7250 2650
+Wire Wire Line
+	6400 2750 7250 2750
+Wire Wire Line
+	6500 2850 7250 2850
+Wire Wire Line
+	6600 2950 7250 2950
+Wire Wire Line
+	6700 3050 7250 3050
+Wire Wire Line
+	6000 3450 7250 3450
+Wire Wire Line
+	6000 3550 7250 3550
+Wire Wire Line
+	6500 3750 7250 3750
+Wire Wire Line
+	6400 3850 7250 3850
+Wire Wire Line
+	6300 3950 7250 3950
+Wire Wire Line
+	6200 4050 7250 4050
+Wire Wire Line
+	6100 4150 7250 4150
+$Comp
+L power:GND #PWR0208
+U 1 1 5DF47BE1
+P 7200 3150
+F 0 "#PWR0208" H 7200 2900 50  0001 C CNN
+F 1 "GND" H 7100 3150 50  0000 C CNN
+F 2 "" H 7200 3150 50  0001 C CNN
+F 3 "" H 7200 3150 50  0001 C CNN
+	1    7200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0209
+U 1 1 5DF47F5C
+P 7200 4250
+F 0 "#PWR0209" H 7200 4000 50  0001 C CNN
+F 1 "GND" H 7100 4250 50  0000 C CNN
+F 2 "" H 7200 4250 50  0001 C CNN
+F 3 "" H 7200 4250 50  0001 C CNN
+	1    7200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3350 6950 3250
+Wire Wire Line
+	6950 3350 7250 3350
+Wire Wire Line
+	6950 2250 6950 2150
+Wire Wire Line
+	6950 2250 7250 2250
+Wire Wire Line
+	7200 4250 7200 3650
+$Comp
+L power:GND #PWR0205
+U 1 1 5DF4AAF1
+P 5300 4350
+F 0 "#PWR0205" H 5300 4100 50  0001 C CNN
+F 1 "GND" H 5300 4200 50  0000 C CNN
+F 2 "" H 5300 4350 50  0001 C CNN
+F 3 "" H 5300 4350 50  0001 C CNN
+	1    5300 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 3350
+NoConn ~ 6000 2450
+$Comp
+L power:+3V3 #PWR0206
+U 1 1 5DF500C9
+P 6950 2150
+F 0 "#PWR0206" H 6950 2000 50  0001 C CNN
+F 1 "+3V3" H 6800 2150 50  0000 C CNN
+F 2 "" H 6950 2150 50  0001 C CNN
+F 3 "" H 6950 2150 50  0001 C CNN
+	1    6950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0204
+U 1 1 5DF5034D
+P 5300 2150
+F 0 "#PWR0204" H 5300 2000 50  0001 C CNN
+F 1 "+3V3" H 5350 2350 50  0000 C CNN
+F 2 "" H 5300 2150 50  0001 C CNN
+F 3 "" H 5300 2150 50  0001 C CNN
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0207
+U 1 1 5DF506C2
+P 6950 3250
+F 0 "#PWR0207" H 6950 3100 50  0001 C CNN
+F 1 "+3V3" H 6800 3250 50  0000 C CNN
+F 2 "" H 6950 3250 50  0001 C CNN
+F 3 "" H 6950 3250 50  0001 C CNN
+	1    6950 3250
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 4000 2    50   ~ 0
+Joystick 2
+Text Notes 8100 2900 2    50   ~ 0
+Joystick 1
+NoConn ~ 4600 3050
+Wire Wire Line
+	4500 2450 4600 2450
+Wire Wire Line
+	4500 2550 4600 2550
+Wire Wire Line
+	4500 2650 4600 2650
+Wire Wire Line
+	4600 2750 4500 2750
+Wire Wire Line
+	4500 3150 4600 3150
+Wire Wire Line
+	4500 3350 4600 3350
+$Comp
+L power:GND #PWR0203
+U 1 1 5DF56E3A
+P 4500 4150
+F 0 "#PWR0203" H 4500 3900 50  0001 C CNN
+F 1 "GND" H 4500 4000 50  0000 C CNN
+F 2 "" H 4500 4150 50  0001 C CNN
+F 3 "" H 4500 4150 50  0001 C CNN
+	1    4500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:MCP23S17_SP U201
+U 1 1 5DF6158A
+P 5300 3250
+F 0 "U201" H 5500 4300 50  0000 C CNN
+F 1 "MCP23S17_SP" H 5700 4200 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 5500 2250 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5500 2150 50  0001 L CNN
+	1    5300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4050 4500 4150
+Wire Wire Line
+	4500 4050 4600 4050
+Wire Wire Line
+	4600 3950 4500 3950
+Wire Wire Line
+	4500 3950 4500 4050
+Connection ~ 4500 4050
+Wire Wire Line
+	4600 3850 4500 3850
+Wire Wire Line
+	4500 3850 4500 3950
+Connection ~ 4500 3950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E019DAC
+P 3250 2150
+AR Path="/5DF1D0B0/5E019DAC" Ref="#PWR?"  Part="1" 
+AR Path="/5DF2345B/5E019DAC" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 3250 2000 50  0001 C CNN
+F 1 "+3V3" H 3300 2350 50  0000 C CNN
+F 2 "" H 3250 2150 50  0001 C CNN
+F 3 "" H 3250 2150 50  0001 C CNN
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E019DB2
+P 3250 2400
+AR Path="/5DF1D0B0/5E019DB2" Ref="C?"  Part="1" 
+AR Path="/5DF2345B/5E019DB2" Ref="C201"  Part="1" 
+F 0 "C201" H 3365 2446 50  0000 L CNN
+F 1 "100n" H 3365 2355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3288 2250 50  0001 C CNN
+F 3 "~" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E019DB8
+P 3250 2650
+AR Path="/5DF1D0B0/5E019DB8" Ref="#PWR?"  Part="1" 
+AR Path="/5DF2345B/5E019DB8" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 3250 2400 50  0001 C CNN
+F 1 "GND" H 3300 2450 50  0000 C CNN
+F 2 "" H 3250 2650 50  0001 C CNN
+F 3 "" H 3250 2650 50  0001 C CNN
+	1    3250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2150 3250 2250
+Wire Wire Line
+	3250 2550 3250 2650
 $EndSCHEMATC

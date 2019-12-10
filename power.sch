@@ -13,208 +13,289 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7700 2500 2    50   Output ~ 0
+Text HLabel 8400 2500 2    50   Output ~ 0
 ~RESET
 $Comp
-L Connector:USB_B J9
+L Connector:USB_B J501
 U 1 1 5DFCA02C
-P 3200 2400
-F 0 "J9" H 3200 2850 50  0000 C CNN
-F 1 "USB_B" H 3200 2750 50  0000 C CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 3350 2350 50  0001 C CNN
-F 3 " ~" H 3350 2350 50  0001 C CNN
-	1    3200 2400
+P 1600 2050
+F 0 "J501" H 1600 2500 50  0000 C CNN
+F 1 "USB_B" H 1600 2400 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1750 2000 50  0001 C CNN
+F 3 " ~" H 1750 2000 50  0001 C CNN
+	1    1600 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR011
+L power:+5V #PWR0502
 U 1 1 5DFCBF4D
-P 6300 2050
-F 0 "#PWR011" H 6300 1900 50  0001 C CNN
-F 1 "+5V" H 6315 2223 50  0000 C CNN
-F 2 "" H 6300 2050 50  0001 C CNN
-F 3 "" H 6300 2050 50  0001 C CNN
-	1    6300 2050
+P 4700 1800
+F 0 "#PWR0502" H 4700 1650 50  0001 C CNN
+F 1 "+5V" H 4715 1973 50  0000 C CNN
+F 2 "" H 4700 1800 50  0001 C CNN
+F 3 "" H 4700 1800 50  0001 C CNN
+	1    4700 1800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3500 2400
-NoConn ~ 3500 2500
+NoConn ~ 1900 2050
+NoConn ~ 1900 2150
 $Comp
-L Device:C C1
+L Device:C C501
 U 1 1 5DFCD9F0
-P 5700 2300
-F 0 "C1" H 5818 2346 50  0000 L CNN
-F 1 "47u" H 5818 2255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5738 2150 50  0001 C CNN
-F 3 "~" H 5700 2300 50  0001 C CNN
-	1    5700 2300
+P 4100 2150
+F 0 "C501" H 4218 2196 50  0000 L CNN
+F 1 "47u" H 4218 2105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4138 2000 50  0001 C CNN
+F 3 "~" H 4100 2150 50  0001 C CNN
+	1    4100 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C502
 U 1 1 5DFCDDA8
-P 6100 2300
-F 0 "C2" H 6215 2346 50  0000 L CNN
-F 1 "1u" H 6215 2255 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6138 2150 50  0001 C CNN
-F 3 "~" H 6100 2300 50  0001 C CNN
-	1    6100 2300
+P 4500 2150
+F 0 "C502" H 4615 2196 50  0000 L CNN
+F 1 "1u" H 4615 2105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4538 2000 50  0001 C CNN
+F 3 "~" H 4500 2150 50  0001 C CNN
+	1    4500 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F1
+L Device:Polyfuse F501
 U 1 1 5DFCE179
-P 4850 2100
-F 0 "F1" V 4625 2100 50  0000 C CNN
-F 1 "250mA PTC" V 4716 2100 50  0000 C CNN
-F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4900 1900 50  0001 L CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4850 2100 50  0001 C CNN
-F 4 "RXEF025HF-ND" V 4850 2100 50  0001 C CNN "Digikey"
-F 5 "Littelfuse Inc" V 4850 2100 50  0001 C CNN "Manufacturer"
-F 6 "RXEF025" V 4850 2100 50  0001 C CNN "PartNo"
-	1    4850 2100
+P 3250 1850
+F 0 "F501" V 3025 1850 50  0000 C CNN
+F 1 "250mA PTC" V 3116 1850 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 3300 1650 50  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 3250 1850 50  0001 C CNN
+F 4 "RXEF025HF-ND" V 3250 1850 50  0001 C CNN "Digikey"
+F 5 "Littelfuse Inc" V 3250 1850 50  0001 C CNN "Manufacturer"
+F 6 "RXEF025" V 3250 1850 50  0001 C CNN "PartNo"
+	1    3250 1850
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D1
+L Device:D_TVS D501
 U 1 1 5DFD0F1E
-P 5200 2300
-F 0 "D1" V 5154 2379 50  0000 L CNN
-F 1 "SA5.0A" V 5245 2379 50  0000 L CNN
-F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5200 2300 50  0001 C CNN
-F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 5200 2300 50  0001 C CNN
-F 4 "SA5.0ALFCT-ND " V 5200 2300 50  0001 C CNN "Digikey"
-	1    5200 2300
+P 3600 2150
+F 0 "D501" V 3554 2229 50  0000 L CNN
+F 1 "SA5.0A" V 3645 2229 50  0000 L CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 3600 2150 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 3600 2150 50  0001 C CNN
+F 4 "SA5.0ALFCT-ND " V 3600 2150 50  0001 C CNN "Digikey"
+	1    3600 2150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6300 2050 6300 2100
+	4700 1800 4700 1850
 Wire Wire Line
-	6300 2100 6100 2100
-Connection ~ 6100 2100
+	3400 1850 3600 1850
+Connection ~ 4100 1850
+Connection ~ 3600 1850
 Wire Wire Line
-	6100 2100 6100 2150
-Wire Wire Line
-	5000 2100 5200 2100
-Wire Wire Line
-	5700 2150 5700 2100
-Connection ~ 5700 2100
-Wire Wire Line
-	5700 2100 6100 2100
-Wire Wire Line
-	5200 2150 5200 2100
-Connection ~ 5200 2100
-Wire Wire Line
-	5200 2100 5700 2100
-Wire Wire Line
-	5200 2450 5200 2500
-Wire Wire Line
-	5200 2500 5700 2500
-Wire Wire Line
-	5700 2500 5700 2450
-Connection ~ 5200 2500
-Wire Wire Line
-	5700 2500 6100 2500
-Wire Wire Line
-	6100 2500 6100 2450
-Connection ~ 5700 2500
+	3600 1850 4100 1850
 $Comp
-L power:GND #PWR012
+L power:GND #PWR0503
 U 1 1 5DFD4FCF
-P 6300 2550
-F 0 "#PWR012" H 6300 2300 50  0001 C CNN
-F 1 "GND" H 6305 2377 50  0000 C CNN
-F 2 "" H 6300 2550 50  0001 C CNN
-F 3 "" H 6300 2550 50  0001 C CNN
-	1    6300 2550
+P 4700 2600
+F 0 "#PWR0503" H 4700 2350 50  0001 C CNN
+F 1 "GND" H 4705 2427 50  0000 C CNN
+F 2 "" H 4700 2600 50  0001 C CNN
+F 3 "" H 4700 2600 50  0001 C CNN
+	1    4700 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 2550 6300 2500
-Wire Wire Line
-	6300 2500 6100 2500
-Connection ~ 6100 2500
 $Comp
-L Switch:SW_Push SW2
+L Switch:SW_Push SW502
 U 1 1 5DFD5E14
-P 7400 2500
-F 0 "SW2" H 7400 2785 50  0000 C CNN
-F 1 "SW_Push" H 7400 2694 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH-12mm" H 7400 2700 50  0001 C CNN
-F 3 "~" H 7400 2700 50  0001 C CNN
-	1    7400 2500
+P 8100 2500
+F 0 "SW502" H 8100 2785 50  0000 C CNN
+F 1 "SW_Push" H 8100 2694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 8100 2700 50  0001 C CNN
+F 3 "~" H 8100 2700 50  0001 C CNN
+	1    8100 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPDT SW1
+L Switch:SW_SPDT SW501
 U 1 1 5DFD696E
-P 4000 2200
-F 0 "SW1" H 4000 2485 50  0000 C CNN
-F 1 "SW_SPDT" H 4000 2394 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 4000 2200 50  0001 C CNN
-F 3 "~" H 4000 2200 50  0001 C CNN
-	1    4000 2200
+P 2400 1950
+F 0 "SW501" H 2400 2235 50  0000 C CNN
+F 1 "SW_SPDT" H 2400 2144 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 2400 1950 50  0001 C CNN
+F 3 "~" H 2400 1950 50  0001 C CNN
+	1    2400 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 2800 3200 2850
+	1600 2450 1600 2500
 $Comp
-L Device:R R1
+L Device:R R501
 U 1 1 5DFD98A8
-P 3100 3000
-F 0 "R1" H 3030 2954 50  0000 R CNN
-F 1 "DNF" H 3030 3045 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3030 3000 50  0001 C CNN
-F 3 "~" H 3100 3000 50  0001 C CNN
-	1    3100 3000
+P 1500 2650
+F 0 "R501" H 1430 2604 50  0000 R CNN
+F 1 "DNF" H 1430 2695 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 1430 2650 50  0001 C CNN
+F 3 "~" H 1500 2650 50  0001 C CNN
+	1    1500 2650
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR010
+L power:GND #PWR0501
 U 1 1 5DFDADE6
-P 3100 3200
-F 0 "#PWR010" H 3100 2950 50  0001 C CNN
-F 1 "GND" H 3105 3027 50  0000 C CNN
-F 2 "" H 3100 3200 50  0001 C CNN
-F 3 "" H 3100 3200 50  0001 C CNN
-	1    3100 3200
+P 1500 2850
+F 0 "#PWR0501" H 1500 2600 50  0001 C CNN
+F 1 "GND" H 1505 2677 50  0000 C CNN
+F 2 "" H 1500 2850 50  0001 C CNN
+F 3 "" H 1500 2850 50  0001 C CNN
+	1    1500 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 3150 3100 3200
+	1500 2800 1500 2850
 Wire Wire Line
-	3100 2800 3100 2850
+	1500 2450 1500 2500
 Wire Wire Line
-	3500 2200 3800 2200
-Wire Wire Line
-	4200 2100 4700 2100
+	2600 1850 3100 1850
 $Comp
-L power:GND #PWR013
+L power:GND #PWR0507
 U 1 1 5DFDC03E
-P 7150 2600
-F 0 "#PWR013" H 7150 2350 50  0001 C CNN
-F 1 "GND" H 7155 2427 50  0000 C CNN
-F 2 "" H 7150 2600 50  0001 C CNN
-F 3 "" H 7150 2600 50  0001 C CNN
-	1    7150 2600
+P 7850 2600
+F 0 "#PWR0507" H 7850 2350 50  0001 C CNN
+F 1 "GND" H 7855 2427 50  0000 C CNN
+F 2 "" H 7850 2600 50  0001 C CNN
+F 3 "" H 7850 2600 50  0001 C CNN
+	1    7850 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 2500 7150 2500
+	7900 2500 7850 2500
 Wire Wire Line
-	7600 2500 7700 2500
-Text Notes 7650 2050 2    50   ~ 0
+	8300 2500 8400 2500
+Text Notes 8350 2050 2    50   ~ 0
 Reset Button
-Text Notes 5300 1750 2    50   ~ 0
+Text Notes 3700 1500 2    50   ~ 0
 Input Protection
-Text Notes 4250 1750 2    50   ~ 0
+Text Notes 2700 1500 2    50   ~ 0
 Power Switch
 Wire Wire Line
-	7150 2500 7150 2600
+	7850 2500 7850 2600
+Text Notes 1950 1500 2    50   ~ 0
+USB Power Input
 Wire Wire Line
-	3200 2850 3900 2850
+	1900 1850 2100 1850
 Wire Wire Line
-	3900 2850 3900 2500
+	2100 1850 2100 1950
 Wire Wire Line
-	3900 2500 5200 2500
+	2100 1950 2200 1950
+Wire Wire Line
+	4700 2500 4700 2600
+Wire Wire Line
+	1600 2500 3600 2500
+Wire Wire Line
+	4100 1850 4100 2000
+Wire Wire Line
+	3600 1850 3600 2000
+Wire Wire Line
+	3600 2300 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 4100 2500
+Wire Wire Line
+	4100 1850 4500 1850
+Wire Wire Line
+	4500 2000 4500 1850
+Connection ~ 4500 1850
+Wire Wire Line
+	4500 1850 4700 1850
+Wire Wire Line
+	4500 2300 4500 2500
+Connection ~ 4500 2500
+Wire Wire Line
+	4500 2500 4700 2500
+Wire Wire Line
+	4100 2300 4100 2500
+Connection ~ 4100 2500
+Wire Wire Line
+	4100 2500 4500 2500
+$Comp
+L Regulator_Linear:TC1262-33 U501
+U 1 1 5DF0E799
+P 6000 1850
+F 0 "U501" H 6000 2150 50  0000 C CNN
+F 1 "TC1262-33" H 6000 2050 50  0000 C CNN
+F 2 "" H 6000 2075 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 6000 1550 50  0001 C CNN
+	1    6000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C503
+U 1 1 5DF0ED61
+P 6450 2150
+F 0 "C503" H 6565 2196 50  0000 L CNN
+F 1 "1u" H 6565 2105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6488 2000 50  0001 C CNN
+F 3 "~" H 6450 2150 50  0001 C CNN
+	1    6450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0504
+U 1 1 5DF0F149
+P 5600 1800
+F 0 "#PWR0504" H 5600 1650 50  0001 C CNN
+F 1 "+5V" H 5615 1973 50  0000 C CNN
+F 2 "" H 5600 1800 50  0001 C CNN
+F 3 "" H 5600 1800 50  0001 C CNN
+	1    5600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1850 6450 1850
+Wire Wire Line
+	5700 1850 5600 1850
+Wire Wire Line
+	5600 1850 5600 1800
+$Comp
+L power:GND #PWR0505
+U 1 1 5DF11482
+P 6000 2600
+F 0 "#PWR0505" H 6000 2350 50  0001 C CNN
+F 1 "GND" H 6005 2427 50  0000 C CNN
+F 2 "" H 6000 2600 50  0001 C CNN
+F 3 "" H 6000 2600 50  0001 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0506
+U 1 1 5DF1230F
+P 6600 1800
+F 0 "#PWR0506" H 6600 1650 50  0001 C CNN
+F 1 "+3V3" H 6650 2000 50  0000 C CNN
+F 2 "" H 6600 1800 50  0001 C CNN
+F 3 "" H 6600 1800 50  0001 C CNN
+	1    6600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1850 6600 1850
+Wire Wire Line
+	6600 1850 6600 1800
+Connection ~ 6450 1850
+Text Notes 6350 1450 2    50   ~ 0
+Local 3.3V LDO
+Wire Wire Line
+	6450 1850 6450 2000
+Wire Wire Line
+	6450 2300 6450 2500
+Wire Wire Line
+	6000 2150 6000 2500
+Wire Wire Line
+	6000 2500 6450 2500
+Wire Wire Line
+	6000 2600 6000 2500
+Connection ~ 6000 2500
 $EndSCHEMATC

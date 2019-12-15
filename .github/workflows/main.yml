@@ -6,7 +6,9 @@ jobs:
         steps:
           - name: 'Rendering PDF'
             uses: docker://productize/kicad-automation-scripts
-            run: python -m kicad-automation.eeschema.schematic export -f pdf -a ./neotron-32.sch ./pdf
+            with:
+                entrypoint: python
+                args: -m kicad-automation.eeschema.schematic export -f pdf -a ./neotron-32.sch ./pdf
           - name: Archive Schematic PDF
             uses: actions/upload-artifact@v1
             with:
@@ -17,7 +19,9 @@ jobs:
         steps:
           - name: 'Running ERC'
             uses: docker://productize/kicad-automation-scripts
-            run: python -m kicad-automation.eeschema.schematic run_erc ./neotron-32.sch ./erc
+            with:
+                entrypoint: python
+                args: -m kicad-automation.eeschema.schematic run_erc ./neotron-32.sch ./erc
           - name: Archive ERC results
             uses: actions/upload-artifact@v1
             with:

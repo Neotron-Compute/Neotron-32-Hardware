@@ -5,29 +5,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-      uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: 'Rendering PDF'
-      uses: docker://productize/kicad-automation-scripts
-      with:
-        entrypoint: python
-        args: -m kicad-automation.eeschema.schematic export -f pdf -a /github/workspace/neotron-32.sch /github/workspace/pdf
+        uses: docker://productize/kicad-automation-scripts
+        with:
+          entrypoint: python
+          args: -m kicad-automation.eeschema.schematic export -f pdf -a /github/workspace/neotron-32.sch /github/workspace/pdf
       - name: Archive Schematic PDF
-      uses: actions/upload-artifact@v1
-      with:
-        name: schematic-pdf
-        path: ./pdf/neotron-32.pdf
+        uses: actions/upload-artifact@v1
+        with:
+          name: schematic-pdf
+          path: ./pdf/neotron-32.pdf
   run_erc_job:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-      uses: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: 'Running ERC'
-      uses: docker://productize/kicad-automation-scripts
-      with:
-        entrypoint: python
-        args: -m kicad-automation.eeschema.schematic run_erc /github/workspace/neotron-32.sch /github/workspace/erc
+        uses: docker://productize/kicad-automation-scripts
+        with:
+          entrypoint: python
+          args: -m kicad-automation.eeschema.schematic run_erc /github/workspace/neotron-32.sch /github/workspace/erc
       - name: Archive ERC results
-      uses: actions/upload-artifact@v1
-      with:
-        name: schematic-erc
-        path: ./erc/neotron-32.erc
+        uses: actions/upload-artifact@v1
+        with:
+          name: schematic-erc
+          path: ./erc/neotron-32.erc

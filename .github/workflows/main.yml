@@ -8,7 +8,7 @@ jobs:
             uses: docker://productize/kicad-automation-scripts
             with:
                 entrypoint: python
-                args: -m kicad-automation.eeschema.schematic export -f pdf -a ./neotron-32.sch ./pdf
+                args: -m kicad-automation.eeschema.schematic export -f pdf -a /github/workspace/neotron-32.sch /github/workspace/pdf
           - name: Archive Schematic PDF
             uses: actions/upload-artifact@v1
             with:
@@ -21,7 +21,7 @@ jobs:
             uses: docker://productize/kicad-automation-scripts
             with:
                 entrypoint: python
-                args: -m kicad-automation.eeschema.schematic run_erc ./neotron-32.sch ./erc
+                args: -m kicad-automation.eeschema.schematic run_erc /github/workspace/neotron-32.sch /github/workspace/erc
           - name: Archive ERC results
             uses: actions/upload-artifact@v1
             with:

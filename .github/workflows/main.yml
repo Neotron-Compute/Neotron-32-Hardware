@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
     render_pdf_job:
-        runs-on: 'ubuntu'
+        runs-on: ubuntu-latest
         steps:
           - name: 'Rendering PDF'
             uses: docker://productize/kicad-automation-scripts
@@ -15,7 +15,7 @@ jobs:
               name: schematic-pdf
               path: ./pdf/neotron-32.pdf
     run_erc_job:
-        runs-on: 'ubuntu'
+        runs-on: ubuntu-latest
         steps:
           - name: 'Running ERC'
             uses: docker://productize/kicad-automation-scripts

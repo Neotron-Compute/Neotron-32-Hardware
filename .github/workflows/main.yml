@@ -4,6 +4,8 @@ jobs:
     find_files:
         runs-on: ubuntu-latest
         steps:
+          - name: Checkout
+            uses: actions/checkout@v2
           - name: 'Rendering PDF'
             uses: docker://productize/kicad-automation-scripts
             with:

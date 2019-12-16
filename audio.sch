@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
 Title "Neotron 32K Main PCB"
-Date "2019-12-15"
-Rev "0.5"
+Date "2019-12-16"
+Rev "0.6"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -243,4 +243,6 @@ Wire Wire Line
 Connection ~ 6250 3900
 Wire Wire Line
 	6350 3300 6350 4150
+Text Notes 5250 2100 0    100  ~ 20
+Audio
 $EndSCHEMATC

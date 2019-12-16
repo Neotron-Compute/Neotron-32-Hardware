@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "Neotron 32K Main PCB"
-Date "2019-12-15"
-Rev "0.5"
+Date "2019-12-16"
+Rev "0.6"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -60,9 +60,9 @@ F7 "~RESET" I L 1650 5850 50
 F8 "~MCU_PAR_STROBE" I L 1650 5750 50 
 $EndSheet
 $Sheet
-S 9650 5200 1050 800 
+S 9650 5200 1050 700 
 U 5DF2662E
-F0 "Keyboard and Mouse" 50
+F0 "Keyboard, Mouse and Joystick" 50
 F1 "kbms.sch" 50
 F2 "KBMS_FROM_MCU" I L 9650 5300 50 
 F3 "KBMS_TO_MCU" O L 9650 5400 50 

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
 Title "Neotron 32K Main PCB"
-Date "2019-12-15"
-Rev "0.5"
+Date "2019-12-16"
+Rev "0.6"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -146,8 +146,6 @@ F 3 "" H 5200 4000 50  0001 C CNN
 	1    5200 4000
 	1    0    0    -1  
 $EndComp
-Text Notes 5350 4250 0    50   ~ 0
-VGA Output
 $Comp
 L Device:R R25
 U 1 1 5E3BC4C1
@@ -178,4 +176,6 @@ Wire Wire Line
 	6200 3950 6200 4000
 Wire Wire Line
 	5200 3650 5200 4000
+Text Notes 5500 2000 0    100  ~ 20
+VGA
 $EndSCHEMATC

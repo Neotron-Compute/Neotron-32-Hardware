@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "Neotron 32K Main PCB"
-Date "2019-12-15"
-Rev "0.5"
+Date "2019-12-16"
+Rev "0.6"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -619,6 +619,8 @@ Text Label 4250 3300 0    50   ~ 0
 RESET
 Text Label 4250 3400 0    50   ~ 0
 ~SELPRI
+Text Notes 4850 1850 0    100  ~ 20
+Parallel Printer Port
 Wire Bus Line
 	7200 3150 7200 4550
 Wire Bus Line

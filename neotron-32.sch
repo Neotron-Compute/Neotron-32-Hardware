@@ -982,7 +982,7 @@ U 1 1 5E4EF859
 P 8950 2950
 F 0 "J3" H 9000 3267 50  0000 C CNN
 F 1 "Conn_02x04" H 9000 3176 50  0000 C CNN
-F 2 "" H 8950 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8950 2950 50  0001 C CNN
 F 3 "~" H 8950 2950 50  0001 C CNN
 	1    8950 2950
 	1    0    0    -1  
@@ -1053,6 +1053,50 @@ Text Notes 10200 3050 0    50   ~ 0
 3.3v Signalling
 Text Notes 10200 3150 0    50   ~ 0
 ESP01 Compatible
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DFC719B
+P 1550 6900
+F 0 "H1" H 1650 6946 50  0000 L CNN
+F 1 "MountingHole" H 1650 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 6900 50  0001 C CNN
+F 3 "~" H 1550 6900 50  0001 C CNN
+	1    1550 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DFC7744
+P 1550 7100
+F 0 "H2" H 1650 7146 50  0000 L CNN
+F 1 "MountingHole" H 1650 7055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7100 50  0001 C CNN
+F 3 "~" H 1550 7100 50  0001 C CNN
+	1    1550 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DFC781B
+P 1550 7300
+F 0 "H3" H 1650 7346 50  0000 L CNN
+F 1 "MountingHole" H 1650 7255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7300 50  0001 C CNN
+F 3 "~" H 1550 7300 50  0001 C CNN
+	1    1550 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DFC799C
+P 1550 7500
+F 0 "H4" H 1650 7546 50  0000 L CNN
+F 1 "MountingHole" H 1650 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7500 50  0001 C CNN
+F 3 "~" H 1550 7500 50  0001 C CNN
+	1    1550 7500
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line

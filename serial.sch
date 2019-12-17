@@ -13,19 +13,6 @@ Comment2 "CC BY-SA 4.0"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:DB9_Male_MountingHoles J?
-U 1 1 5DF3B98B
-P 7900 3950
-AR Path="/5DF3B98B" Ref="J?"  Part="1" 
-AR Path="/5DF2601D/5DF3B98B" Ref="J18"  Part="1" 
-F 0 "J18" H 8100 3950 50  0000 L CNN
-F 1 "DE9 Male (RS-232)" H 8100 3850 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 7900 3950 50  0001 C CNN
-F 3 " ~" H 7900 3950 50  0001 C CNN
-	1    7900 3950
-	1    0    0    -1  
-$EndComp
 Text HLabel 4650 3750 0    50   Input ~ 0
 RS232_TX_FROM_MCU
 Text HLabel 4650 4150 0    50   Output ~ 0
@@ -53,18 +40,6 @@ Wire Wire Line
 	4650 4150 4800 4150
 Wire Wire Line
 	4650 4350 4800 4350
-NoConn ~ 7600 3650
-NoConn ~ 7600 3750
-NoConn ~ 7600 4250
-NoConn ~ 7600 4350
-Wire Wire Line
-	7600 3950 7450 3950
-Wire Wire Line
-	7450 3750 6400 3750
-Wire Wire Line
-	7450 3750 7450 3950
-Wire Wire Line
-	7600 4150 6400 4150
 Text Label 6500 4350 0    50   ~ 0
 RS232_CTS_IN
 Text Label 6500 4150 0    50   ~ 0
@@ -73,18 +48,6 @@ Text Label 6500 3750 0    50   ~ 0
 RS232_TX_OUT
 Text Label 6500 3950 0    50   ~ 0
 RS232_RTS_OUT
-Wire Wire Line
-	6400 3950 7350 3950
-Wire Wire Line
-	7350 4050 7350 3950
-Wire Wire Line
-	7350 4050 7600 4050
-Wire Wire Line
-	6400 4350 7250 4350
-Wire Wire Line
-	7250 3850 7600 3850
-Wire Wire Line
-	7250 3850 7250 4350
 $Comp
 L power:GND #PWR072
 U 1 1 5E180507
@@ -98,38 +61,6 @@ F 3 "" H 7300 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7300 3450 7300 3400
-Wire Wire Line
-	7300 3400 7500 3400
-Wire Wire Line
-	7500 3400 7500 3550
-Wire Wire Line
-	7500 3550 7600 3550
-$Comp
-L Device:R R28
-U 1 1 5E180C9A
-P 7900 4800
-F 0 "R28" H 7970 4846 50  0000 L CNN
-F 1 "DNF" H 7970 4755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 7830 4800 50  0001 C CNN
-F 3 "~" H 7900 4800 50  0001 C CNN
-	1    7900 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR073
-U 1 1 5E181402
-P 7900 5050
-F 0 "#PWR073" H 7900 4800 50  0001 C CNN
-F 1 "GND" H 7905 4877 50  0000 C CNN
-F 2 "" H 7900 5050 50  0001 C CNN
-F 3 "" H 7900 5050 50  0001 C CNN
-	1    7900 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7900 5050 7900 4950
-Wire Wire Line
-	7900 4650 7900 4550
 $Comp
 L Device:C C26
 U 1 1 5E181E57
@@ -217,7 +148,6 @@ Wire Wire Line
 	7050 3550 7050 3400
 Wire Wire Line
 	7050 3400 7300 3400
-Connection ~ 7300 3400
 Wire Wire Line
 	5600 2400 7050 2400
 Connection ~ 5600 2400
@@ -267,4 +197,69 @@ Wire Wire Line
 	3350 3250 3350 3350
 Text Notes 5400 1850 0    100  ~ 20
 Serial
+NoConn ~ 8400 3850
+NoConn ~ 7900 4250
+NoConn ~ 8400 4250
+NoConn ~ 7900 3950
+NoConn ~ 8400 3950
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J18
+U 1 1 5E02DBC9
+P 8100 4050
+F 0 "J18" H 8150 3625 50  0000 C CNN
+F 1 "Conn_02x05_RS232" H 8150 3716 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 8100 4050 50  0001 C CNN
+F 3 "~" H 8100 4050 50  0001 C CNN
+	1    8100 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E03D39E
+P 7700 3850
+F 0 "#PWR0101" H 7700 3600 50  0001 C CNN
+F 1 "GND" H 7700 3700 50  0000 C CNN
+F 2 "" H 7700 3850 50  0001 C CNN
+F 3 "" H 7700 3850 50  0001 C CNN
+	1    7700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3850 7700 3800
+Wire Wire Line
+	7700 3800 7850 3800
+Wire Wire Line
+	7850 3800 7850 3850
+Wire Wire Line
+	7850 3850 7900 3850
+Wire Wire Line
+	7500 3750 6400 3750
+Wire Wire Line
+	6400 4150 7900 4150
+Wire Wire Line
+	7900 4050 7500 4050
+Wire Wire Line
+	7500 3750 7500 4050
+Wire Wire Line
+	6400 3950 7350 3950
+Wire Wire Line
+	8700 4050 8400 4050
+Wire Wire Line
+	8600 4150 8400 4150
+Wire Wire Line
+	7250 4350 7250 4500
+Wire Wire Line
+	6400 4350 7250 4350
+Wire Wire Line
+	8600 4150 8600 4400
+Wire Wire Line
+	7350 3950 7350 4400
+Wire Wire Line
+	7350 4400 8600 4400
+Wire Wire Line
+	7250 4500 8700 4500
+Wire Wire Line
+	8700 4050 8700 4500
+Text Notes 8650 3900 0    50   ~ 0
+Header for IDC to DE9 Ribbon. Wired DTE.
 $EndSCHEMATC

@@ -112,20 +112,9 @@ U 1 1 5DFD5E14
 P 8150 3700
 F 0 "SW2" H 8150 3985 50  0000 C CNN
 F 1 "SW_Push" H 8150 3894 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH-12mm" H 8150 3900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 3900 50  0001 C CNN
 F 3 "~" H 8150 3900 50  0001 C CNN
 	1    8150 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_SPDT SW1
-U 1 1 5DFD696E
-P 3850 3400
-F 0 "SW1" H 3850 3685 50  0000 C CNN
-F 1 "SW_SPDT" H 3850 3594 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 3850 3400 50  0001 C CNN
-F 3 "~" H 3850 3400 50  0001 C CNN
-	1    3850 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -168,10 +157,6 @@ Text Notes 4150 2950 2    50   ~ 0
 Power Switch
 Text Notes 3400 2950 2    50   ~ 0
 USB Power Input
-Wire Wire Line
-	3550 3300 3550 3400
-Wire Wire Line
-	3550 3400 3650 3400
 Wire Wire Line
 	6350 3950 6350 4050
 Wire Wire Line
@@ -266,7 +251,6 @@ Wire Wire Line
 	3050 3950 5050 3950
 Text Notes 9350 3850 2    50   ~ 0
 Tiva-C has on-board 10k pull-up
-NoConn ~ 4050 3500
 Wire Wire Line
 	5950 3300 6100 3300
 $Comp
@@ -282,9 +266,20 @@ F 3 "~" H 6100 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 3250 6100 3300
-Wire Wire Line
-	3350 3300 3550 3300
 Connection ~ 6100 3300
 Wire Wire Line
 	6100 3300 6350 3300
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5DFA9474
+P 3850 3300
+F 0 "SW1" H 3850 3535 50  0000 C CNN
+F 1 "SW_SPST" H 3850 3444 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3850 3300 50  0001 C CNN
+F 3 "~" H 3850 3300 50  0001 C CNN
+	1    3850 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3300 3650 3300
 $EndSCHEMATC

@@ -13,7 +13,7 @@ Comment2 "CC BY-SA 4.0"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8450 3700 2    50   Output ~ 0
+Text HLabel 8850 3700 2    50   Output ~ 0
 ~RESET
 $Comp
 L Connector:USB_B J9
@@ -45,7 +45,7 @@ U 1 1 5DFCD9F0
 P 5550 3600
 F 0 "C6" H 5668 3646 50  0000 L CNN
 F 1 "10u" H 5668 3555 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5588 3450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5588 3450 50  0001 C CNN
 F 3 "~" H 5550 3600 50  0001 C CNN
 	1    5550 3600
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 5DFD98A8
 P 2950 4100
 F 0 "R14" H 2880 4054 50  0000 R CNN
 F 1 "DNF" H 2880 4145 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 2880 4100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2880 4100 50  0001 C CNN
 F 3 "~" H 2950 4100 50  0001 C CNN
 	1    2950 4100
 	-1   0    0    1   
@@ -149,7 +149,7 @@ Wire Wire Line
 	4050 3300 4550 3300
 Wire Wire Line
 	8350 3700 8450 3700
-Text Notes 8400 2950 2    50   ~ 0
+Text Notes 8700 2950 2    50   ~ 0
 Reset Button
 Text Notes 5150 2950 2    50   ~ 0
 Input Protection
@@ -197,7 +197,7 @@ U 1 1 5DF0ED61
 P 7350 3600
 F 0 "C8" H 7465 3646 50  0000 L CNN
 F 1 "47u" H 7465 3555 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7388 3450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7388 3450 50  0001 C CNN
 F 3 "~" H 7350 3600 50  0001 C CNN
 	1    7350 3600
 	1    0    0    -1  
@@ -282,4 +282,19 @@ F 3 "~" H 3850 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 3300 3650 3300
+$Comp
+L Device:R R28
+U 1 1 5E09309F
+P 8600 3700
+F 0 "R28" V 8393 3700 50  0000 C CNN
+F 1 "330" V 8484 3700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 3700 50  0001 C CNN
+F 3 "~" H 8600 3700 50  0001 C CNN
+	1    8600 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 3700 8850 3700
+Text Notes 8000 3950 0    50   ~ 0
+330R is for current limiting
 $EndSCHEMATC

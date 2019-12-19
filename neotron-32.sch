@@ -743,23 +743,21 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 2250 50  0001 C CNN
 	1    1200 2250
 	0    -1   -1   0   
 $EndComp
-Text Label 1500 1950 0    50   ~ 0
-PA5_SPI_MOSI
-Text Label 1500 2050 0    50   ~ 0
-PA4_SPI_MISO
-Text Label 1500 2150 0    50   ~ 0
-PA2_SPI_CLK
-Text Label 1500 2550 0    50   ~ 0
-~PE2_SPI_CS3
-Text Label 3050 1950 0    50   ~ 0
-~PF0_IRQ1
-Text Label 3050 2250 0    50   ~ 0
-~RESET
-Text Label 1500 2350 0    50   ~ 0
-~PB3_SPI_CS1
 Text Label 1500 2250 0    50   ~ 0
+PA5_SPI_MOSI
+Text Label 1500 2650 0    50   ~ 0
+PA4_SPI_MISO
+Text Label 1500 2350 0    50   ~ 0
+~PE2_SPI_CS3
+Text Label 3000 1950 0    50   ~ 0
+~PF0_IRQ1
+Text Label 3000 2250 0    50   ~ 0
+~RESET
+Text Label 3000 2050 0    50   ~ 0
+~PB3_SPI_CS1
+Text Label 3000 2550 0    50   ~ 0
 ~PA3_SPI_CS0
-Text Label 1500 2450 0    50   ~ 0
+Text Label 3000 2350 0    50   ~ 0
 ~PB6_SPI_CS2
 $Comp
 L Device:R_Network08 RN2
@@ -893,7 +891,7 @@ U 1 1 5E0634FC
 P 1300 1550
 F 0 "R2" V 1200 1450 50  0000 C CNN
 F 1 "1k" V 1200 1650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 1230 1550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1550 50  0001 C CNN
 F 3 "~" H 1300 1550 50  0001 C CNN
 	1    1300 1550
 	0    1    1    0   
@@ -904,7 +902,7 @@ U 1 1 5E063120
 P 1300 1350
 F 0 "R1" V 1200 1250 50  0000 C CNN
 F 1 "1k" V 1200 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 1230 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1350 50  0001 C CNN
 F 3 "~" H 1300 1350 50  0001 C CNN
 	1    1300 1350
 	0    1    1    0   
@@ -949,13 +947,12 @@ Wire Wire Line
 	2950 2650 3550 2650
 Wire Wire Line
 	3550 2450 2950 2450
-Text Label 3050 2550 0    50   ~ 0
+Text Label 3000 2450 0    50   ~ 0
 PC7_MIDI_OUT
-Text Label 3050 2350 0    50   ~ 0
+Text Label 1500 1950 0    50   ~ 0
 PB1_U1TX
-Text Label 3050 2650 0    50   ~ 0
+Text Label 1500 2150 0    50   ~ 0
 PE1_U7TX
-NoConn ~ 1400 2650
 Wire Wire Line
 	4900 2700 4150 2700
 Entry Wire Line
@@ -1039,11 +1036,11 @@ Wire Wire Line
 	8250 2850 8750 2850
 Wire Wire Line
 	9250 3150 9950 3150
-Text Label 3050 2050 0    50   ~ 0
+Text Label 1500 2450 0    50   ~ 0
 ~PE3_IRQ2
-Text Label 3050 2150 0    50   ~ 0
+Text Label 1500 2050 0    50   ~ 0
 ~PD2_IRQ3
-Text Label 3050 2450 0    50   ~ 0
+Text Label 3000 2650 0    50   ~ 0
 PD7_U2TX
 Text Notes 10200 1350 0    50   ~ 0
 3.3v Signalling
@@ -1097,6 +1094,12 @@ F 3 "~" H 1550 7500 50  0001 C CNN
 	1    1550 7500
 	1    0    0    -1  
 $EndComp
+Text Label 1500 2550 0    50   ~ 0
+PA2_SPI_CLK
+Text Label 3000 2150 0    50   ~ 0
+PC4_U1RTS
+Wire Wire Line
+	1400 2650 2100 2650
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line
@@ -1117,4 +1120,6 @@ Wire Bus Line
 	7300 1400 7300 3450
 Wire Bus Line
 	10050 950  10050 3450
+Entry Wire Line
+	2100 2650 2200 2750
 $EndSCHEMATC

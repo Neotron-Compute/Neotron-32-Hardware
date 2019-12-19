@@ -401,7 +401,7 @@ Text Label 9300 1050 0    50   ~ 0
 PA4_SPI_MISO
 Text Label 9300 1150 0    50   ~ 0
 PA2_SPI_CLK
-Text Label 9300 1450 0    50   ~ 0
+Text Label 8750 1350 2    50   ~ 0
 PA7_I2C_SDA
 Entry Wire Line
 	9950 850  10050 950 
@@ -440,7 +440,7 @@ Text Label 9300 2150 0    50   ~ 0
 PA2_SPI_CLK
 Text Label 9300 2350 0    50   ~ 0
 PA6_I2C_SCL
-Text Label 9300 2450 0    50   ~ 0
+Text Label 8750 2350 2    50   ~ 0
 PA7_I2C_SDA
 Entry Wire Line
 	9950 1850 10050 1950
@@ -494,16 +494,12 @@ F 3 "" H 8150 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 2250 8750 2250
-Wire Wire Line
 	8150 2050 8150 2150
 Wire Wire Line
 	8150 2050 8750 2050
 Wire Wire Line
 	8150 2150 8750 2150
 Connection ~ 8150 2150
-Wire Wire Line
-	8150 2150 8150 2250
 Wire Wire Line
 	8150 1050 8150 1150
 Wire Wire Line
@@ -512,13 +508,6 @@ Connection ~ 8150 2050
 Wire Wire Line
 	8150 1150 8750 1150
 Connection ~ 8150 1150
-Wire Wire Line
-	8150 1150 8150 1250
-Wire Wire Line
-	8150 1250 8750 1250
-Connection ~ 8150 1250
-Wire Wire Line
-	8150 1250 8150 2050
 $Comp
 L power:+5V #PWR012
 U 1 1 5DFF5FD3
@@ -1024,9 +1013,6 @@ Wire Wire Line
 NoConn ~ 9250 2950
 Entry Wire Line
 	8150 2950 8250 2850
-Wire Wire Line
-	8150 2250 8150 2350
-Connection ~ 8150 2250
 Wire Bus Line
 	7300 3450 8150 3450
 Connection ~ 8150 3450
@@ -1100,6 +1086,32 @@ Text Label 3000 2150 0    50   ~ 0
 PC4_U1RTS
 Wire Wire Line
 	1400 2650 2100 2650
+Entry Wire Line
+	2100 2650 2200 2750
+Wire Wire Line
+	8150 1150 8150 2050
+Wire Wire Line
+	8150 2150 8150 2350
+Entry Wire Line
+	9950 1550 10050 1650
+Entry Wire Line
+	9950 2550 10050 2650
+Text Label 8750 2250 2    50   ~ 0
+~RESET
+Text Label 8750 1250 2    50   ~ 0
+~RESET
+Wire Wire Line
+	8250 2250 8250 2550
+Wire Wire Line
+	8250 2250 8750 2250
+Wire Wire Line
+	8250 2550 9950 2550
+Wire Wire Line
+	8250 1250 8250 1550
+Wire Wire Line
+	8250 1250 8750 1250
+Wire Wire Line
+	8250 1550 9950 1550
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line
@@ -1109,9 +1121,9 @@ Wire Bus Line
 Wire Bus Line
 	3500 3450 3500 5250
 Wire Bus Line
-	3650 2050 3650 3450
-Wire Bus Line
 	2200 1450 2200 3450
+Wire Bus Line
+	3650 2050 3650 3450
 Wire Bus Line
 	950  3450 950  5750
 Wire Bus Line
@@ -1120,6 +1132,4 @@ Wire Bus Line
 	7300 1400 7300 3450
 Wire Bus Line
 	10050 950  10050 3450
-Entry Wire Line
-	2100 2650 2200 2750
 $EndSCHEMATC

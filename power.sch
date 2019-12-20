@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 10
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
-Rev "0.6"
+Rev "XXREVISIONXX"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -27,10 +27,10 @@ F 3 " ~" H 3200 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR028
+L power:+5V #PWR?
 U 1 1 5DFCBF4D
 P 6350 3250
-F 0 "#PWR028" H 6350 3100 50  0001 C CNN
+F 0 "#PWR?" H 6350 3100 50  0001 C CNN
 F 1 "+5V" H 6365 3423 50  0000 C CNN
 F 2 "" H 6350 3250 50  0001 C CNN
 F 3 "" H 6350 3250 50  0001 C CNN
@@ -40,7 +40,7 @@ $EndComp
 NoConn ~ 3350 3500
 NoConn ~ 3350 3600
 $Comp
-L Device:C C6
+L Device:CP C6
 U 1 1 5DFCD9F0
 P 5550 3600
 F 0 "C6" H 5668 3646 50  0000 L CNN
@@ -96,10 +96,10 @@ Connection ~ 5050 3300
 Wire Wire Line
 	5050 3300 5550 3300
 $Comp
-L power:GND #PWR029
+L power:GND #PWR?
 U 1 1 5DFD4FCF
 P 6350 4050
-F 0 "#PWR029" H 6350 3800 50  0001 C CNN
+F 0 "#PWR?" H 6350 3800 50  0001 C CNN
 F 1 "GND" H 6355 3877 50  0000 C CNN
 F 2 "" H 6350 4050 50  0001 C CNN
 F 3 "" H 6350 4050 50  0001 C CNN
@@ -131,10 +131,10 @@ F 3 "~" H 2950 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR027
+L power:GND #PWR?
 U 1 1 5DFDADE6
 P 2950 4300
-F 0 "#PWR027" H 2950 4050 50  0001 C CNN
+F 0 "#PWR?" H 2950 4050 50  0001 C CNN
 F 1 "GND" H 2955 4127 50  0000 C CNN
 F 2 "" H 2950 4300 50  0001 C CNN
 F 3 "" H 2950 4300 50  0001 C CNN
@@ -192,7 +192,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 6900 3000 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L Device:CP C8
 U 1 1 5DF0ED61
 P 7350 3600
 F 0 "C8" H 7465 3646 50  0000 L CNN
@@ -205,10 +205,10 @@ $EndComp
 Wire Wire Line
 	7200 3300 7350 3300
 $Comp
-L power:+3V3 #PWR030
+L power:+3V3 #PWR?
 U 1 1 5DF1230F
 P 7500 3250
-F 0 "#PWR030" H 7500 3100 50  0001 C CNN
+F 0 "#PWR?" H 7500 3100 50  0001 C CNN
 F 1 "+3V3" H 7550 3450 50  0000 C CNN
 F 2 "" H 7500 3250 50  0001 C CNN
 F 3 "" H 7500 3250 50  0001 C CNN
@@ -254,10 +254,10 @@ Tiva-C has on-board 10k pull-up
 Wire Wire Line
 	5950 3300 6100 3300
 $Comp
-L power:PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG?
 U 1 1 5E3AF755
 P 6100 3250
-F 0 "#FLG01" H 6100 3325 50  0001 C CNN
+F 0 "#FLG?" H 6100 3325 50  0001 C CNN
 F 1 "PWR_FLAG" H 6100 3423 50  0000 C CNN
 F 2 "" H 6100 3250 50  0001 C CNN
 F 3 "~" H 6100 3250 50  0001 C CNN

@@ -27,3 +27,16 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
 
 [1598C]: http://www.hammondmfg.com/pdf/1598C.pdf
 
+## Git Setup
+
+We recommend you have the following Git config set:
+
+```console
+$ git config --global filter.kicad_project.clean "sed -E 's/^update=.*$/update=Date/'"
+$ git config --global filter.kicad_project.smudge cat
+$ git config --global filter.kicad_sch.clean "sed -E 's/#(PWR|FLG)[0-9]+/#\1?/'"
+$ git config --global filter.kicad_sch.smudge cat
+```
+
+See https://jnavila.github.io/plotkicadsch/ for details.
+

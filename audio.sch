@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 10
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
-Rev "0.6"
+Rev "XXREVISIONXX"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -158,10 +158,10 @@ Wire Wire Line
 Wire Wire Line
 	5600 3900 5750 3900
 $Comp
-L power:GND #PWR025
+L power:GND #PWR?
 U 1 1 5E375582
 P 5400 4300
-F 0 "#PWR025" H 5400 4050 50  0001 C CNN
+F 0 "#PWR?" H 5400 4050 50  0001 C CNN
 F 1 "GND" H 5400 4150 50  0000 C CNN
 F 2 "" H 5400 4300 50  0001 C CNN
 F 3 "" H 5400 4300 50  0001 C CNN
@@ -169,10 +169,10 @@ F 3 "" H 5400 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L power:GND #PWR?
 U 1 1 5E3759E5
 P 5400 3600
-F 0 "#PWR024" H 5400 3350 50  0001 C CNN
+F 0 "#PWR?" H 5400 3350 50  0001 C CNN
 F 1 "GND" H 5400 3450 50  0000 C CNN
 F 2 "" H 5400 3600 50  0001 C CNN
 F 3 "" H 5400 3600 50  0001 C CNN
@@ -224,10 +224,10 @@ Wire Wire Line
 Wire Wire Line
 	6250 3900 6050 3900
 $Comp
-L power:GND #PWR026
+L power:GND #PWR?
 U 1 1 5E37D1C6
 P 6500 4350
-F 0 "#PWR026" H 6500 4100 50  0001 C CNN
+F 0 "#PWR?" H 6500 4100 50  0001 C CNN
 F 1 "GND" H 6500 4200 50  0000 C CNN
 F 2 "" H 6500 4350 50  0001 C CNN
 F 3 "" H 6500 4350 50  0001 C CNN

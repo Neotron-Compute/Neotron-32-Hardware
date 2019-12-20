@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 10
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
-Rev "0.6"
+Rev "XXREVISIONXX"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -18,8 +18,8 @@ L power:+5V #PWR?
 U 1 1 5DF43DA0
 P 6950 1750
 AR Path="/5DF43DA0" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5DF43DA0" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 6950 1600 50  0001 C CNN
+AR Path="/5DF2662E/5DF43DA0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 1600 50  0001 C CNN
 F 1 "+5V" H 6965 1923 50  0000 C CNN
 F 2 "" H 6950 1750 50  0001 C CNN
 F 3 "" H 6950 1750 50  0001 C CNN
@@ -31,8 +31,8 @@ L power:GND #PWR?
 U 1 1 5DF43DA6
 P 6950 2650
 AR Path="/5DF43DA6" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5DF43DA6" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 6950 2400 50  0001 C CNN
+AR Path="/5DF2662E/5DF43DA6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 2400 50  0001 C CNN
 F 1 "GND" H 6955 2477 50  0000 C CNN
 F 2 "" H 6950 2650 50  0001 C CNN
 F 3 "" H 6950 2650 50  0001 C CNN
@@ -44,8 +44,8 @@ L power:GND #PWR?
 U 1 1 5DF43DC1
 P 3100 5350
 AR Path="/5DF43DC1" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5DF43DC1" Ref="#PWR048"  Part="1" 
-F 0 "#PWR048" H 3100 5100 50  0001 C CNN
+AR Path="/5DF2662E/5DF43DC1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 5100 50  0001 C CNN
 F 1 "GND" H 3105 5177 50  0000 C CNN
 F 2 "" H 3100 5350 50  0001 C CNN
 F 3 "" H 3100 5350 50  0001 C CNN
@@ -91,8 +91,8 @@ L power:+5V #PWR?
 U 1 1 5E1A9904
 P 2550 1650
 AR Path="/5E1A9904" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E1A9904" Ref="#PWR047"  Part="1" 
-F 0 "#PWR047" H 2550 1500 50  0001 C CNN
+AR Path="/5DF2662E/5E1A9904" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 1500 50  0001 C CNN
 F 1 "+5V" H 2565 1823 50  0000 C CNN
 F 2 "" H 2550 1650 50  0001 C CNN
 F 3 "" H 2550 1650 50  0001 C CNN
@@ -114,8 +114,8 @@ L power:+5V #PWR?
 U 1 1 5E1B9008
 P 9200 2850
 AR Path="/5E1B9008" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E1B9008" Ref="#PWR055"  Part="1" 
-F 0 "#PWR055" H 9200 2700 50  0001 C CNN
+AR Path="/5DF2662E/5E1B9008" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9200 2700 50  0001 C CNN
 F 1 "+5V" H 9215 3023 50  0000 C CNN
 F 2 "" H 9200 2850 50  0001 C CNN
 F 3 "" H 9200 2850 50  0001 C CNN
@@ -140,8 +140,8 @@ L power:GND #PWR?
 U 1 1 5E1BC21F
 P 10150 4200
 AR Path="/5E1BC21F" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E1BC21F" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 10150 3950 50  0001 C CNN
+AR Path="/5DF2662E/5E1BC21F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10150 3950 50  0001 C CNN
 F 1 "GND" H 10155 4027 50  0000 C CNN
 F 2 "" H 10150 4200 50  0001 C CNN
 F 3 "" H 10150 4200 50  0001 C CNN
@@ -188,33 +188,33 @@ F 3 " ~" H 8550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8100 3800 2    50   ~ 0
-UP_JS1
-Text Label 8100 3600 2    50   ~ 0
-DOWN_JS1
-Text Label 8100 3700 2    50   ~ 0
-A_B_JS1
-Text Label 8100 3500 2    50   ~ 0
-SELECT_JS1
-Text Label 8100 3100 2    50   ~ 0
-START_C_JS1
-Text Label 8100 3400 2    50   ~ 0
-LEFT_GND_JS1
-Text Label 8100 3200 2    50   ~ 0
-RIGHT_GND_JS1
-Text Label 8100 5200 2    50   ~ 0
 UP_JS2
-Text Label 8100 5000 2    50   ~ 0
+Text Label 8100 3600 2    50   ~ 0
 DOWN_JS2
-Text Label 8100 5100 2    50   ~ 0
+Text Label 8100 3700 2    50   ~ 0
 A_B_JS2
-Text Label 8100 4900 2    50   ~ 0
+Text Label 8100 3500 2    50   ~ 0
 SELECT_JS2
-Text Label 8100 4500 2    50   ~ 0
+Text Label 8100 3100 2    50   ~ 0
 START_C_JS2
-Text Label 8100 4800 2    50   ~ 0
+Text Label 8100 3400 2    50   ~ 0
 LEFT_GND_JS2
-Text Label 8100 4600 2    50   ~ 0
+Text Label 8100 3200 2    50   ~ 0
 RIGHT_GND_JS2
+Text Label 8100 5200 2    50   ~ 0
+UP_JS1
+Text Label 8100 5000 2    50   ~ 0
+DOWN_JS1
+Text Label 8100 5100 2    50   ~ 0
+A_B_JS1
+Text Label 8100 4900 2    50   ~ 0
+SELECT_JS1
+Text Label 8100 4500 2    50   ~ 0
+START_C_JS1
+Text Label 8100 4800 2    50   ~ 0
+LEFT_GND_JS1
+Text Label 8100 4600 2    50   ~ 0
+RIGHT_GND_JS1
 $Comp
 L Connector:DB9_Male J?
 U 1 1 5E1DB33A
@@ -240,8 +240,8 @@ L power:GND #PWR?
 U 1 1 5E1DB369
 P 8200 3900
 AR Path="/5DF2345B/5E1DB369" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E1DB369" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 8200 3650 50  0001 C CNN
+AR Path="/5DF2662E/5E1DB369" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8200 3650 50  0001 C CNN
 F 1 "GND" H 8100 3900 50  0000 C CNN
 F 2 "" H 8200 3900 50  0001 C CNN
 F 3 "" H 8200 3900 50  0001 C CNN
@@ -253,8 +253,8 @@ L power:GND #PWR?
 U 1 1 5E1DB36F
 P 8200 5300
 AR Path="/5DF2345B/5E1DB36F" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E1DB36F" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 8200 5050 50  0001 C CNN
+AR Path="/5DF2662E/5E1DB36F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8200 5050 50  0001 C CNN
 F 1 "GND" H 8100 5300 50  0000 C CNN
 F 2 "" H 8200 5300 50  0001 C CNN
 F 3 "" H 8200 5300 50  0001 C CNN
@@ -272,16 +272,16 @@ Wire Wire Line
 Wire Wire Line
 	8200 5300 8200 4700
 Text Notes 9100 5050 2    50   ~ 0
-Joystick 2
-Text Notes 9100 3650 2    50   ~ 0
 Joystick 1
+Text Notes 9100 3650 2    50   ~ 0
+Joystick 2
 $Comp
 L power:+5V #PWR?
 U 1 1 5E1DD557
 P 7950 2900
 AR Path="/5E1DD557" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E1DD557" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 7950 2750 50  0001 C CNN
+AR Path="/5DF2662E/5E1DD557" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7950 2750 50  0001 C CNN
 F 1 "+5V" H 7850 2900 50  0000 C CNN
 F 2 "" H 7950 2900 50  0001 C CNN
 F 3 "" H 7950 2900 50  0001 C CNN
@@ -293,8 +293,8 @@ L power:+5V #PWR?
 U 1 1 5E1DD92D
 P 7950 4300
 AR Path="/5E1DD92D" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E1DD92D" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 7950 4150 50  0001 C CNN
+AR Path="/5DF2662E/5E1DD92D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7950 4150 50  0001 C CNN
 F 1 "+5V" H 7850 4300 50  0000 C CNN
 F 2 "" H 7950 4300 50  0001 C CNN
 F 3 "" H 7950 4300 50  0001 C CNN
@@ -304,31 +304,31 @@ $EndComp
 Wire Wire Line
 	6000 2350 6450 2350
 Text Label 3850 2800 0    50   ~ 0
-START_C_JS1
-Text Label 5450 3250 0    50   ~ 0
-RIGHT_GND_JS1
-Text Label 5450 3400 0    50   ~ 0
-LEFT_GND_JS1
-Text Label 3850 3900 0    50   ~ 0
-SELECT_JS1
-Text Label 5450 3550 0    50   ~ 0
-DOWN_JS1
-Text Label 3850 3300 0    50   ~ 0
-UP_JS1
-Text Label 3800 4500 0    50   ~ 0
 START_C_JS2
-Text Label 3800 4600 0    50   ~ 0
+Text Label 5450 3250 0    50   ~ 0
 RIGHT_GND_JS2
-Text Label 3800 4700 0    50   ~ 0
+Text Label 5450 3400 0    50   ~ 0
 LEFT_GND_JS2
-Text Label 3800 4800 0    50   ~ 0
+Text Label 3850 3900 0    50   ~ 0
+SELECT_JS2
+Text Label 5450 3550 0    50   ~ 0
 DOWN_JS2
-Text Label 3800 5000 0    50   ~ 0
+Text Label 3850 3300 0    50   ~ 0
 UP_JS2
+Text Label 3800 4500 0    50   ~ 0
+START_C_JS1
+Text Label 3800 4600 0    50   ~ 0
+RIGHT_GND_JS1
+Text Label 3800 4700 0    50   ~ 0
+LEFT_GND_JS1
+Text Label 3800 4800 0    50   ~ 0
+DOWN_JS1
+Text Label 3800 5000 0    50   ~ 0
+UP_JS1
 Text Label 3800 4900 0    50   ~ 0
-A_B_JS2
-Text Label 3850 3200 0    50   ~ 0
 A_B_JS1
+Text Label 3850 3200 0    50   ~ 0
+A_B_JS2
 Wire Wire Line
 	3700 3800 4350 3800
 Wire Wire Line
@@ -396,8 +396,8 @@ L power:GND #PWR?
 U 1 1 5DF43DD3
 P 2700 2000
 AR Path="/5DF43DD3" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5DF43DD3" Ref="#PWR045"  Part="1" 
-F 0 "#PWR045" H 2700 1750 50  0001 C CNN
+AR Path="/5DF2662E/5DF43DD3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 1750 50  0001 C CNN
 F 1 "GND" H 2705 1827 50  0000 C CNN
 F 2 "" H 2700 2000 50  0001 C CNN
 F 3 "" H 2700 2000 50  0001 C CNN
@@ -422,8 +422,8 @@ L power:GND #PWR?
 U 1 1 5E263D96
 P 2200 3000
 AR Path="/5E263D96" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E263D96" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 2200 2750 50  0001 C CNN
+AR Path="/5DF2662E/5E263D96" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 2750 50  0001 C CNN
 F 1 "GND" H 2205 2827 50  0000 C CNN
 F 2 "" H 2200 3000 50  0001 C CNN
 F 3 "" H 2200 3000 50  0001 C CNN
@@ -453,7 +453,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3550 4800 3100
 Text Label 3850 4000 0    50   ~ 0
-SELECT_JS2
+SELECT_JS1
 Wire Wire Line
 	3700 3100 4800 3100
 Connection ~ 4800 3100
@@ -603,8 +603,8 @@ L power:GND #PWR?
 U 1 1 5E044959
 P 3400 2000
 AR Path="/5E044959" Ref="#PWR?"  Part="1" 
-AR Path="/5DF2662E/5E044959" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 3400 1750 50  0001 C CNN
+AR Path="/5DF2662E/5E044959" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 1750 50  0001 C CNN
 F 1 "GND" H 3405 1827 50  0000 C CNN
 F 2 "" H 3400 2000 50  0001 C CNN
 F 3 "" H 3400 2000 50  0001 C CNN

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 9 10
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
-Rev "0.6"
+Rev "XXREVISIONXX"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"
@@ -136,10 +136,10 @@ Wire Wire Line
 	5200 3650 5250 3650
 Connection ~ 5200 3650
 $Comp
-L power:GND #PWR066
+L power:GND #PWR?
 U 1 1 5E02516A
 P 5200 4000
-F 0 "#PWR066" H 5200 3750 50  0001 C CNN
+F 0 "#PWR?" H 5200 3750 50  0001 C CNN
 F 1 "GND" H 5205 3827 50  0000 C CNN
 F 2 "" H 5200 4000 50  0001 C CNN
 F 3 "" H 5200 4000 50  0001 C CNN
@@ -158,10 +158,10 @@ F 3 "~" H 5900 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR067
+L power:GND #PWR?
 U 1 1 5E3BC797
 P 6200 4000
-F 0 "#PWR067" H 6200 3750 50  0001 C CNN
+F 0 "#PWR?" H 6200 3750 50  0001 C CNN
 F 1 "GND" H 6205 3827 50  0000 C CNN
 F 2 "" H 6200 4000 50  0001 C CNN
 F 3 "" H 6200 4000 50  0001 C CNN

@@ -611,7 +611,7 @@ U 1 1 5E0028E3
 P 9850 4000
 F 0 "J15" H 9850 4698 50  0000 C CNN
 F 1 "Double-mini-DIN-6" H 9850 4607 50  0000 C CNN
-F 2 "" H 9850 4250 50  0001 C CNN
+F 2 "JGP Footprints:Double_mini-DIN_6" H 9850 4250 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 9850 4250 50  0001 C CNN
 	1    9850 4000
 	1    0    0    -1  

@@ -58,32 +58,6 @@ Text HLabel 4400 4400 2    50   Input ~ 0
 KBMS_FROM_MCU
 Text HLabel 4400 4300 2    50   Output ~ 0
 KBMS_TO_MCU
-$Comp
-L Connector:Mini-DIN-6 J?
-U 1 1 5DF4AE86
-P 9700 3150
-AR Path="/5DF4AE86" Ref="J?"  Part="1" 
-AR Path="/5DF2662E/5DF4AE86" Ref="J15"  Part="1" 
-F 0 "J15" H 9700 3517 50  0000 C CNN
-F 1 "Mini-DIN-6" H 9700 3426 50  0000 C CNN
-F 2 "JGP Footprints:mini-DIN 6" H 9700 3150 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 9700 3150 50  0001 C CNN
-	1    9700 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Mini-DIN-6 J?
-U 1 1 5DF4AE8C
-P 9700 3950
-AR Path="/5DF4AE8C" Ref="J?"  Part="1" 
-AR Path="/5DF2662E/5DF4AE8C" Ref="J16"  Part="1" 
-F 0 "J16" H 9700 4317 50  0000 C CNN
-F 1 "Mini-DIN-6" H 9700 4226 50  0000 C CNN
-F 2 "JGP Footprints:mini-DIN 6" H 9700 3950 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 9700 3950 50  0001 C CNN
-	1    9700 3950
-	1    0    0    -1  
-$EndComp
 Text HLabel 4800 4200 2    50   Input ~ 0
 ~RESET
 $Comp
@@ -112,67 +86,61 @@ KB_CLK
 $Comp
 L power:+5V #PWR?
 U 1 1 5E1B9008
-P 9200 2850
+P 9350 3450
 AR Path="/5E1B9008" Ref="#PWR?"  Part="1" 
 AR Path="/5DF2662E/5E1B9008" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9200 2700 50  0001 C CNN
-F 1 "+5V" H 9215 3023 50  0000 C CNN
-F 2 "" H 9200 2850 50  0001 C CNN
-F 3 "" H 9200 2850 50  0001 C CNN
-	1    9200 2850
+F 0 "#PWR?" H 9350 3300 50  0001 C CNN
+F 1 "+5V" H 9365 3623 50  0000 C CNN
+F 2 "" H 9350 3450 50  0001 C CNN
+F 3 "" H 9350 3450 50  0001 C CNN
+	1    9350 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 3150 9200 3150
+	9550 3750 9350 3750
 Wire Wire Line
-	9200 3150 9200 2850
-Wire Wire Line
-	9200 3950 9200 3150
-Connection ~ 9200 3150
-NoConn ~ 9400 3050
-NoConn ~ 9400 3250
-NoConn ~ 9400 3850
-NoConn ~ 9400 4050
-Wire Wire Line
-	9200 3950 9400 3950
+	9350 3750 9350 3450
+Connection ~ 9350 3750
+NoConn ~ 9550 3650
+NoConn ~ 9550 3850
+NoConn ~ 9550 4200
+NoConn ~ 9550 4400
 $Comp
 L power:GND #PWR?
 U 1 1 5E1BC21F
-P 10150 4200
+P 10300 4550
 AR Path="/5E1BC21F" Ref="#PWR?"  Part="1" 
 AR Path="/5DF2662E/5E1BC21F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10150 3950 50  0001 C CNN
-F 1 "GND" H 10155 4027 50  0000 C CNN
-F 2 "" H 10150 4200 50  0001 C CNN
-F 3 "" H 10150 4200 50  0001 C CNN
-	1    10150 4200
+F 0 "#PWR?" H 10300 4300 50  0001 C CNN
+F 1 "GND" H 10305 4377 50  0000 C CNN
+F 2 "" H 10300 4550 50  0001 C CNN
+F 3 "" H 10300 4550 50  0001 C CNN
+	1    10300 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 3150 10150 3150
+	10150 3750 10300 3750
 Wire Wire Line
-	10150 3150 10150 3950
+	10150 4300 10300 4300
+Connection ~ 10300 4300
 Wire Wire Line
-	10000 3950 10150 3950
-Connection ~ 10150 3950
-Wire Wire Line
-	10150 3950 10150 4200
-Text Label 10250 3050 0    50   ~ 0
+	10300 4300 10300 4550
+Text Label 10400 3650 0    50   ~ 0
 KB_CLK
-Text Label 10250 3250 0    50   ~ 0
+Text Label 10400 3850 0    50   ~ 0
 KB_DAT
-Text Label 10250 3850 0    50   ~ 0
+Text Label 10400 4200 0    50   ~ 0
 MS_CLK
-Text Label 10250 4050 0    50   ~ 0
+Text Label 10400 4400 0    50   ~ 0
 MS_DAT
 Wire Wire Line
-	10000 3050 10500 3050
+	10150 3650 10650 3650
 Wire Wire Line
-	10000 3250 10500 3250
+	10150 3850 10650 3850
 Wire Wire Line
-	10000 3850 10500 3850
+	10150 4200 10650 4200
 Wire Wire Line
-	10000 4050 10500 4050
+	10150 4400 10650 4400
 $Comp
 L Connector:DB9_Male J?
 U 1 1 5E1DB326
@@ -637,4 +605,21 @@ Wire Wire Line
 Connection ~ 3200 1700
 Wire Wire Line
 	3200 1700 3400 1700
+$Comp
+L ExtraConnectors:Double-mini-DIN-6 J15
+U 1 1 5E0028E3
+P 9850 4000
+F 0 "J15" H 9850 4698 50  0000 C CNN
+F 1 "Double-mini-DIN-6" H 9850 4607 50  0000 C CNN
+F 2 "" H 9850 4250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 9850 4250 50  0001 C CNN
+	1    9850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3750 10300 4300
+Wire Wire Line
+	9550 4300 9350 4300
+Wire Wire Line
+	9350 4300 9350 3750
 $EndSCHEMATC

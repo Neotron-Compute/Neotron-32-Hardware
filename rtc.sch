@@ -34,7 +34,7 @@ U 1 1 5E0F507E
 P 6300 3400
 F 0 "BT1" H 6418 3496 50  0000 L CNN
 F 1 "CR2023" H 6418 3405 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
+F 2 "JGP Footprints:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
 F 3 "~" V 6300 3460 50  0001 C CNN
 	1    6300 3400
 	1    0    0    -1  

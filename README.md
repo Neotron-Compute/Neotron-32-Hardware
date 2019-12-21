@@ -15,13 +15,15 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **GPU:** No GPU - CPU generates 8 colour 400x300 video
   - **GPU RAM:** Shared with main SRAM
   - **Video Output:** VGA (fixed at 800x600 60 Hz)
-  - **Storage:** Full-size SD Card, supports FAT16/FAT32
-  - **USB:** 1x USB 2.0 Full-speed OTG port
-  - **Audio:** 3.5mm Line Out
-  - **Keyboard/Mouse:** 2x PS/2 Ports
+  - **Storage:** Full-size SD Card, supports FAT16/FAT32 and MS-DOS partition tables
+  - **USB:** 1x USB 2.0 Full-speed OTG micro-AB port (internal)
+  - **Audio:** 3.5mm Line Out with Mono/Stereo jumper
+  - **Keyboard/Mouse:** 2x PS/2 Ports (6-pin mini-DIN)
   - **MIDI**: 3x 6-pin DIN (In, Out and Through)
-  - **Joystick**: 2x Atari 9-pin ports
-  - **Expansion**: Internal 2.54mm 2x16 header
+  - **Serial**: RS-232 on 10-pin 2.54mm header suitable for DE-9 plug on IDC ribbon
+  - **Parallel**: 3.3v PC-style Parallel Port on 26-pin 2.54mm header suitable for DB-25 plug on IDC ribbon
+  - **Joystick**: 2x Atari/Sega 9-pin ports
+  - **Expansion**: 2x internal 2.54mm 2x6 headers carrying power, SPI, I2C and a dedicated IRQ line
   - **RTC**: MCP7940 Real-time clock, with coin-cell battery backup
   - **Mechanical Form Factor:** Fits Hammond [1598C] case
 
@@ -40,3 +42,14 @@ $ git config --global filter.kicad_sch.smudge cat
 
 See https://jnavila.github.io/plotkicadsch/ for details.
 
+## Licence
+
+This schematic is Copyright (c) Jonathan 'theJPster' Pallant and other Neotron 32 contributors.
+
+[![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+## Contribution Agreement
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be licensed as above, without any additional terms or conditions.

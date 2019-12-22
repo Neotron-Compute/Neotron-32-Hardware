@@ -26,9 +26,11 @@ L Interface_UART:MAX232 U8
 U 1 1 5E0F5F91
 P 5600 3650
 F 0 "U8" H 6100 4750 50  0000 C CNN
-F 1 "MAX232" H 5150 4750 50  0000 C CNN
+F 1 "ICL3232CPZMAX" H 5150 4750 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5650 2600 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 5600 3750 50  0001 C CNN
+F 3 "https://www.renesas.com/en-us/www/doc/datasheet/hin232-36-37-38-39-40-41.pdf" H 5600 3750 50  0001 C CNN
+F 4 "Renesas" H 5600 3650 50  0001 C CNN "Manufacturer"
+F 5 "ICL3232CPZ" H 5600 3650 50  0001 C CNN "PartNo"
 	1    5600 3650
 	1    0    0    -1  
 $EndComp
@@ -210,6 +212,8 @@ F 0 "J18" H 8150 3625 50  0000 C CNN
 F 1 "Conn_02x05_RS232" H 8150 3716 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 8100 4050 50  0001 C CNN
 F 3 "~" H 8100 4050 50  0001 C CNN
+F 4 "Harwin" H 8100 4050 50  0001 C CNN "Manufacturer"
+F 5 "M20-9760546" H 8100 4050 50  0001 C CNN "PartNo"
 	1    8100 4050
 	1    0    0    1   
 $EndComp

@@ -89,6 +89,8 @@ F 0 "U5" H 3650 4550 50  0000 C CNN
 F 1 "MCP23S17_SP" H 3850 4450 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3650 2500 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3650 2400 50  0001 L CNN
+F 4 "Microchip" H 3450 3500 50  0001 C CNN "Manufacturer"
+F 5 "MCP23S17-E/SP" H 3450 3500 50  0001 C CNN "PartNo"
 	1    3450 3500
 	1    0    0    -1  
 $EndComp

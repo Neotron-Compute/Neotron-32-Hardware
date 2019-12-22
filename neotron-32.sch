@@ -689,6 +689,8 @@ F 0 "U1" H 5700 3465 50  0000 C CNN
 F 1 "TM4C123G_Launchpad" H 5700 3374 50  0000 C CNN
 F 2 "JGP Footprints:Launchpad_4x10" H 5700 2200 50  0001 C CNN
 F 3 "" H 5700 2200 50  0001 C CNN
+F 4 "Texas Instruments" H 5700 2200 50  0001 C CNN "Manufacturer"
+F 5 "EK-TM4C123GXL" H 5700 2200 50  0001 C CNN "PartNo"
 	1    5700 2200
 	1    0    0    -1  
 $EndComp
@@ -728,7 +730,9 @@ P 1200 2250
 F 0 "RN1" V 1725 2250 50  0000 C CNN
 F 1 "47k x 8" V 1634 2250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1675 2250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 2250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 1200 2250 50  0001 C CNN
+F 4 "Bourns" H 1200 2250 50  0001 C CNN "Manufacturer"
+F 5 "4609X-101-473LF" H 1200 2250 50  0001 C CNN "PartNo"
 	1    1200 2250
 	0    -1   -1   0   
 $EndComp
@@ -755,7 +759,9 @@ P 2750 2250
 F 0 "RN2" V 3275 2250 50  0000 C CNN
 F 1 "47k x 8" V 3184 2250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 3225 2250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2750 2250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 2750 2250 50  0001 C CNN
+F 4 "Bourns" H 2750 2250 50  0001 C CNN "Manufacturer"
+F 5 "4609X-101-473LF" H 2750 2250 50  0001 C CNN "PartNo"
 	1    2750 2250
 	0    -1   -1   0   
 $EndComp
@@ -882,6 +888,8 @@ F 0 "R2" V 1200 1450 50  0000 C CNN
 F 1 "1k" V 1200 1650 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1550 50  0001 C CNN
 F 3 "~" H 1300 1550 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 1300 1550 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT1K00R" H 1300 1550 50  0001 C CNN "PartNo"
 	1    1300 1550
 	0    1    1    0   
 $EndComp
@@ -893,6 +901,8 @@ F 0 "R1" V 1200 1250 50  0000 C CNN
 F 1 "1k" V 1200 1450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1350 50  0001 C CNN
 F 3 "~" H 1300 1350 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 1300 1350 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT1K00R" H 1300 1350 50  0001 C CNN "PartNo"
 	1    1300 1350
 	0    1    1    0   
 $EndComp

@@ -84,6 +84,8 @@ F 1 "SA5.0A" V 5095 3679 50  0000 L CNN
 F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5050 3600 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 5050 3600 50  0001 C CNN
 F 4 "SA5.0ALFCT-ND " V 5050 3600 50  0001 C CNN "Digikey"
+F 5 "Littelfuse" H 5050 3600 50  0001 C CNN "Manufacturer"
+F 6 "SA5.0A" H 5050 3600 50  0001 C CNN "PartNo"
 	1    5050 3600
 	0    1    1    0   
 $EndComp
@@ -114,6 +116,8 @@ F 0 "SW2" H 8150 3985 50  0000 C CNN
 F 1 "SW_Push" H 8150 3894 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 3900 50  0001 C CNN
 F 3 "~" H 8150 3900 50  0001 C CNN
+F 4 "Harwin" H 8150 3700 50  0001 C CNN "Manufacturer"
+F 5 "M20-9990246" H 8150 3700 50  0001 C CNN "PartNo"
 	1    8150 3700
 	1    0    0    -1  
 $EndComp
@@ -188,6 +192,8 @@ F 0 "U4" H 6900 3550 50  0000 C CNN
 F 1 "TC1262-33" H 6900 3450 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6900 3525 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 6900 3000 50  0001 C CNN
+F 4 "Microchip" H 6900 3300 50  0001 C CNN "Manufacturer"
+F 5 "TC1262-3.3VAB" H 6900 3300 50  0001 C CNN "PartNo"
 	1    6900 3300
 	1    0    0    -1  
 $EndComp
@@ -277,6 +283,8 @@ F 0 "SW1" H 3850 3535 50  0000 C CNN
 F 1 "SW_SPST" H 3850 3444 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3850 3300 50  0001 C CNN
 F 3 "~" H 3850 3300 50  0001 C CNN
+F 4 "Harwin" H 3850 3300 50  0001 C CNN "Manufacturer"
+F 5 "M20-9990246" H 3850 3300 50  0001 C CNN "PartNo"
 	1    3850 3300
 	1    0    0    -1  
 $EndComp
@@ -290,6 +298,8 @@ F 0 "R28" V 8393 3700 50  0000 C CNN
 F 1 "330" V 8484 3700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 3700 50  0001 C CNN
 F 3 "~" H 8600 3700 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 8600 3700 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT330R" H 8600 3700 50  0001 C CNN "PartNo"
 	1    8600 3700
 	0    1    1    0   
 $EndComp

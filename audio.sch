@@ -91,6 +91,8 @@ F 0 "R12" H 5670 3446 50  0000 L CNN
 F 1 "150" H 5670 3355 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5530 3400 50  0001 C CNN
 F 3 "~" H 5600 3400 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5600 3400 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT150R" H 5600 3400 50  0001 C CNN "PartNo"
 	1    5600 3400
 	1    0    0    -1  
 $EndComp
@@ -102,6 +104,8 @@ F 0 "R13" H 5670 4146 50  0000 L CNN
 F 1 "150" H 5670 4055 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5530 4100 50  0001 C CNN
 F 3 "~" H 5600 4100 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5600 4100 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT150R" H 5600 4100 50  0001 C CNN "PartNo"
 	1    5600 4100
 	1    0    0    -1  
 $EndComp
@@ -113,6 +117,8 @@ F 0 "R11" V 4493 3900 50  0000 C CNN
 F 1 "270" V 4584 3900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 3900 50  0001 C CNN
 F 3 "~" H 4700 3900 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 4700 3900 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT270R" H 4700 3900 50  0001 C CNN "PartNo"
 	1    4700 3900
 	0    1    1    0   
 $EndComp
@@ -124,6 +130,8 @@ F 0 "R10" V 4493 3200 50  0000 C CNN
 F 1 "270" V 4584 3200 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 3200 50  0001 C CNN
 F 3 "~" H 4700 3200 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 4700 3200 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT270R" H 4700 3200 50  0001 C CNN "PartNo"
 	1    4700 3200
 	0    1    1    0   
 $EndComp

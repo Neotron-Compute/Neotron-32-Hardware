@@ -150,7 +150,7 @@ AR Path="/5DF2345B/5E1DB326" Ref="J?"  Part="1"
 AR Path="/5DF2662E/5E1DB326" Ref="J13"  Part="1" 
 F 0 "J13" H 8730 3402 50  0000 L CNN
 F 1 "DE9 Male" H 8730 3311 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8550 3400 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8550 3400 50  0001 C CNN
 F 3 " ~" H 8550 3400 50  0001 C CNN
 	1    8550 3400
 	1    0    0    -1  
@@ -192,7 +192,7 @@ AR Path="/5DF2345B/5E1DB33A" Ref="J?"  Part="1"
 AR Path="/5DF2662E/5E1DB33A" Ref="J14"  Part="1" 
 F 0 "J14" H 8730 4802 50  0000 L CNN
 F 1 "DE9 Male" H 8730 4711 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8550 4800 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8550 4800 50  0001 C CNN
 F 3 " ~" H 8550 4800 50  0001 C CNN
 	1    8550 4800
 	1    0    0    -1  
@@ -319,6 +319,8 @@ F 0 "R19" V 5300 3050 50  0000 C CNN
 F 1 "1k" V 5300 3400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3250 50  0001 C CNN
 F 3 "~" H 5250 3250 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5250 3250 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT1K00R" H 5250 3250 50  0001 C CNN "PartNo"
 	1    5250 3250
 	0    1    1    0   
 $EndComp
@@ -330,6 +332,8 @@ F 0 "R20" V 5300 3200 50  0000 C CNN
 F 1 "1k" V 5300 3550 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3400 50  0001 C CNN
 F 3 "~" H 5250 3400 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5250 3400 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT1K00R" H 5250 3400 50  0001 C CNN "PartNo"
 	1    5250 3400
 	0    1    1    0   
 $EndComp
@@ -341,6 +345,8 @@ F 0 "R21" V 5300 3350 50  0000 C CNN
 F 1 "1k" V 5300 3700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3550 50  0001 C CNN
 F 3 "~" H 5250 3550 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 5250 3550 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT1K00R" H 5250 3550 50  0001 C CNN "PartNo"
 	1    5250 3550
 	0    1    1    0   
 $EndComp
@@ -457,6 +463,8 @@ F 0 "J12" H 6520 2346 50  0000 R CNN
 F 1 "AVR-ISP-6" H 6520 2255 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6600 2300 50  0001 C CNN
 F 3 " ~" H 5575 1700 50  0001 C CNN
+F 4 "Harwin" H 6850 2250 50  0001 C CNN "Manufacturer"
+F 5 "M20-9980346" H 6850 2250 50  0001 C CNN "PartNo"
 	1    6850 2250
 	-1   0    0    -1  
 $EndComp
@@ -589,6 +597,8 @@ F 0 "U6" H 2456 3846 50  0000 R CNN
 F 1 "ATmega328-PU" H 2456 3755 50  0000 R CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3100 3800 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3100 3800 50  0001 C CNN
+F 4 "Microchip" H 3100 3800 50  0001 C CNN "Manufacturer"
+F 5 "ATmega328-PU" H 3100 3800 50  0001 C CNN "PartNo"
 	1    3100 3800
 	1    0    0    -1  
 $EndComp
@@ -612,7 +622,9 @@ P 9850 4000
 F 0 "J15" H 9850 4698 50  0000 C CNN
 F 1 "Double-mini-DIN-6" H 9850 4607 50  0000 C CNN
 F 2 "JGP Footprints:Double_mini-DIN_6" H 9850 4250 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 9850 4250 50  0001 C CNN
+F 3 "http://www.kycon.com/Pub_Eng_Draw/KMDGX-6S-6S-S4N.pdf" H 9850 4250 50  0001 C CNN
+F 4 "Kycon" H 9850 4000 50  0001 C CNN "Manufacturer"
+F 5 "KMDGX-6S-6S-S4N." H 9850 4000 50  0001 C CNN "PartNo"
 	1    9850 4000
 	1    0    0    -1  
 $EndComp

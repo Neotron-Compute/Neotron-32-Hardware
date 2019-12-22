@@ -81,6 +81,8 @@ F 0 "R16" V 4450 2750 50  0000 L CNN
 F 1 "47k" V 4450 2950 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 2900 50  0001 C CNN
 F 3 "~" H 4550 2900 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 4550 2900 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT47K0" H 4550 2900 50  0001 C CNN "PartNo"
 	1    4550 2900
 	0    1    1    0   
 $EndComp
@@ -92,6 +94,8 @@ F 0 "R15" V 4450 2550 50  0000 L CNN
 F 1 "47k" V 4450 2750 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 2700 50  0001 C CNN
 F 3 "~" H 4550 2700 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 4550 2700 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT47K0" H 4550 2700 50  0001 C CNN "PartNo"
 	1    4550 2700
 	0    1    1    0   
 $EndComp
@@ -140,6 +144,8 @@ F 0 "R17" V 7050 1850 50  0000 L CNN
 F 1 "330" V 7050 2100 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7080 2050 50  0001 C CNN
 F 3 "~" H 7150 2050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 7150 2050 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT330R" H 7150 2050 50  0001 C CNN "PartNo"
 	1    7150 2050
 	0    1    1    0   
 $EndComp
@@ -171,6 +177,8 @@ F 0 "U2" H 5850 2350 50  0000 C CNN
 F 1 "74LS14" H 5850 2250 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5850 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 5850 2050 50  0001 C CNN
+F 4 "Texas Instruments" H 5850 2050 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N" H 5850 2050 50  0001 C CNN "PartNo"
 	6    5850 2050
 	1    0    0    -1  
 $EndComp
@@ -184,6 +192,8 @@ F 0 "U2" H 6550 2350 50  0000 C CNN
 F 1 "74LS14" H 6550 2250 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 6550 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6550 2050 50  0001 C CNN
+F 4 "Texas Instruments" H 6550 2050 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N" H 6550 2050 50  0001 C CNN "PartNo"
 	5    6550 2050
 	1    0    0    -1  
 $EndComp

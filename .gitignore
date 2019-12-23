@@ -1,9 +1,4 @@
 *.*-bak
 fp-info-cache
-*.html
-*.xml
-*.pdf
-pdf/
-gerbers/
-
+build/
 

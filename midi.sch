@@ -38,7 +38,7 @@ P 2600 2700
 AR Path="/5DF53872" Ref="J?"  Part="1" 
 AR Path="/5DF253FB/5DF53872" Ref="J4"  Part="1" 
 F 0 "J4" H 2600 2425 50  0000 C CNN
-F 1 "DIN-5 MIDI Through" H 2600 2334 50  0000 C CNN
+F 1 "DIN-5 MIDI Out" H 2600 2334 50  0000 C CNN
 F 2 "JGP Footprints:5P180 DIN Socket" H 2600 2700 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2600 2700 50  0001 C CNN
 	1    2600 2700
@@ -51,7 +51,7 @@ P 2600 4800
 AR Path="/5DF53878" Ref="J?"  Part="1" 
 AR Path="/5DF253FB/5DF53878" Ref="J6"  Part="1" 
 F 0 "J6" H 2600 4525 50  0000 C CNN
-F 1 "DIN-5 MIDI Out" H 2600 4434 50  0000 C CNN
+F 1 "DIN-5 MIDI Through" H 2600 4434 50  0000 C CNN
 F 2 "JGP Footprints:5P180 DIN Socket" H 2600 4800 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2600 4800 50  0001 C CNN
 	1    2600 4800

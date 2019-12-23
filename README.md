@@ -33,7 +33,7 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
 
   - **PCBA**: Load the [Neotron-32 schematic](./neotron-32.sch) in Kicad, or see the [Neotron-32 Release Area] on Github for PDFs, Gerbers and a CSV bill-of-materials.
   - **Case**: Hammond [1598C], in your choice of colour. The case should include mounting screws, feet and two un-cut end panels.
-  - **End panels**: Cut the panels supplied with the case according to [the Inkscape drawing](./endpanels/endpanels.svg). There is a PDF version in the [Neotron-32 Release Area].
+  - **End panels**: Cut the panels supplied with the case according to [the drawing](./endpanels/endpanels.dxf). There is a PDF version in the [Neotron-32 Release Area].
   - **SD Card**: Any full-size SD or SDHC card should work. Tested with Sandisk 8GB microSD cards in a micro-to-full-size adaptor, formatted with a single FAT32 partition.
   - **Monitor**: You will need monitor with 15-pin VGA input that can handle 800x600 resolution @ 60 Hz. Most higher resolution LCD panels will up-scale the image, but the quality of the scaling may not be ideal. A CRT will give a better image, but you may need to wind up the contrast and brightness to get a workable picture. An old 800x600 native resolution LCD would be ideal.
   - **Power Supply**: You need a standard mobile phone charger or other USB power source, and a standard USB A to B cable (like you would use for a USB printer).

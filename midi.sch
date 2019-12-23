@@ -45,19 +45,6 @@ F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2600 2700 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DIN-5_180degree J?
-U 1 1 5DF53878
-P 2600 4800
-AR Path="/5DF53878" Ref="J?"  Part="1" 
-AR Path="/5DF253FB/5DF53878" Ref="J6"  Part="1" 
-F 0 "J6" H 2600 4525 50  0000 C CNN
-F 1 "DIN-5 MIDI Through" H 2600 4434 50  0000 C CNN
-F 2 "JGP Footprints:5P180 DIN Socket" H 2600 4800 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2600 4800 50  0001 C CNN
-	1    2600 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Isolator:6N138 U3
 U 1 1 5E0207D2
 P 4900 3650
@@ -170,19 +157,6 @@ F 3 "~" H 3300 2650 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 3300 2650 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT220R" H 3300 2650 50  0001 C CNN "PartNo"
 	1    3300 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5E033CC2
-P 3300 4750
-F 0 "R7" V 3093 4750 50  0000 C CNN
-F 1 "220" V 3184 4750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 4750 50  0001 C CNN
-F 3 "~" H 3300 4750 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 3300 4750 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT220R" H 3300 4750 50  0001 C CNN "PartNo"
-	1    3300 4750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -301,46 +275,17 @@ Wire Wire Line
 	5200 3750 5550 3750
 Wire Wire Line
 	5550 3750 5550 3500
-Wire Wire Line
-	5850 3750 5850 4750
-Wire Wire Line
-	5850 4750 5100 4750
-Wire Wire Line
-	5550 3750 5850 3750
 Connection ~ 5550 3750
-Wire Wire Line
-	4200 4750 4500 4750
 Wire Wire Line
 	4200 2650 4500 2650
 Wire Wire Line
 	3450 2650 3600 2650
-Wire Wire Line
-	3450 4750 3600 4750
 Wire Wire Line
 	2900 2600 3050 2600
 Wire Wire Line
 	3050 2600 3050 2650
 Wire Wire Line
 	3050 2650 3150 2650
-Wire Wire Line
-	2900 4700 3050 4700
-Wire Wire Line
-	3050 4700 3050 4750
-Wire Wire Line
-	3050 4750 3150 4750
-$Comp
-L Device:R R4
-U 1 1 5E040B29
-P 2050 4450
-F 0 "R4" H 1980 4404 50  0000 R CNN
-F 1 "220" H 1980 4495 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1980 4450 50  0001 C CNN
-F 3 "~" H 2050 4450 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 2050 4450 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT220R" H 2050 4450 50  0001 C CNN "PartNo"
-	1    2050 4450
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R R3
 U 1 1 5E041261
@@ -365,32 +310,12 @@ F 3 "" H 2050 2100 50  0001 C CNN
 	1    2050 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5E041A37
-P 2050 4200
-F 0 "#PWR?" H 2050 4050 50  0001 C CNN
-F 1 "+5V" H 2065 4373 50  0000 C CNN
-F 2 "" H 2050 4200 50  0001 C CNN
-F 3 "" H 2050 4200 50  0001 C CNN
-	1    2050 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 2100 2050 2200
 Wire Wire Line
 	2050 2500 2050 2600
 Wire Wire Line
 	2050 2600 2300 2600
-Wire Wire Line
-	2050 4200 2050 4300
-Wire Wire Line
-	2050 4600 2050 4700
-Wire Wire Line
-	2050 4700 2300 4700
-Wire Wire Line
-	6200 3750 5850 3750
-Connection ~ 5850 3750
 Wire Wire Line
 	5100 2650 6150 2650
 $Comp
@@ -444,8 +369,6 @@ Wire Wire Line
 Connection ~ 8000 4150
 Wire Wire Line
 	8000 4150 8000 4200
-NoConn ~ 2900 4800
-NoConn ~ 2300 4800
 NoConn ~ 2300 3700
 NoConn ~ 2600 3400
 NoConn ~ 2900 3700
@@ -462,23 +385,6 @@ F 3 "" H 2800 2200 50  0001 C CNN
 	1    2800 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E06A577
-P 2800 4350
-F 0 "#PWR?" H 2800 4100 50  0001 C CNN
-F 1 "GND" H 2805 4177 50  0000 C CNN
-F 2 "" H 2800 4350 50  0001 C CNN
-F 3 "" H 2800 4350 50  0001 C CNN
-	1    2800 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 4350 2800 4300
-Wire Wire Line
-	2800 4300 2600 4300
-Wire Wire Line
-	2600 4300 2600 4500
 Wire Wire Line
 	2800 2200 2800 2150
 Wire Wire Line
@@ -487,4 +393,30 @@ Wire Wire Line
 	2600 2150 2600 2400
 Text Notes 5300 1650 0    100  ~ 20
 MIDI
+Wire Wire Line
+	5550 3750 6200 3750
+$Comp
+L power:GND #PWR?
+U 1 1 5E064042
+P 5250 5150
+F 0 "#PWR?" H 5250 4900 50  0001 C CNN
+F 1 "GND" H 5255 4977 50  0000 C CNN
+F 2 "" H 5250 5150 50  0001 C CNN
+F 3 "" H 5250 5150 50  0001 C CNN
+	1    5250 5150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3600 4750
+NoConn ~ 4500 4750
+Wire Wire Line
+	5250 5150 5250 5050
+Wire Wire Line
+	5250 5050 5100 5050
+Wire Wire Line
+	4200 5050 4200 4750
+Wire Wire Line
+	5100 4750 5100 5050
+Connection ~ 5100 5050
+Wire Wire Line
+	5100 5050 4200 5050
 $EndSCHEMATC

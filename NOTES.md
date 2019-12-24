@@ -2,8 +2,7 @@
 
 The joystick sockets should be plastic, not metal.
 
-TE 5747467, comes in -1 (flash), -2 (more gold), and -4 (lots of gold?). Quite pricey. Has different footprint to 'standard' DE9 - pins are set back from mounting pins. Will need 
-custom footprint.
+TE 5747467, comes in -1 (flash), -2 (more gold), and -4 (lots of gold?). Quite pricey. Has different footprint to 'standard' DE9 - pins are set back from mounting pins. Will need custom footprint.
 
 https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5747467-1 - £5.22
 https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5747467-2 - £3.14
@@ -31,3 +30,7 @@ I'm using a Hammond 1598C, with Parallel Port and Serial Port on ribbons.
 # BOM
 
 Octopart https://octopart.com/bom-tool/nhQ4pql9
+
+# TODO List
+
+Need to re-work end panel DXF now connectors have moved.

@@ -24,7 +24,6 @@ F 0 "J17" H 5550 4117 50  0000 C CNN
 F 1 "DB15HD_Female" H 5550 4026 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 4600 3650 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/c-cd-0012.pdf" H 4600 3650 50  0001 C CNN
-F 4 "" H 5550 3250 50  0001 C CNN "Digikey"
 F 5 "Amphenol" H 5550 3250 50  0001 C CNN "Manufacturer"
 F 6 "ICD15S13E4GV00LF" H 5550 3250 50  0001 C CNN "PartNo"
 	1    5550 3250

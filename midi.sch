@@ -28,7 +28,6 @@ F 0 "J5" H 2600 3425 50  0000 C CNN
 F 1 "DIN-5 180 degree" H 2600 3334 50  0000 C CNN
 F 2 "JGP Footprints:5P180 DIN Socket" H 2600 3700 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 3700 50  0001 C CNN
-F 4 "" H 2600 3700 50  0001 C CNN "RS"
 F 5 "RS" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "491-087" H 0   0   50  0001 C CNN "PartNo"
 	1    2600 3700

@@ -126,7 +126,6 @@ F 0 "Y1" V 5500 3500 50  0000 L CNN
 F 1 "32,768 Hz" V 5600 3500 50  0000 L CNN
 F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal" H 5550 3350 50  0001 C CNN
 F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5550 3350 50  0001 C CNN
-F 4 "" V 5550 3350 50  0001 C CNN "Digikey"
 F 5 "Citizen" H 5550 3350 50  0001 C CNN "Manufacturer"
 F 6 "CFS-20632768DZBB " H 5550 3350 50  0001 C CNN "PartNo"
 	1    5550 3350

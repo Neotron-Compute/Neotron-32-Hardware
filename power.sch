@@ -26,7 +26,6 @@ F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 3200 3450 50  0001 C CNN
 F 3 "http://www.on-shore.com/wp-content/uploads/USB-B1HSXX.pdf" H 3200 3450 50  0001 C CNN
 F 4 "On Shore Technology" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "USB-B1HSB6" H 0   0   50  0001 C CNN "PartNo"
-F 6 "USB-B1HSB6 " H 0   0   50  0001 C CNN "RS"
 	1    3050 3500
 	1    0    0    -1  
 $EndComp
@@ -77,7 +76,6 @@ F 0 "F1" V 4475 3300 50  0000 C CNN
 F 1 "250mA PTC" V 4566 3300 50  0000 C CNN
 F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4750 3100 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4700 3300 50  0001 C CNN
-F 4 "" V 4700 3300 50  0001 C CNN "Digikey"
 F 5 "Littelfuse Inc" V 4700 3300 50  0001 C CNN "Manufacturer"
 F 6 "RXEF025" V 4700 3300 50  0001 C CNN "PartNo"
 	1    4700 3300
@@ -91,7 +89,6 @@ F 0 "D2" V 5004 3679 50  0000 L CNN
 F 1 "SA5.0A" V 5095 3679 50  0000 L CNN
 F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5050 3600 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 5050 3600 50  0001 C CNN
-F 4 "" V 5050 3600 50  0001 C CNN "Digikey"
 F 5 "Littelfuse" H 5050 3600 50  0001 C CNN "Manufacturer"
 F 6 "SA5.0A" H 5050 3600 50  0001 C CNN "PartNo"
 	1    5050 3600

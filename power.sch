@@ -23,7 +23,10 @@ P 3050 3500
 F 0 "J9" H 3050 3950 50  0000 C CNN
 F 1 "USB_B" H 3050 3850 50  0000 C CNN
 F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 3200 3450 50  0001 C CNN
-F 3 " ~" H 3200 3450 50  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/USB-B1HSXX.pdf" H 3200 3450 50  0001 C CNN
+F 4 "On Shore Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "USB-B1HSB6" H 0   0   50  0001 C CNN "PartNo"
+F 6 "USB-B1HSB6 " H 0   0   50  0001 C CNN "RS"
 	1    3050 3500
 	1    0    0    -1  
 $EndComp
@@ -48,6 +51,8 @@ F 0 "C6" H 5668 3646 50  0000 L CNN
 F 1 "10u" H 5668 3555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5588 3450 50  0001 C CNN
 F 3 "~" H 5550 3600 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "MAL203858109E3" H 0   0   50  0001 C CNN "PartNo"
 	1    5550 3600
 	1    0    0    -1  
 $EndComp
@@ -59,6 +64,8 @@ F 0 "C7" H 6065 3646 50  0000 L CNN
 F 1 "100n" H 6065 3555 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5988 3450 50  0001 C CNN
 F 3 "~" H 5950 3600 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    5950 3600
 	1    0    0    -1  
 $EndComp
@@ -70,7 +77,7 @@ F 0 "F1" V 4475 3300 50  0000 C CNN
 F 1 "250mA PTC" V 4566 3300 50  0000 C CNN
 F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4750 3100 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4700 3300 50  0001 C CNN
-F 4 "RXEF025HF-ND" V 4700 3300 50  0001 C CNN "Digikey"
+F 4 "" V 4700 3300 50  0001 C CNN "Digikey"
 F 5 "Littelfuse Inc" V 4700 3300 50  0001 C CNN "Manufacturer"
 F 6 "RXEF025" V 4700 3300 50  0001 C CNN "PartNo"
 	1    4700 3300
@@ -84,7 +91,7 @@ F 0 "D2" V 5004 3679 50  0000 L CNN
 F 1 "SA5.0A" V 5095 3679 50  0000 L CNN
 F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5050 3600 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 5050 3600 50  0001 C CNN
-F 4 "SA5.0ALFCT-ND " V 5050 3600 50  0001 C CNN "Digikey"
+F 4 "" V 5050 3600 50  0001 C CNN "Digikey"
 F 5 "Littelfuse" H 5050 3600 50  0001 C CNN "Manufacturer"
 F 6 "SA5.0A" H 5050 3600 50  0001 C CNN "PartNo"
 	1    5050 3600
@@ -132,6 +139,8 @@ F 0 "R14" H 2880 4054 50  0000 R CNN
 F 1 "DNF" H 2880 4145 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2880 4100 50  0001 C CNN
 F 3 "~" H 2950 4100 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 0   0   50  0001 C CNN "PartNo"
 	1    2950 4100
 	-1   0    0    1   
 $EndComp
@@ -206,6 +215,8 @@ F 0 "C8" H 7465 3646 50  0000 L CNN
 F 1 "47u" H 7465 3555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7388 3450 50  0001 C CNN
 F 3 "~" H 7350 3600 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "MAL214250479E3" H 0   0   50  0001 C CNN "PartNo"
 	1    7350 3600
 	1    0    0    -1  
 $EndComp

@@ -63,6 +63,8 @@ F 0 "R18" H 7350 4300 50  0000 L CNN
 F 1 "DNF" H 7350 4200 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7230 4250 50  0001 C CNN
 F 3 "~" H 7300 4250 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 0   0   50  0001 C CNN "PartNo"
 	1    7300 4250
 	1    0    0    -1  
 $EndComp
@@ -119,6 +121,8 @@ F 0 "C9" H 8015 3546 50  0000 L CNN
 F 1 "100n" H 8015 3455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7938 3350 50  0001 C CNN
 F 3 "~" H 7900 3500 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    7900 3500
 	1    0    0    -1  
 $EndComp
@@ -158,6 +162,8 @@ F 0 "D3" H 7593 2266 50  0000 C CNN
 F 1 "Red LED" H 7593 2175 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 7600 2050 50  0001 C CNN
 F 3 "~" H 7600 2050 50  0001 C CNN
+F 4 "Würth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "151031SS04000" H 0   0   50  0001 C CNN "PartNo"
 	1    7600 2050
 	1    0    0    -1  
 $EndComp
@@ -235,6 +241,8 @@ F 0 "J10" H 6200 4117 50  0000 C CNN
 F 1 "Amphenol micro SD 114-00841-68" H 6200 4026 50  0000 C CNN
 F 2 "Amphenol SD Card:1140084168" H 7400 3700 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/114-00841-68.pdf" H 6250 3400 50  0001 C CNN
+F 4 "Amphenol" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "114-00841-68" H 0   0   50  0001 C CNN "PartNo"
 	1    6250 3400
 	1    0    0    -1  
 $EndComp

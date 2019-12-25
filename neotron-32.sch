@@ -393,6 +393,8 @@ F 0 "J1" H 9000 1467 50  0000 C CNN
 F 1 "Conn_02x06" H 9000 1376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 8950 1050 50  0001 C CNN
 F 3 "~" H 8950 1050 50  0001 C CNN
+F 4 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "M20-9763646" H 0   0   50  0001 C CNN "PartNo"
 	1    8950 1050
 	1    0    0    -1  
 $EndComp
@@ -430,6 +432,8 @@ F 0 "J2" H 9000 2467 50  0000 C CNN
 F 1 "Conn_02x06" H 9000 2376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 8950 2050 50  0001 C CNN
 F 3 "~" H 8950 2050 50  0001 C CNN
+F 4 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "M20-9763646" H 0   0   50  0001 C CNN "PartNo"
 	1    8950 2050
 	1    0    0    -1  
 $EndComp
@@ -689,9 +693,9 @@ P 5700 2200
 F 0 "U1" H 5700 3465 50  0000 C CNN
 F 1 "TM4C123G_Launchpad" H 5700 3374 50  0000 C CNN
 F 2 "JGP Footprints:Launchpad_4x10" H 5700 2200 50  0001 C CNN
-F 3 "" H 5700 2200 50  0001 C CNN
-F 4 "Texas Instruments" H 5700 2200 50  0001 C CNN "Manufacturer"
-F 5 "EK-TM4C123GXL" H 5700 2200 50  0001 C CNN "PartNo"
+F 3 "~" H 5700 2200 50  0001 C CNN
+F 4 "~" H 5700 2200 50  0001 C CNN "Manufacturer"
+F 5 "~" H 5700 2200 50  0001 C CNN "PartNo"
 	1    5700 2200
 	1    0    0    -1  
 $EndComp
@@ -981,6 +985,8 @@ F 0 "J3" H 9000 3267 50  0000 C CNN
 F 1 "Conn_02x04" H 9000 3176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8950 2950 50  0001 C CNN
 F 3 "~" H 8950 2950 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 0   0   50  0001 C CNN "PartNo"
 	1    8950 2950
 	1    0    0    -1  
 $EndComp
@@ -1055,6 +1061,8 @@ F 0 "H1" H 1650 6946 50  0000 L CNN
 F 1 "MountingHole" H 1650 6855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 6900 50  0001 C CNN
 F 3 "~" H 1550 6900 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 0   0   50  0001 C CNN "PartNo"
 	1    1550 6900
 	1    0    0    -1  
 $EndComp
@@ -1066,6 +1074,8 @@ F 0 "H2" H 1650 7146 50  0000 L CNN
 F 1 "MountingHole" H 1650 7055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7100 50  0001 C CNN
 F 3 "~" H 1550 7100 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 0   0   50  0001 C CNN "PartNo"
 	1    1550 7100
 	1    0    0    -1  
 $EndComp
@@ -1077,6 +1087,8 @@ F 0 "H3" H 1650 7346 50  0000 L CNN
 F 1 "MountingHole" H 1650 7255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7300 50  0001 C CNN
 F 3 "~" H 1550 7300 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 0   0   50  0001 C CNN "PartNo"
 	1    1550 7300
 	1    0    0    -1  
 $EndComp
@@ -1088,6 +1100,8 @@ F 0 "H4" H 1650 7546 50  0000 L CNN
 F 1 "MountingHole" H 1650 7455 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7500 50  0001 C CNN
 F 3 "~" H 1550 7500 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 0   0   50  0001 C CNN "PartNo"
 	1    1550 7500
 	1    0    0    -1  
 $EndComp

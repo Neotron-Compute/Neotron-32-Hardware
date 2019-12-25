@@ -152,7 +152,7 @@ AR Path="/5DF2662E/5E1DB326" Ref="J13"  Part="1"
 F 0 "J13" H 8730 3402 50  0000 L CNN
 F 1 "DE9 Male" H 8730 3311 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" H 8550 3400 50  0001 C CNN
-F 3 " ~" H 8550 3400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747467&DocType=Customer+Drawing&DocLang=English" H 8550 3400 50  0001 C CNN
 F 4 "TE" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "5747467-2" H 0   0   50  0001 C CNN "PartNo"
 	1    8550 3400
@@ -196,7 +196,7 @@ AR Path="/5DF2662E/5E1DB33A" Ref="J14"  Part="1"
 F 0 "J14" H 8730 4802 50  0000 L CNN
 F 1 "DE9 Male" H 8730 4711 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" H 8550 4800 50  0001 C CNN
-F 3 " ~" H 8550 4800 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747467&DocType=Customer+Drawing&DocLang=English" H 8550 4800 50  0001 C CNN
 F 4 "TE" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "5747467-2" H 0   0   50  0001 C CNN "PartNo"
 	1    8550 4800
@@ -367,6 +367,8 @@ F 0 "C19" H 2815 1896 50  0000 L CNN
 F 1 "100n" H 2815 1805 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2738 1700 50  0001 C CNN
 F 3 "~" H 2700 1850 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    2700 1850
 	1    0    0    -1  
 $EndComp
@@ -393,6 +395,8 @@ F 0 "C20" H 2315 2846 50  0000 L CNN
 F 1 "100n" H 2315 2755 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2238 2650 50  0001 C CNN
 F 3 "~" H 2200 2800 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    2200 2800
 	1    0    0    1   
 $EndComp
@@ -469,9 +473,9 @@ AR Path="/5DF2662E/5DF8E8EA" Ref="J12"  Part="1"
 F 0 "J12" H 6520 2346 50  0000 R CNN
 F 1 "AVR-ISP-6" H 6520 2255 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6600 2300 50  0001 C CNN
-F 3 " ~" H 5575 1700 50  0001 C CNN
-F 4 "Harwin" H 6850 2250 50  0001 C CNN "Manufacturer"
-F 5 "M20-9980346" H 6850 2250 50  0001 C CNN "PartNo"
+F 3 "~" H 5575 1700 50  0001 C CNN
+F 4 "~" H 6850 2250 50  0001 C CNN "Manufacturer"
+F 5 "~" H 6850 2250 50  0001 C CNN "PartNo"
 	1    6850 2250
 	-1   0    0    -1  
 $EndComp
@@ -578,6 +582,8 @@ F 0 "C29" H 3515 1896 50  0000 L CNN
 F 1 "100n" H 3515 1805 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3438 1700 50  0001 C CNN
 F 3 "~" H 3400 1850 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    3400 1850
 	1    0    0    -1  
 $EndComp

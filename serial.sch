@@ -72,6 +72,8 @@ F 0 "C26" H 6615 2946 50  0000 L CNN
 F 1 "470n" H 6615 2855 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6538 2750 50  0001 C CNN
 F 3 "~" H 6500 2900 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    6500 2900
 	1    0    0    -1  
 $EndComp
@@ -83,6 +85,8 @@ F 0 "C27" V 6650 3450 50  0000 C CNN
 F 1 "470n" V 6650 3650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6838 3400 50  0001 C CNN
 F 3 "~" H 6800 3550 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    6800 3550
 	0    1    1    0   
 $EndComp
@@ -94,6 +98,8 @@ F 0 "C25" H 4900 2850 50  0000 R CNN
 F 1 "100n" H 4950 2950 50  0000 R CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 4688 2750 50  0001 C CNN
 F 3 "~" H 4650 2900 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    4650 2900
 	-1   0    0    1   
 $EndComp
@@ -105,6 +111,8 @@ F 0 "C24" H 3235 3054 50  0000 R CNN
 F 1 "100n" H 3235 3145 50  0000 R CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3388 2950 50  0001 C CNN
 F 3 "~" H 3350 3100 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    3350 3100
 	-1   0    0    1   
 $EndComp
@@ -172,6 +180,8 @@ F 0 "C28" H 7165 2846 50  0000 L CNN
 F 1 "470n" H 7165 2755 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7088 2650 50  0001 C CNN
 F 3 "~" H 7050 2800 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    7050 2800
 	1    0    0    -1  
 $EndComp
@@ -210,7 +220,7 @@ L Connector_Generic:Conn_02x05_Top_Bottom J18
 U 1 1 5E02DBC9
 P 8100 4050
 F 0 "J18" H 8150 3625 50  0000 C CNN
-F 1 "Conn_02x05_RS232" H 8150 3716 50  0000 C CNN
+F 1 "Conn_02x05" H 8150 3716 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 8100 4050 50  0001 C CNN
 F 3 "~" H 8100 4050 50  0001 C CNN
 F 4 "Harwin" H 8100 4050 50  0001 C CNN "Manufacturer"

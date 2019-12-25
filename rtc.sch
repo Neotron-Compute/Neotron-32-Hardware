@@ -67,6 +67,8 @@ F 0 "C23" H 7165 3396 50  0000 L CNN
 F 1 "100n" H 7165 3305 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7088 3200 50  0001 C CNN
 F 3 "~" H 7050 3350 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    7050 3350
 	1    0    0    -1  
 $EndComp
@@ -124,7 +126,7 @@ F 0 "Y1" V 5500 3500 50  0000 L CNN
 F 1 "32,768 Hz" V 5600 3500 50  0000 L CNN
 F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal" H 5550 3350 50  0001 C CNN
 F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5550 3350 50  0001 C CNN
-F 4 "CFS-20632768DZBB" V 5550 3350 50  0001 C CNN "Digikey"
+F 4 "" V 5550 3350 50  0001 C CNN "Digikey"
 F 5 "Citizen" H 5550 3350 50  0001 C CNN "Manufacturer"
 F 6 "CFS-20632768DZBB " H 5550 3350 50  0001 C CNN "PartNo"
 	1    5550 3350
@@ -187,6 +189,8 @@ F 0 "C21" H 5665 2996 50  0000 L CNN
 F 1 "6p" H 5665 2905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5588 2800 50  0001 C CNN
 F 3 "~" H 5550 2950 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "FG18C0G1H060DNT06" H 0   0   50  0001 C CNN "PartNo"
 	1    5550 2950
 	1    0    0    -1  
 $EndComp
@@ -198,6 +202,8 @@ F 0 "C22" H 5665 3796 50  0000 L CNN
 F 1 "6p" H 5665 3705 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5588 3600 50  0001 C CNN
 F 3 "~" H 5550 3750 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "FG18C0G1H060DNT06" H 0   0   50  0001 C CNN "PartNo"
 	1    5550 3750
 	1    0    0    -1  
 $EndComp

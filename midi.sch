@@ -25,10 +25,12 @@ P 2600 3700
 AR Path="/5DF5386C" Ref="J?"  Part="1" 
 AR Path="/5DF253FB/5DF5386C" Ref="J5"  Part="1" 
 F 0 "J5" H 2600 3425 50  0000 C CNN
-F 1 "DIN-5 MIDI In" H 2600 3334 50  0000 C CNN
+F 1 "DIN-5 180 degree" H 2600 3334 50  0000 C CNN
 F 2 "JGP Footprints:5P180 DIN Socket" H 2600 3700 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 3700 50  0001 C CNN
-F 4 "491-087" H 2600 3700 50  0001 C CNN "RS"
+F 4 "" H 2600 3700 50  0001 C CNN "RS"
+F 5 "RS" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "491-087" H 0   0   50  0001 C CNN "PartNo"
 	1    2600 3700
 	1    0    0    -1  
 $EndComp
@@ -39,9 +41,11 @@ P 2600 2700
 AR Path="/5DF53872" Ref="J?"  Part="1" 
 AR Path="/5DF253FB/5DF53872" Ref="J4"  Part="1" 
 F 0 "J4" H 2600 2425 50  0000 C CNN
-F 1 "DIN-5 MIDI Out" H 2600 2334 50  0000 C CNN
+F 1 "DIN-5 180 degree" H 2600 2334 50  0000 C CNN
 F 2 "JGP Footprints:5P180 DIN Socket" H 2600 2700 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2600 2700 50  0001 C CNN
+F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 2700 50  0001 C CNN
+F 4 "RS" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "491-087" H 0   0   50  0001 C CNN "PartNo"
 	1    2600 2700
 	1    0    0    -1  
 $EndComp
@@ -128,9 +132,11 @@ L Device:D D1
 U 1 1 5E032963
 P 4250 3650
 F 0 "D1" V 4204 3729 50  0000 L CNN
-F 1 "1N148" V 4200 3300 50  0000 L CNN
+F 1 "1N4148" V 4200 3300 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 3650 50  0001 C CNN
 F 3 "~" H 4250 3650 50  0001 C CNN
+F 4 "ON Semi" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "1N4148" H 0   0   50  0001 C CNN "PartNo"
 	1    4250 3650
 	0    1    1    0   
 $EndComp
@@ -349,6 +355,8 @@ F 0 "C1" H 7250 3700 50  0000 L CNN
 F 1 "100n" H 7250 3500 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7538 3450 50  0001 C CNN
 F 3 "~" H 7500 3600 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
 	1    7500 3600
 	1    0    0    -1  
 $EndComp

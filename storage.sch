@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:neotron-32-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -225,9 +226,11 @@ Wire Wire Line
 Wire Wire Line
 	7300 4000 7300 4100
 $Comp
-L Connector:Micro_SD_Card J10
+L neotron-32-rescue:Micro_SD_Card-Connector J10
 U 1 1 5E19DB95
 P 6250 3400
+AR Path="/5E19DB95" Ref="J10"  Part="1" 
+AR Path="/5DF1D0B0/5E19DB95" Ref="J10"  Part="1" 
 F 0 "J10" H 6200 4117 50  0000 C CNN
 F 1 "Amphenol micro SD 114-00841-68" H 6200 4026 50  0000 C CNN
 F 2 "Amphenol SD Card:1140084168" H 7400 3700 50  0001 C CNN

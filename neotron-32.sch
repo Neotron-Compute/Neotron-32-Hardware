@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:neotron-32-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -682,7 +683,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 2100 4150 2100
 $Comp
-L TM4C_Launchpads:TM4C123G_Launchpad U1
+L neotron-32-rescue:TM4C123G_Launchpad-TM4C_Launchpads U1
 U 1 1 5DF69932
 P 5700 2200
 F 0 "U1" H 5700 3465 50  0000 C CNN

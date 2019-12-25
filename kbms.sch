@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:neotron-32-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -150,8 +151,10 @@ AR Path="/5DF2345B/5E1DB326" Ref="J?"  Part="1"
 AR Path="/5DF2662E/5E1DB326" Ref="J13"  Part="1" 
 F 0 "J13" H 8730 3402 50  0000 L CNN
 F 1 "DE9 Male" H 8730 3311 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8550 3400 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" H 8550 3400 50  0001 C CNN
 F 3 " ~" H 8550 3400 50  0001 C CNN
+F 4 "TE" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "5747467-2" H 0   0   50  0001 C CNN "PartNo"
 	1    8550 3400
 	1    0    0    -1  
 $EndComp
@@ -192,8 +195,10 @@ AR Path="/5DF2345B/5E1DB33A" Ref="J?"  Part="1"
 AR Path="/5DF2662E/5E1DB33A" Ref="J14"  Part="1" 
 F 0 "J14" H 8730 4802 50  0000 L CNN
 F 1 "DE9 Male" H 8730 4711 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 8550 4800 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" H 8550 4800 50  0001 C CNN
 F 3 " ~" H 8550 4800 50  0001 C CNN
+F 4 "TE" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "5747467-2" H 0   0   50  0001 C CNN "PartNo"
 	1    8550 4800
 	1    0    0    -1  
 $EndComp
@@ -456,9 +461,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 2800 5700 2800
 $Comp
-L Connector:AVR-ISP-6 J12
+L neotron-32-rescue:AVR-ISP-6-Connector J12
 U 1 1 5DF8E8EA
 P 6850 2250
+AR Path="/5DF8E8EA" Ref="J12"  Part="1" 
+AR Path="/5DF2662E/5DF8E8EA" Ref="J12"  Part="1" 
 F 0 "J12" H 6520 2346 50  0000 R CNN
 F 1 "AVR-ISP-6" H 6520 2255 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6600 2300 50  0001 C CNN
@@ -590,9 +597,11 @@ $EndComp
 Wire Wire Line
 	2700 1700 2550 1700
 $Comp
-L MCU_Microchip_ATmega:ATmega328-PU U6
+L neotron-32-rescue:ATmega328-PU-MCU_Microchip_ATmega U6
 U 1 1 5E0F9E16
 P 3100 3800
+AR Path="/5E0F9E16" Ref="U6"  Part="1" 
+AR Path="/5DF2662E/5E0F9E16" Ref="U6"  Part="1" 
 F 0 "U6" H 2456 3846 50  0000 R CNN
 F 1 "ATmega328-PU" H 2456 3755 50  0000 R CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3100 3800 50  0001 C CIN
@@ -616,9 +625,11 @@ Connection ~ 3200 1700
 Wire Wire Line
 	3200 1700 3400 1700
 $Comp
-L ExtraConnectors:Double-mini-DIN-6 J15
+L neotron-32-rescue:Double-mini-DIN-6-ExtraConnectors J15
 U 1 1 5E0028E3
 P 9850 4000
+AR Path="/5E0028E3" Ref="J15"  Part="1" 
+AR Path="/5DF2662E/5E0028E3" Ref="J15"  Part="1" 
 F 0 "J15" H 9850 4698 50  0000 C CNN
 F 1 "Double-mini-DIN-6" H 9850 4607 50  0000 C CNN
 F 2 "JGP Footprints:Double_mini-DIN_6" H 9850 4250 50  0001 C CNN

@@ -23,7 +23,7 @@ ${DOCKER_CMD} python -m kicad-automation.eeschema.schematic run_erc /kicad-proje
 cp ${TEMP_PATH}/erc/${PROJECT}.erc ${DIR}/build
 
 echo "Printing Schematic..."
-${DOCKER_CMD} python -m kicad-automation.eeschema.schematic export -f pdf /kicad-project/${PROJECT}.sch ${TEMP_PATH_IN_DOCKER}/schematic
+${DOCKER_CMD} python -m kicad-automation.eeschema.schematic export -a -f pdf /kicad-project/${PROJECT}.sch ${TEMP_PATH_IN_DOCKER}/schematic
 cp ${TEMP_PATH}/schematic/${PROJECT}.pdf ${DIR}/build/${PROJECT}-schematic.pdf
 
 echo "Running DRC..."

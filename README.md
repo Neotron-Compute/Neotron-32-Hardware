@@ -15,14 +15,14 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **GPU:** No GPU - CPU generates 8 colour 400x300 video
   - **GPU RAM:** Shared with main SRAM
   - **Video Output:** VGA (fixed at 800x600 60 Hz)
-  - **Storage:** Full-size SD Card, supports FAT16/FAT32 and MS-DOS partition tables
+  - **Storage:** Micro SD Card slot, supports FAT16/FAT32 and MS-DOS partition tables
   - **USB:** 1x USB 2.0 Full-speed OTG micro-AB port (internal)
   - **Audio:** 3.5mm Line Out with Mono/Stereo jumper
-  - **Keyboard/Mouse:** 2x PS/2 Ports (6-pin mini-DIN)
-  - **MIDI**: 3x 6-pin DIN (In, Out and Through)
+  - **Keyboard/Mouse:** 2x PS/2 Ports (2x 6-pin mini-DIN)
+  - **MIDI**: MIDI In and MIDI Out (2x 5-pin 180-degree DIN)
   - **Serial**: RS-232 on 10-pin 2.54mm header suitable for DE-9 plug on IDC ribbon
-  - **Parallel**: 3.3v PC-style Parallel Port on 26-pin 2.54mm header suitable for DB-25 plug on IDC ribbon
-  - **Joystick**: 2x Atari/Sega 9-pin ports
+  - **Parallel**: 3.3v PC-style Parallel Port on 26-pin 2.54mm header suitable for DB-25 plug on IDC ribbon. Also functions as 3.3v GPIO with 12 outputs and 4 inputs.
+  - **Joystick**: 2x 9-pin game ports (supports Atari-compatible two-button joysticks, or SEGA MegaDrive/Genesis controllers)
   - **Expansion**: 2x internal 2.54mm 2x6 headers carrying power, SPI, I2C and a dedicated IRQ line
   - **RTC**: MCP7940 Real-time clock, with coin-cell battery backup
   - **Mechanical Form Factor:** Fits Hammond [1598C] case
@@ -34,7 +34,7 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **PCBA**: Load the [Neotron-32 schematic](./neotron-32.sch) in Kicad, or see the [Neotron-32 Release Area] on Github for PDFs, Gerbers and a CSV bill-of-materials.
   - **Case**: Hammond [1598C], in your choice of colour. The case should include mounting screws, feet and two un-cut end panels.
   - **End panels**: Cut the panels supplied with the case according to [the drawing](./endpanels/endpanels.dxf). There is a PDF version in the [Neotron-32 Release Area].
-  - **SD Card**: Any full-size SD or SDHC card should work. Tested with Sandisk 8GB microSD cards in a micro-to-full-size adaptor, formatted with a single FAT32 partition.
+  - **SD Card**: Any micro-SD or micro-SDHC card should work. Tested with Sandisk 8GB micro-SDHC cards, formatted with a single FAT32 partition.
   - **Monitor**: You will need monitor with 15-pin VGA input that can handle 800x600 resolution @ 60 Hz. Most higher resolution LCD panels will up-scale the image, but the quality of the scaling may not be ideal. A CRT will give a better image, but you may need to wind up the contrast and brightness to get a workable picture. An old 800x600 native resolution LCD would be ideal.
   - **Power Supply**: You need a standard mobile phone charger or other USB power source, and a standard USB A to B cable (like you would use for a USB printer).
   - **Ribbon cables**: The DB25 Parallel Port and DE9 RS-232 Serial port require a 2.54mm pin header to D-Sub ribbon cable. You can scavenge them from an old PC, or buy them new from Amazon, eBay or AliExpress for a few UK pounds.
@@ -44,7 +44,6 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **Audio**: The audio output is straight from the microcontroller and so is pretty weak. We recommend using amplified speakers, or an external headphone amplifier. Connecting headphones directly is untested and may pull too much current from the microcontroller.
   - **MIDI**: If you want to hook up a MIDI Synthesiser like a Roland MT-32, or a MIDI Keyboard, you just need standard 5-pin DIN MIDI cables. USB MIDI devices are not supported.
   - **USB**: The Tiva-C Launchpad has a USB micro-AB connector into which you can plug a Raspberry Pi Zero compatible micro-A to full-size A adaptor. There is no USB support in firmware yet, and the board can only supply a limited amount of current, so don't expect your mobile phone to charge.
-
 
 [Neotron-32 Release Area]: https://github.com/Neotron-Compute/Neotron-32-Hardware/releases
 
@@ -63,7 +62,7 @@ See https://jnavila.github.io/plotkicadsch/ for details.
 
 ## Licence
 
-This schematic is Copyright (c) Jonathan 'theJPster' Pallant and other Neotron 32 contributors.
+This schematic and PCB design is Copyright (c) Jonathan 'theJPster' Pallant and other Neotron 32 contributors.
 
 [![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 

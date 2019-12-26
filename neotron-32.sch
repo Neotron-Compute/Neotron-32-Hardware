@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1056,53 +1055,53 @@ ESP01 Compatible
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DFC719B
-P 1550 6900
-F 0 "H1" H 1650 6946 50  0000 L CNN
-F 1 "MountingHole" H 1650 6855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 6900 50  0001 C CNN
-F 3 "~" H 1550 6900 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "PartNo"
-	1    1550 6900
+P 6200 6800
+F 0 "H1" H 6300 6846 50  0000 L CNN
+F 1 "MountingHole" H 6300 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6800 50  0001 C CNN
+F 3 "~" H 6200 6800 50  0001 C CNN
+F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
+	1    6200 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DFC7744
-P 1550 7100
-F 0 "H2" H 1650 7146 50  0000 L CNN
-F 1 "MountingHole" H 1650 7055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7100 50  0001 C CNN
-F 3 "~" H 1550 7100 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "PartNo"
-	1    1550 7100
+P 6200 7000
+F 0 "H2" H 6300 7046 50  0000 L CNN
+F 1 "MountingHole" H 6300 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7000 50  0001 C CNN
+F 3 "~" H 6200 7000 50  0001 C CNN
+F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
+	1    6200 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5DFC781B
-P 1550 7300
-F 0 "H3" H 1650 7346 50  0000 L CNN
-F 1 "MountingHole" H 1650 7255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7300 50  0001 C CNN
-F 3 "~" H 1550 7300 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "PartNo"
-	1    1550 7300
+P 6200 7200
+F 0 "H3" H 6300 7246 50  0000 L CNN
+F 1 "MountingHole" H 6300 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7200 50  0001 C CNN
+F 3 "~" H 6200 7200 50  0001 C CNN
+F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
+	1    6200 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5DFC799C
-P 1550 7500
-F 0 "H4" H 1650 7546 50  0000 L CNN
-F 1 "MountingHole" H 1650 7455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1550 7500 50  0001 C CNN
-F 3 "~" H 1550 7500 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "PartNo"
-	1    1550 7500
+P 6200 7400
+F 0 "H4" H 6300 7446 50  0000 L CNN
+F 1 "MountingHole" H 6300 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7400 50  0001 C CNN
+F 3 "~" H 6200 7400 50  0001 C CNN
+F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
+	1    6200 7400
 	1    0    0    -1  
 $EndComp
 Text Label 1500 2550 0    50   ~ 0
@@ -1137,6 +1136,8 @@ Wire Wire Line
 	8250 1250 8750 1250
 Wire Wire Line
 	8250 1550 9950 1550
+Text Notes 550  7700 0    50   Italic 0
+The Neotron-32 is based around a Texas Instruments EK-TM4C123GH6 Tiva-C Launchpad board. This includes a TM4C123 microcontroller\nand a JTAG + USB Serial interface.\n\nDrill down into the sub-sheets to see more detail.
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -642,8 +641,6 @@ Text Label 4250 3300 0    50   ~ 0
 RESET
 Text Label 4250 3400 0    50   ~ 0
 ~SELPRI
-Text Notes 4850 1850 0    100  ~ 20
-Parallel Printer Port
 Wire Bus Line
 	7200 3150 7200 4550
 Wire Bus Line
@@ -652,4 +649,6 @@ Wire Bus Line
 	5700 3150 5700 4550
 Wire Bus Line
 	4800 2400 4800 4550
+Text Notes 550  7700 0    50   Italic 0
+Provides an 25-pin Parallel Port as found on an IBM PC. Implementation of SPP, EPP or ECP is down to the software on the MCU, as this is a\nbasic 3.3v SPI to GPIO convertor chip.\n\nThe strobe signal is direct from the CPU to allow it to be toggled on and off relatively quickly. The MCP23S17 can be configured to generate\ninputs to avoid the CPU busy-waiting for ACK from the remote device.\n\nIf you want a proper DB25 Parallel port, you will need a 26-way IDC ribbon to DB25 male cable. These were commonly fitted to PCs in the\n1990s as the ISA I/O expansion cards and/or motherboards of the time often didn't have room for all of the ports on the backplate. We\ndidn't fit a DB25 to this board due to similar space issues.
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,8 +23,8 @@ F 0 "J17" H 5550 4117 50  0000 C CNN
 F 1 "DB15HD_Female" H 5550 4026 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 4600 3650 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/c-cd-0012.pdf" H 4600 3650 50  0001 C CNN
-F 5 "Amphenol" H 5550 3250 50  0001 C CNN "Manufacturer"
-F 6 "ICD15S13E4GV00LF" H 5550 3250 50  0001 C CNN "PartNo"
+F 4 "Amphenol" H 5550 3250 50  0001 C CNN "Manufacturer"
+F 5 "ICD15S13E4GV00LF" H 5550 3250 50  0001 C CNN "PartNo"
 	1    5550 3250
 	1    0    0    -1  
 $EndComp
@@ -190,6 +189,6 @@ Wire Wire Line
 	6200 3950 6200 4000
 Wire Wire Line
 	5200 3650 5200 4000
-Text Notes 5500 2000 0    100  ~ 20
-VGA
+Text Notes 550  7700 0    50   Italic 0
+The VGA output is driven directly from the GPIO pins using a resistive divider. The output impedance is therefore all wrong. Best results\nare with an LCD monitor and a short VGA cable. We've also had success using a cheap VGA to HDMI adaptor connected directly to the\nVGA output port.\n\nIn case of issues, use a proper VGA buffer / cable-driver like the AD8044. It's about 8 GBP though, so we didn't bother.
 $EndSCHEMATC

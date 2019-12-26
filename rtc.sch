@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -126,8 +125,8 @@ F 0 "Y1" V 5500 3500 50  0000 L CNN
 F 1 "32,768 Hz" V 5600 3500 50  0000 L CNN
 F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal" H 5550 3350 50  0001 C CNN
 F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5550 3350 50  0001 C CNN
-F 5 "Citizen" H 5550 3350 50  0001 C CNN "Manufacturer"
-F 6 "CFS-20632768DZBB " H 5550 3350 50  0001 C CNN "PartNo"
+F 4 "Citizen" H 5550 3350 50  0001 C CNN "Manufacturer"
+F 5 "CFS-20632768DZBB " H 5550 3350 50  0001 C CNN "PartNo"
 	1    5550 3350
 	0    1    1    0   
 $EndComp
@@ -276,6 +275,6 @@ $EndComp
 Connection ~ 6300 3150
 Wire Wire Line
 	6300 3150 6300 3200
-Text Notes 5050 2150 0    100  ~ 20
-Real Time Clock
+Text Notes 550  7700 0    50   Italic 0
+The Real-Time Clock uses an (optional) 3V coin cell as battery backup.\n\nIt appears on the I2C bus as 7-bit address 0x6F.
 $EndSCHEMATC

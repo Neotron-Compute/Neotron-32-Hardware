@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -208,8 +207,6 @@ Wire Wire Line
 	3350 2850 3350 2950
 Wire Wire Line
 	3350 3250 3350 3350
-Text Notes 5400 1850 0    100  ~ 20
-Serial
 NoConn ~ 8400 3850
 NoConn ~ 7900 4250
 NoConn ~ 8400 4250
@@ -277,4 +274,6 @@ Wire Wire Line
 	8700 4050 8700 4500
 Text Notes 8650 3900 0    50   ~ 0
 Header for IDC to DE9 Ribbon. Wired DTE.
+Text Notes 550  7700 0    50   Italic 0
+This chip is a 3.3V capable version of the MAX232 RS-232 level shifter. The port is wired DTE (i.e. as if this was an IBM PC, rather than\nas a modem). We only have a five-wire RS-232 interface, missing the Ring Input, Data Set Ready, Data Terminal Ready and Carrier Detect\npins.\n\nIf you want a proper DE9 RS-232 port, you will need a 10-way IDC ribbon to DE9 male cable. These were commonly fitted to PCs in the 1990s\nas the ISA I/O expansion cards and/or motherboards of the time often didn't have room for all of the ports on the backplate. We didn't\nfit a DE9 to this board due to similar space issues.
 $EndSCHEMATC

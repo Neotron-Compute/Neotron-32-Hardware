@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -76,8 +75,8 @@ F 0 "F1" V 4475 3300 50  0000 C CNN
 F 1 "250mA PTC" V 4566 3300 50  0000 C CNN
 F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4750 3100 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4700 3300 50  0001 C CNN
-F 5 "Littelfuse Inc" V 4700 3300 50  0001 C CNN "Manufacturer"
-F 6 "RXEF025" V 4700 3300 50  0001 C CNN "PartNo"
+F 4 "Littelfuse Inc" V 4700 3300 50  0001 C CNN "Manufacturer"
+F 5 "RXEF025" V 4700 3300 50  0001 C CNN "PartNo"
 	1    4700 3300
 	0    1    1    0   
 $EndComp
@@ -89,8 +88,8 @@ F 0 "D2" V 5004 3679 50  0000 L CNN
 F 1 "SA5.0A" V 5095 3679 50  0000 L CNN
 F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5050 3600 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 5050 3600 50  0001 C CNN
-F 5 "Littelfuse" H 5050 3600 50  0001 C CNN "Manufacturer"
-F 6 "SA5.0A" H 5050 3600 50  0001 C CNN "PartNo"
+F 4 "Littelfuse" H 5050 3600 50  0001 C CNN "Manufacturer"
+F 5 "SA5.0A" H 5050 3600 50  0001 C CNN "PartNo"
 	1    5050 3600
 	0    1    1    0   
 $EndComp
@@ -316,4 +315,6 @@ Wire Wire Line
 	8750 3700 8850 3700
 Text Notes 8000 3950 0    50   ~ 0
 330R is for current limiting
+Text Notes 550  7700 0    50   Italic 0
+Connect to a 5V USB Power Supply. The board should only use around 100 mA in operation, so almost any USB 'phone charger'\nshould work, provided you have a full-size USB B cable (rather than USB micro-B). We use the full-size B as it is easier to solder the\nconnector.\n\nWe have our own 3.3V LDO to avoid overloading the LDO on the Launchpad.\n\nTaking the RESET pin low should reset the Launchpad, the AtMega and the MCP23S17.
 $EndSCHEMATC

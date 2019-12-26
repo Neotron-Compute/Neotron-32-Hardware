@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -264,6 +263,6 @@ Wire Wire Line
 Connection ~ 6250 3900
 Wire Wire Line
 	6350 3300 6350 4150
-Text Notes 5250 2100 0    100  ~ 20
-Audio
+Text Notes 550  7700 0    50   ~ 0
+The filter is very similar to that on a Raspberry Pi. You will need to connect some amplified speakers with their own volume control, as the\noutput is pretty weak.\n\nSet the jumper to 1-2 to send the Left Channel audio from the CPU to both the Left (Tip) and Right (Ring) outputs on the 3.5mm Jack.\n\nSet the jumper to 2-3 to send the Left Channel audio from the CPU to both the Left (Tip) output on the 3.5mm jack and the Right Channel\naudio from the CPU to the right (ring) channel on the 3.5mm Jack.\n\n
 $EndSCHEMATC

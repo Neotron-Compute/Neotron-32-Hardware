@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -28,8 +27,8 @@ F 0 "J5" H 2600 3425 50  0000 C CNN
 F 1 "DIN-5 180 degree" H 2600 3334 50  0000 C CNN
 F 2 "JGP Footprints:5P180 DIN Socket" H 2600 3700 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 3700 50  0001 C CNN
-F 5 "RS" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "491-087" H 0   0   50  0001 C CNN "PartNo"
+F 4 "RS" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "491-087" H 0   0   50  0001 C CNN "PartNo"
 	1    2600 3700
 	1    0    0    -1  
 $EndComp
@@ -399,8 +398,6 @@ Wire Wire Line
 	2800 2150 2600 2150
 Wire Wire Line
 	2600 2150 2600 2400
-Text Notes 5300 1650 0    100  ~ 20
-MIDI
 Wire Wire Line
 	5550 3750 6200 3750
 $Comp
@@ -427,4 +424,6 @@ Wire Wire Line
 Connection ~ 5100 5050
 Wire Wire Line
 	5100 5050 4200 5050
+Text Notes 550  7700 0    50   ~ 0
+Provides two MIDI (Musical Instrument Digital Interface) ports. These function like a UART at a fixed 31,250 bps. One port is for MIDI In\nand the other is for MIDI Out. The MIDI standard requires the input is opto-isolated, so we use the 6N138. The Hex-Schmitt inverter is\nused as a level shifter and buffer.
 $EndSCHEMATC

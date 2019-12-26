@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -280,6 +279,6 @@ Wire Wire Line
 Connection ~ 4050 2900
 Wire Wire Line
 	4050 2900 4050 3400
-Text Notes 5400 1500 0    100  ~ 20
-SD Card Storage
+Text Notes 550  7700 0    50   Italic 0
+We use a micro-SD card for space reasons. The SD card is driven in SPI mode.
 $EndSCHEMATC

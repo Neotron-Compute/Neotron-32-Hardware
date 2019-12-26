@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:neotron-32-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -570,8 +569,6 @@ Wire Wire Line
 	5700 2800 5700 3100
 Wire Wire Line
 	5700 3100 8250 3100
-Text Notes 4450 1050 0    100  ~ 20
-Keyboard, Mouse & Joystick
 $Comp
 L Device:C C?
 U 1 1 5E043F05
@@ -651,4 +648,6 @@ Wire Wire Line
 	9550 4300 9350 4300
 Wire Wire Line
 	9350 4300 9350 3750
+Text Notes 550  7700 0    50   Italic 0
+The AtMega 328 acts as the interface to the 5V PS/2 Keyboard and PS/2 Mouse, as well as the two 9-pin Joysticks. It buffers incoming\nevents and sends the buffered data in response to commands received over the UART. It can also activate the Keyboard LEDs and\nconfigure the Mouse sample rate.\n\nBoth Atari-compatible 9-pin joysticks and SEGA MegaDrive/Genesis 9-pin controllers are supported. The latter are detected when both\nLeft and Right are active (low); the AtMega will then flip the select line and read the 'other' set of pins.\n\nThe AtMega can be programmed via the standard ISP socket. Note that activating the AtMega AT_RESET line will reset the entire board.
 $EndSCHEMATC

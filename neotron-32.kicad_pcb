@@ -20,8 +20,8 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal)
+    (0 F.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user hide)
     (34 B.Paste user)
@@ -3697,6 +3697,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/models/c-292304-1-b-3d.stp
+      (offset (xyz 15 -1 5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 -180 90))
     )
   )
 

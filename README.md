@@ -44,8 +44,12 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **Audio**: The audio output is straight from the microcontroller and so is pretty weak. We recommend using amplified speakers, or an external headphone amplifier. Connecting headphones directly is untested and may pull too much current from the microcontroller.
   - **MIDI**: If you want to hook up a MIDI Synthesiser like a Roland MT-32, or a MIDI Keyboard, you just need standard 5-pin DIN MIDI cables. USB MIDI devices are not supported.
   - **USB**: The Tiva-C Launchpad has a USB micro-AB connector into which you can plug a Raspberry Pi Zero compatible micro-A to full-size A adaptor. There is no USB support in firmware yet, and the board can only supply a limited amount of current, so don't expect your mobile phone to charge.
+  - **Switches**: You'll need a 250 mA On/Off switch you can fix to the case to power the unit on (or short the header with a jumper), plus a momentary switch to reset the system.
+
+You can find a complete BOM, including case and switches, on [Octopart].
 
 [Neotron-32 Release Area]: https://github.com/Neotron-Compute/Neotron-32-Hardware/releases
+[Octopart]: https://octopart.com/bom-tool/nj44p0Ic
 
 ## Git Setup
 

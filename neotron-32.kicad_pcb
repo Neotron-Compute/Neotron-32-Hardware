@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 28)
+    (drawings 32)
     (tracks 1452)
     (zones 0)
     (modules 93)
@@ -5171,6 +5171,18 @@
     )
   )
 
+  (gr_text JLCJLCJLCJLC (at 210.82 153.67) (layer F.SilkS) (tstamp 5E06452A)
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
+  )
+  (gr_text "Rev [Uncontrolled]" (at 210.82 151.13) (layer F.SilkS) (tstamp 5E064525)
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
+  )
+  (gr_text "Copyright (c) Jonathan 'theJPster' Pallant\nCC BY-SA 4.0\ngithub.com/neotron-compute" (at 163.83 153.67) (layer F.SilkS) (tstamp 5E064513)
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
+  )
+  (gr_text "Neotron 32 Main PCB" (at 163.83 148.59) (layer F.SilkS)
+    (effects (font (size 2.54 2.54) (thickness 0.15)) (justify left))
+  )
   (gr_text "Expansion B - IRQ3/CS3" (at 183.515 20.955) (layer F.SilkS) (tstamp 5DFDFE21)
     (effects (font (size 1 1) (thickness 0.15)))
   )

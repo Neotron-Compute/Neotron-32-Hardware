@@ -808,6 +808,11 @@
       (net 96 "/Keyboard, Mouse and Joystick/KB_CLK"))
     (pad 6 thru_hole circle (at 3.4 11 90) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask)
       (net 132 "Net-(J15-Pad6)"))
+    (model ${KIPRJMOD}/models/KMDGX-6S-6S-S4N_rB8.STEP
+      (offset (xyz 0 -8.5 -0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5DFD5291)

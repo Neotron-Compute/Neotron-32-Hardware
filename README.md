@@ -46,10 +46,13 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **USB**: The Tiva-C Launchpad has a USB micro-AB connector into which you can plug a Raspberry Pi Zero compatible micro-A to full-size A adaptor. There is no USB support in firmware yet, and the board can only supply a limited amount of current, so don't expect your mobile phone to charge.
   - **Switches**: You'll need a 250 mA On/Off switch you can fix to the case to power the unit on (or short the header with a jumper), plus a momentary switch to reset the system.
 
-You can find a complete BOM, including case and switches, on [Octopart].
+You can find a complete BOM (excluding the custom PCB, but including case and switches), on [Octopart].
+
+You can buy complete kits and bare PCBs on [Tindie].
 
 [Neotron-32 Release Area]: https://github.com/Neotron-Compute/Neotron-32-Hardware/releases
 [Octopart]: https://octopart.com/bom-tool/nj44p0Ic
+[Tindie]: https://www.tindie.com/stores/thejpster/
 
 ## Git Setup
 

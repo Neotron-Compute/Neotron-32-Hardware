@@ -35,7 +35,7 @@ ${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.plot /kicad-project/$
 cp ${TEMP_PATH}/gerbers/${PROJECT}_gerbers.zip ${DIR}/build/${PROJECT}-gerbers.zip
 
 echo "Plotting PCB as PDF..."
-${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.plot -f pdf /kicad-project/${PROJECT}.kicad_pcb ${TEMP_PATH_IN_DOCKER}/pcb F.Cu B.Cu F.SilkS F.Mask Edge.Cuts
+${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.plot -f pdf /kicad-project/${PROJECT}.kicad_pcb ${TEMP_PATH_IN_DOCKER}/pcb
 cp ${TEMP_PATH}/pcb/${PROJECT}.pdf ${DIR}/build/${PROJECT}-pcb.pdf
 
 echo "Now run: sudo rm -rf ${TEMP_PATH}"

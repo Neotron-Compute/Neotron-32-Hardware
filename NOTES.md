@@ -33,4 +33,5 @@ Octopart https://octopart.com/bom-tool/nhQ4pql9
 
 # TODO List
 
-Need to re-work end panel DXF now connectors have moved.
+Need to do a front panel.
+

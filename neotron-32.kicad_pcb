@@ -20,7 +20,7 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user hide)
@@ -531,10 +531,10 @@
       (net 93 "/Keyboard, Mouse and Joystick/DOWN_JS2"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 94 "/Keyboard, Mouse and Joystick/UP_JS2"))
-    (model ${KISYS3DMOD}/Connector_Dsub.3dshapes/DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/models/c-5747467-2-b-3d.stp
+      (offset (xyz 5.5 -24 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 180 -180))
     )
   )
 
@@ -608,10 +608,10 @@
       (net 81 "/Keyboard, Mouse and Joystick/START_C_JS1"))
     (pad 0 thru_hole circle (at -6.96 9.2 90) (size 4 4) (drill 3.2) (layers *.Cu *.Mask))
     (pad 0 thru_hole circle (at 18.04 9.2 90) (size 4 4) (drill 3.2) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Dsub.3dshapes/DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/models/c-5747467-2-b-3d.stp
+      (offset (xyz 5.5 -24 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 180 -180))
     )
   )
 
@@ -1198,6 +1198,11 @@
       (net 35 /PB5_VGA_VSYNC))
     (pad 1.1 thru_hole circle (at -22.86 -11.43 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 128 +3.3VP))
+    (model "${KIPRJMOD}/models/User Library-KIT_TIVAC123M.IGS"
+      (offset (xyz -25 42 8.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 -90))
+    )
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal placed (layer F.Cu) (tedit 5AE5139B) (tstamp 5DFD44A3)
@@ -3652,6 +3657,11 @@
       (net 68 /~PA3_SPI_CS0))
     (pad 1 smd rect (at 9.175 11.038 180) (size 1.75044 0.700176) (layers F.Cu F.Paste F.Mask)
       (net 19 "Net-(J10-Pad1)"))
+    (model ${KIPRJMOD}/models/1140084168-revA.igs
+      (offset (xyz 6 -5 -0.1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal (layer F.Cu) (tedit 5AFE01FF) (tstamp 5DFDF33D)
@@ -3792,10 +3802,10 @@
       (net 40 /Audio/LEFT_CHAN))
     (pad S thru_hole oval (at 0 0 270) (size 2.8 1.8) (drill oval 2 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3533NG_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/models/129c20533c2cd7dda318afc41ae7ab4f8828891e.step
+      (offset (xyz 0 -4 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -3832,6 +3842,11 @@
       (net 136 "Net-(J5-Pad3)"))
     (pad 1 thru_hole circle (at 5 7.5) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
       (net 137 "Net-(J5-Pad1)"))
+    (model ${KIPRJMOD}/models/din-5.wrl
+      (offset (xyz 2 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module "JGP Footprints:5P180 DIN Socket" (layer F.Cu) (tedit 5C32731A) (tstamp 5DFD6D86)
@@ -3867,6 +3882,11 @@
       (net 133 "Net-(J4-Pad3)"))
     (pad 1 thru_hole circle (at 5 7.5) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
       (net 134 "Net-(J4-Pad1)"))
+    (model ${KIPRJMOD}/models/din-5.wrl
+      (offset (xyz 2 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5DFD45AC)
@@ -4094,7 +4114,7 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 60 "Net-(D3-Pad1)"))
     (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 -2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

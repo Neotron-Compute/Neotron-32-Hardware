@@ -6,6 +6,8 @@ The Neotron 32 brings the classic 1980s home-computer design up-to-date. Our tec
 
 With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hardware. With only 32 KiB of RAM, the challenge is to squeeze the maximum out of the minimum amount of resources. We've got 48x36 text mode, 384x288 bitmap mode, 3-channel audio synthesiser, joystick support and FAT filesystem support ... but there's still room for you to squeeze some more out the system.
 
+![3D Render of the PCB](./neotron-32-3d.jpg)
+
 ## Hardware
 
   - **CPU:** Texas Instruments Tiva-C TM4C123

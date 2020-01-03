@@ -44,4 +44,5 @@ Octopart https://octopart.com/bom-tool/nhQ4pql9
 # TODO List
 
 Need to do a front panel.
+Maybe swap the DB25 and DE9 headers for boxed ones, so you can't plug them in the wrong way around?
 

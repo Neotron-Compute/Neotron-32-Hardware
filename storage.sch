@@ -231,17 +231,17 @@ Wire Wire Line
 Wire Wire Line
 	7300 4000 7300 4100
 $Comp
-L neotron-32-rescue:Micro_SD_Card-Connector J10
+L Connector:Micro_SD_Card J10
 U 1 1 5E19DB95
 P 6250 3400
 AR Path="/5E19DB95" Ref="J10"  Part="1" 
 AR Path="/5DF1D0B0/5E19DB95" Ref="J10"  Part="1" 
 F 0 "J10" H 6200 4117 50  0000 C CNN
-F 1 "Amphenol micro SD 114-00841-68" H 6200 4026 50  0000 C CNN
-F 2 "Amphenol SD Card:1140084168" H 7400 3700 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/114-00841-68.pdf" H 6250 3400 50  0001 C CNN
-F 4 "Amphenol" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "114-00841-68" H 0   0   50  0001 C CNN "PartNo"
+F 1 "micro SD Card" H 6200 4026 50  0000 C CNN
+F 2 "JGP Footprints:Molex_4730_2651" H 7400 3700 50  0001 C CNN
+F 3 "" H 6250 3400 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "47309-2651" H 0   0   50  0001 C CNN "PartNo"
 	1    6250 3400
 	1    0    0    -1  
 $EndComp

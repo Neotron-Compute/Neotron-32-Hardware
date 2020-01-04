@@ -156,14 +156,12 @@ Wire Wire Line
 Wire Wire Line
 	2950 3900 2950 3950
 Wire Wire Line
-	4050 3300 4550 3300
-Wire Wire Line
 	8350 3700 8450 3700
 Text Notes 8700 2950 2    50   ~ 0
 Reset Button
 Text Notes 5150 2950 2    50   ~ 0
 Input Protection
-Text Notes 4150 2950 2    50   ~ 0
+Text Notes 4075 2700 2    50   ~ 0
 Power Switch
 Text Notes 3400 2950 2    50   ~ 0
 USB Power Input
@@ -284,21 +282,6 @@ Connection ~ 6100 3300
 Wire Wire Line
 	6100 3300 6350 3300
 $Comp
-L Switch:SW_SPST SW1
-U 1 1 5DFA9474
-P 3850 3300
-F 0 "SW1" H 3850 3535 50  0000 C CNN
-F 1 "SW_SPST" H 3850 3444 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3850 3300 50  0001 C CNN
-F 3 "~" H 3850 3300 50  0001 C CNN
-F 4 "Harwin" H 3850 3300 50  0001 C CNN "Manufacturer"
-F 5 "M20-9990246" H 3850 3300 50  0001 C CNN "PartNo"
-	1    3850 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 3300 3650 3300
-$Comp
 L Device:R R28
 U 1 1 5E09309F
 P 8600 3700
@@ -317,4 +300,39 @@ Text Notes 8000 3950 0    50   ~ 0
 330R is for current limiting
 Text Notes 550  7700 0    50   Italic 0
 Connect to a 5V USB Power Supply. The board should only use around 100 mA in operation, so almost any USB 'phone charger'\nshould work, provided you have a full-size USB B cable (rather than USB micro-B). We use the full-size B as it is easier to solder the\nconnector.\n\nWe have our own 3.3V LDO to avoid overloading the LDO on the Launchpad.\n\nTaking the RESET pin low should reset the Launchpad, the AtMega and the MCP23S17.
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 5E119D70
+P 3825 3300
+F 0 "SW1" H 3825 3785 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 3825 3694 50  0000 C CNN
+F 2 "Neotron 32:PHB2UEETS1A" H 3825 3500 50  0001 C CNN
+F 3 "~" H 3825 3500 50  0001 C CNN
+	1    3825 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3300 3525 3300
+Wire Wire Line
+	3525 3300 3525 3100
+Wire Wire Line
+	3525 3100 3625 3100
+Wire Wire Line
+	3625 3500 3525 3500
+Wire Wire Line
+	3525 3500 3525 3300
+Connection ~ 3525 3300
+Wire Wire Line
+	4250 3200 4250 3300
+Wire Wire Line
+	4250 3300 4550 3300
+Wire Wire Line
+	4025 3200 4250 3200
+Wire Wire Line
+	4025 3600 4250 3600
+Wire Wire Line
+	4250 3600 4250 3300
+Connection ~ 4250 3300
+NoConn ~ 4025 3400
+NoConn ~ 4025 3000
 $EndSCHEMATC

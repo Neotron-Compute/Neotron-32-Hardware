@@ -36,7 +36,7 @@ U 1 1 5E0F507E
 P 6300 3400
 F 0 "BT1" H 6418 3496 50  0000 L CNN
 F 1 "CR2032" H 6418 3405 50  0000 L CNN
-F 2 "JGP Footprints:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
+F 2 "Neotron 32:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
 F 3 "~" V 6300 3460 50  0001 C CNN
 F 4 "Keystone" H 6300 3400 50  0001 C CNN "Manufacturer"
 F 5 "103" H 6300 3400 50  0001 C CNN "PartNo"

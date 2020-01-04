@@ -500,7 +500,7 @@ U 1 1 5DF553E8
 P 6400 3650
 F 0 "J11" H 6450 4467 50  0000 C CNN
 F 1 "Conn_02x13_Top_Bottom" H 6450 4376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 6400 3650 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 6400 3650 50  0001 C CNN
 F 3 "~" H 6400 3650 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "~" H 0   0   50  0001 C CNN "PartNo"
@@ -641,6 +641,8 @@ Text Label 4250 3300 0    50   ~ 0
 RESET
 Text Label 4250 3400 0    50   ~ 0
 ~SELPRI
+Text Notes 550  7700 0    50   Italic 0
+Provides an 25-pin Parallel Port as found on an IBM PC. Implementation of SPP, EPP or ECP is down to the software on the MCU, as this is a\nbasic 3.3v SPI to GPIO convertor chip.\n\nThe strobe signal is direct from the CPU to allow it to be toggled on and off relatively quickly. The MCP23S17 can be configured to generate\ninputs to avoid the CPU busy-waiting for ACK from the remote device.\n\nIf you want a proper DB25 Parallel port, you will need a 26-way IDC ribbon to DB25 male cable. These were commonly fitted to PCs in the\n1990s as the ISA I/O expansion cards and/or motherboards of the time often didn't have room for all of the ports on the backplate. We\ndidn't fit a DB25 to this board due to similar space issues.
 Wire Bus Line
 	7200 3150 7200 4550
 Wire Bus Line
@@ -649,6 +651,4 @@ Wire Bus Line
 	5700 3150 5700 4550
 Wire Bus Line
 	4800 2400 4800 4550
-Text Notes 550  7700 0    50   Italic 0
-Provides an 25-pin Parallel Port as found on an IBM PC. Implementation of SPP, EPP or ECP is down to the software on the MCU, as this is a\nbasic 3.3v SPI to GPIO convertor chip.\n\nThe strobe signal is direct from the CPU to allow it to be toggled on and off relatively quickly. The MCP23S17 can be configured to generate\ninputs to avoid the CPU busy-waiting for ACK from the remote device.\n\nIf you want a proper DB25 Parallel port, you will need a 26-way IDC ribbon to DB25 male cable. These were commonly fitted to PCs in the\n1990s as the ISA I/O expansion cards and/or motherboards of the time often didn't have room for all of the ports on the backplate. We\ndidn't fit a DB25 to this board due to similar space issues.
 $EndSCHEMATC

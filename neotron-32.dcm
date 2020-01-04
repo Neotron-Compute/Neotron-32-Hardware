@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Double-mini-DIN-6
+D 6-pin DIN connector
+K circular DIN connector
+F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
+$ENDCMP
+#
+$CMP TM4C123G_Launchpad
+D Texas Instruments TM4C123GXL Launchpad
+$ENDCMP
+#
+#End Doc Library

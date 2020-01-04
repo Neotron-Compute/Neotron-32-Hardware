@@ -25,7 +25,7 @@ AR Path="/5DF5386C" Ref="J?"  Part="1"
 AR Path="/5DF253FB/5DF5386C" Ref="J5"  Part="1" 
 F 0 "J5" H 2600 3425 50  0000 C CNN
 F 1 "DIN-5 180 degree" H 2600 3334 50  0000 C CNN
-F 2 "JGP Footprints:5P180 DIN Socket" H 2600 3700 50  0001 C CNN
+F 2 "Neotron 32:5P180_DIN_Socket" H 2600 3700 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 3700 50  0001 C CNN
 F 4 "RS" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "491-087" H 0   0   50  0001 C CNN "PartNo"
@@ -40,7 +40,7 @@ AR Path="/5DF53872" Ref="J?"  Part="1"
 AR Path="/5DF253FB/5DF53872" Ref="J4"  Part="1" 
 F 0 "J4" H 2600 2425 50  0000 C CNN
 F 1 "DIN-5 180 degree" H 2600 2334 50  0000 C CNN
-F 2 "JGP Footprints:5P180 DIN Socket" H 2600 2700 50  0001 C CNN
+F 2 "Neotron 32:5P180_DIN_Socket" H 2600 2700 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 2700 50  0001 C CNN
 F 4 "RS" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "491-087" H 0   0   50  0001 C CNN "PartNo"

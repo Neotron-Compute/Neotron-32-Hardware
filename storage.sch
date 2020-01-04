@@ -238,7 +238,7 @@ AR Path="/5E19DB95" Ref="J10"  Part="1"
 AR Path="/5DF1D0B0/5E19DB95" Ref="J10"  Part="1" 
 F 0 "J10" H 6200 4117 50  0000 C CNN
 F 1 "micro SD Card" H 6200 4026 50  0000 C CNN
-F 2 "JGP Footprints:Molex_4730_2651" H 7400 3700 50  0001 C CNN
+F 2 "Neotron 32:Molex_4730_2651" H 7400 3700 50  0001 C CNN
 F 3 "" H 6250 3400 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "47309-2651" H 0   0   50  0001 C CNN "PartNo"

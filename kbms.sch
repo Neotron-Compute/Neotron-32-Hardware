@@ -628,14 +628,14 @@ Connection ~ 3200 1700
 Wire Wire Line
 	3200 1700 3400 1700
 $Comp
-L neotron-32-rescue:Double-mini-DIN-6-ExtraConnectors J15
+L neotron-32:Double-mini-DIN-6 J15
 U 1 1 5E0028E3
 P 9850 4000
 AR Path="/5E0028E3" Ref="J15"  Part="1" 
 AR Path="/5DF2662E/5E0028E3" Ref="J15"  Part="1" 
 F 0 "J15" H 9850 4698 50  0000 C CNN
 F 1 "Double-mini-DIN-6" H 9850 4607 50  0000 C CNN
-F 2 "JGP Footprints:Double_mini-DIN_6" H 9850 4250 50  0001 C CNN
+F 2 "Neotron 32:Double_mini-DIN_6" H 9850 4250 50  0001 C CNN
 F 3 "http://www.kycon.com/Pub_Eng_Draw/KMDGX-6S-6S-S4N.pdf" H 9850 4250 50  0001 C CNN
 F 4 "Kycon" H 9850 4000 50  0001 C CNN "Manufacturer"
 F 5 "KMDGX-6S-6S-S4N." H 9850 4000 50  0001 C CNN "PartNo"

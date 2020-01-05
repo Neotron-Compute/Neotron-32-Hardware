@@ -13,7 +13,7 @@ Comment2 "CC BY-SA 4.0"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8850 3700 2    50   Output ~ 0
+Text HLabel 8925 3475 2    50   Output ~ 0
 ~RESET
 $Comp
 L Connector:USB_B J9
@@ -112,19 +112,6 @@ F 3 "" H 6350 4050 50  0001 C CNN
 	1    6350 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 5DFD5E14
-P 8150 3700
-F 0 "SW2" H 8150 3985 50  0000 C CNN
-F 1 "SW_Push" H 8150 3894 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 3900 50  0001 C CNN
-F 3 "~" H 8150 3900 50  0001 C CNN
-F 4 "Harwin" H 8150 3700 50  0001 C CNN "Manufacturer"
-F 5 "M20-9990246" H 8150 3700 50  0001 C CNN "PartNo"
-	1    8150 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 3900 3050 3950
 $Comp
@@ -156,12 +143,12 @@ Wire Wire Line
 Wire Wire Line
 	2950 3900 2950 3950
 Wire Wire Line
-	8350 3700 8450 3700
-Text Notes 8700 2950 2    50   ~ 0
+	8425 3475 8525 3475
+Text Notes 8400 2950 2    50   ~ 0
 Reset Button
 Text Notes 5150 2950 2    50   ~ 0
 Input Protection
-Text Notes 4075 2700 2    50   ~ 0
+Text Notes 4150 2700 2    50   ~ 0
 Power Switch
 Text Notes 3400 2950 2    50   ~ 0
 USB Power Input
@@ -237,18 +224,11 @@ Local 3.3V LDO
 Wire Wire Line
 	7350 3300 7350 3450
 Wire Wire Line
-	7350 3750 7350 3950
-Wire Wire Line
 	6900 3600 6900 3950
 Wire Wire Line
 	6900 3950 7350 3950
 Wire Wire Line
-	7950 3700 7850 3700
-Wire Wire Line
-	7850 3700 7850 3950
-Wire Wire Line
-	7850 3950 7350 3950
-Connection ~ 7350 3950
+	8025 3375 7925 3375
 Wire Wire Line
 	5950 3950 6350 3950
 Connection ~ 5950 3950
@@ -261,7 +241,7 @@ Wire Wire Line
 	6350 3950 6900 3950
 Wire Wire Line
 	3050 3950 5050 3950
-Text Notes 9350 3850 2    50   ~ 0
+Text Notes 10150 3100 2    50   ~ 0
 Tiva-C has on-board 10k pull-up
 Wire Wire Line
 	5950 3300 6100 3300
@@ -284,19 +264,19 @@ Wire Wire Line
 $Comp
 L Device:R R28
 U 1 1 5E09309F
-P 8600 3700
-F 0 "R28" V 8393 3700 50  0000 C CNN
-F 1 "330" V 8484 3700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 3700 50  0001 C CNN
-F 3 "~" H 8600 3700 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 8600 3700 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT330R" H 8600 3700 50  0001 C CNN "PartNo"
-	1    8600 3700
+P 8675 3475
+F 0 "R28" V 8468 3475 50  0000 C CNN
+F 1 "330" V 8559 3475 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8605 3475 50  0001 C CNN
+F 3 "~" H 8675 3475 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 8675 3475 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT330R" H 8675 3475 50  0001 C CNN "PartNo"
+	1    8675 3475
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8750 3700 8850 3700
-Text Notes 8000 3950 0    50   ~ 0
+	8825 3475 8925 3475
+Text Notes 8800 3200 0    50   ~ 0
 330R is for current limiting
 Text Notes 550  7700 0    50   Italic 0
 Connect to a 5V USB Power Supply. The board should only use around 100 mA in operation, so almost any USB 'phone charger'\nshould work, provided you have a full-size USB B cable (rather than USB micro-B). We use the full-size B as it is easier to solder the\nconnector.\n\nWe have our own 3.3V LDO to avoid overloading the LDO on the Launchpad.\n\nTaking the RESET pin low should reset the Launchpad, the AtMega and the MCP23S17.
@@ -304,10 +284,12 @@ $Comp
 L Switch:SW_Push_DPDT SW1
 U 1 1 5E119D70
 P 3825 3300
-F 0 "SW1" H 3825 3785 50  0000 C CNN
-F 1 "SW_Push_DPDT" H 3825 3694 50  0000 C CNN
+F 0 "SW1" H 3900 3800 50  0000 C CNN
+F 1 "SW_Push_DPDT_ON_OFF" H 3950 3700 50  0000 C CNN
 F 2 "Neotron 32:PHB2UEETS1A" H 3825 3500 50  0001 C CNN
 F 3 "~" H 3825 3500 50  0001 C CNN
+F 4 "C&K" H 3825 3300 50  0001 C CNN "Manufacturer"
+F 5 "PHB2UEETS1A" H 3825 3300 50  0001 C CNN "PartNo"
 	1    3825 3300
 	1    0    0    -1  
 $EndComp
@@ -335,4 +317,76 @@ Wire Wire Line
 Connection ~ 4250 3300
 NoConn ~ 4025 3400
 NoConn ~ 4025 3000
+$Comp
+L Switch:SW_Push_DPDT SW2
+U 1 1 5E11D73E
+P 8225 3575
+F 0 "SW2" H 8225 4060 50  0000 C CNN
+F 1 "SW_Push_DPDT_ON_MO" H 8225 3969 50  0000 C CNN
+F 2 "Neotron 32:PHB2UEETS1A" H 8225 3775 50  0001 C CNN
+F 3 "~" H 8225 3775 50  0001 C CNN
+F 4 "C&K" H 8225 3575 50  0001 C CNN "Manufacturer"
+F 5 "PHB2UOATS1A" H 8225 3575 50  0001 C CNN "PartNo"
+	1    8225 3575
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8425 3275
+NoConn ~ 8425 3875
+Wire Wire Line
+	7925 3375 7925 3775
+Wire Wire Line
+	8025 3775 7925 3775
+Connection ~ 7925 3775
+$Comp
+L Device:LED D4
+U 1 1 5E12B86C
+P 8975 3675
+F 0 "D4" H 8975 3475 50  0000 C CNN
+F 1 "Red LED" H 8975 3550 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8975 3675 50  0001 C CNN
+F 3 "~" H 8975 3675 50  0001 C CNN
+F 4 "Würth Elektronik" H 8975 3675 50  0001 C CNN "Manufacturer"
+F 5 "151031SS04000" H 8975 3675 50  0001 C CNN "PartNo"
+	1    8975 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8425 3675 8525 3675
+$Comp
+L Device:R R4
+U 1 1 5E12DD30
+P 8675 3675
+F 0 "R4" V 8875 3675 50  0000 C CNN
+F 1 "330" V 8800 3675 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8605 3675 50  0001 C CNN
+F 3 "~" H 8675 3675 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 8675 3675 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT330R" H 8675 3675 50  0001 C CNN "PartNo"
+	1    8675 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E12E57E
+P 9350 3650
+F 0 "#PWR?" H 9350 3500 50  0001 C CNN
+F 1 "+5V" H 9365 3823 50  0000 C CNN
+F 2 "" H 9350 3650 50  0001 C CNN
+F 3 "" H 9350 3650 50  0001 C CNN
+	1    9350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9125 3675 9350 3675
+Wire Wire Line
+	9350 3675 9350 3650
+Text Notes 8600 4025 0    50   ~ 0
+Power LED goes out when CPU in Reset.
+Wire Wire Line
+	7350 3750 7350 3950
+Wire Wire Line
+	7350 3950 7925 3950
+Wire Wire Line
+	7925 3775 7925 3950
+Connection ~ 7350 3950
 $EndSCHEMATC

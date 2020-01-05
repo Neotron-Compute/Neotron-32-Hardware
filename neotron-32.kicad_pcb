@@ -74,7 +74,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x09030_7ffffffe)
+      (layerselection 0x01020_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -95,11 +95,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 3)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "dxf/"))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -6720,7 +6720,7 @@
   (segment (start 211.455 19.685) (end 222.167501 19.685) (width 0.25) (layer F.Cu) (net 116))
   (segment (start 222.167501 19.685) (end 224.707501 22.225) (width 0.25) (layer F.Cu) (net 116))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E117C10) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E113BBA) (hatch edge 0.508)
     (connect_pads (clearance 0.5))
     (min_thickness 0.5)
     (fill yes (arc_segments 32) (thermal_gap 0.5) (thermal_bridge_width 0.6) (smoothing chamfer))

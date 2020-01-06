@@ -9,6 +9,8 @@ if [ ! -v DOCKER_CMD ]; then
 	DOCKER_CMD="docker run --rm -it -v ${DIR}:/kicad-project productize/kicad-automation-scripts"
 fi
 
+LAYERS="B.Cu Cmts.User Edge.Cuts F.CrtYd F.Cu F.Fab F.SilkS"
+
 TEMP_PATH=$(mktemp -d "${DIR}/kicad-automation-XXXXXX")
 
 TEMP_PATH_IN_DOCKER=${TEMP_PATH/$DIR/\/kicad-project}
@@ -31,11 +33,11 @@ ${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.run_drc /kicad-projec
 cp ${TEMP_PATH}/drc/drc_result.rpt ${DIR}/build/${PROJECT}.drc
 
 echo "Generating Gebers..."
-${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.plot /kicad-project/${PROJECT}.kicad_pcb ${TEMP_PATH_IN_DOCKER}/gerbers
+${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.plot /kicad-project/${PROJECT}.kicad_pcb ${TEMP_PATH_IN_DOCKER}/gerbers ${LAYERS}
 cp ${TEMP_PATH}/gerbers/${PROJECT}_gerbers.zip ${DIR}/build/${PROJECT}-gerbers.zip
 
 echo "Plotting PCB as PDF..."
-${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.plot -f pdf /kicad-project/${PROJECT}.kicad_pcb ${TEMP_PATH_IN_DOCKER}/pcb
+${DOCKER_CMD} python -m kicad-automation.pcbnew_automation.plot -f pdf /kicad-project/${PROJECT}.kicad_pcb ${TEMP_PATH_IN_DOCKER}/pcb ${LAYERS}
 cp ${TEMP_PATH}/pcb/${PROJECT}.pdf ${DIR}/build/${PROJECT}-pcb.pdf
 
 echo "Now run: sudo rm -rf ${TEMP_PATH}"

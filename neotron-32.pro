@@ -67,7 +67,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.0508
+SolderMaskClearance=0.0254
 SolderMaskMinWidth=0.254
 SolderPasteClearance=0
 SolderPasteRatio=-0
@@ -251,7 +251,7 @@ dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.381
+Clearance=0.254
 TrackWidth=0.508
 ViaDiameter=1.016
 ViaDrill=0.635

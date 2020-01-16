@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 49)
-    (tracks 1040)
+    (tracks 1041)
     (zones 0)
     (modules 97)
     (nets 117)
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 1.016)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 1.016)
@@ -5371,6 +5371,7 @@
 
   (segment (start 232.851 136.905) (end 231.395 136.905) (width 0.254) (layer F.Cu) (net 1) (status 10))
   (via (at 231.14 136.905) (size 1.016) (drill 0.635) (layers F.Cu B.Cu) (net 1) (tstamp 5E20DC3C))
+  (segment (start 82.62 116.015) (end 82.62 120.595) (width 0.508) (layer Gnd.Cu) (net 1))
   (segment (start 105.41 27.94) (end 107.95 25.4) (width 1.016) (layer Vcc.Cu) (net 2) (status 20))
   (segment (start 101.6 27.94) (end 105.41 27.94) (width 1.016) (layer Vcc.Cu) (net 2) (status 10))
   (segment (start 113.03 25.4) (end 114.3 24.13) (width 1.016) (layer Vcc.Cu) (net 2) (status 20))

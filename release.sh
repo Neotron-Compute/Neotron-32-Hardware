@@ -9,7 +9,7 @@ if [ ! -v DOCKER_CMD ]; then
 	DOCKER_CMD="docker run --rm -it -v ${DIR}:/kicad-project productize/kicad-automation-scripts"
 fi
 
-LAYERS="B.Cu Cmts.User Edge.Cuts F.CrtYd F.Cu F.Fab F.SilkS"
+LAYERS="F.Cu Gnd.Cu Vcc.Cu B.Cu F.Mask F.CrtYd F.Fab F.SilkS Edge.Cuts"
 
 TEMP_PATH=$(mktemp -d "${DIR}/kicad-automation-XXXXXX")
 

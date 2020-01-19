@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "Neotron 32K Main PCB"
-Date "2019-12-16"
+Date "2020-01-18"
 Rev "[Uncontrolled]"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
@@ -979,15 +979,15 @@ WiFi UART
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J3
 U 1 1 5E4EF859
-P 8950 2950
-F 0 "J3" H 9000 3267 50  0000 C CNN
-F 1 "Conn_02x04" H 9000 3176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8950 2950 50  0001 C CNN
-F 3 "~" H 8950 2950 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "PartNo"
-	1    8950 2950
-	1    0    0    -1  
+P 9050 2950
+F 0 "J3" H 9100 3267 50  0000 C CNN
+F 1 "Conn_02x04" H 9100 3176 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 9050 2950 50  0001 C CNN
+F 3 "~" H 9050 2950 50  0001 C CNN
+F 4 "~" H 100 0   50  0001 C CNN "Manufacturer"
+F 5 "~" H 100 0   50  0001 C CNN "PartNo"
+	1    9050 2950
+	-1   0    0    -1  
 $EndComp
 Text Label 8700 2850 2    50   ~ 0
 PD7_U2TX
@@ -1055,53 +1055,53 @@ ESP01 Compatible
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DFC719B
-P 6200 6800
-F 0 "H1" H 6300 6846 50  0000 L CNN
-F 1 "MountingHole" H 6300 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6800 50  0001 C CNN
-F 3 "~" H 6200 6800 50  0001 C CNN
-F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
-	1    6200 6800
+P 6200 6600
+F 0 "H1" H 6300 6646 50  0000 L CNN
+F 1 "MountingHole" H 6300 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6600 50  0001 C CNN
+F 3 "~" H 6200 6600 50  0001 C CNN
+F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+	1    6200 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DFC7744
-P 6200 7000
-F 0 "H2" H 6300 7046 50  0000 L CNN
-F 1 "MountingHole" H 6300 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7000 50  0001 C CNN
-F 3 "~" H 6200 7000 50  0001 C CNN
-F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
-	1    6200 7000
+P 6200 6800
+F 0 "H2" H 6300 6846 50  0000 L CNN
+F 1 "MountingHole" H 6300 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6800 50  0001 C CNN
+F 3 "~" H 6200 6800 50  0001 C CNN
+F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+	1    6200 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5DFC781B
-P 6200 7200
-F 0 "H3" H 6300 7246 50  0000 L CNN
-F 1 "MountingHole" H 6300 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7200 50  0001 C CNN
-F 3 "~" H 6200 7200 50  0001 C CNN
-F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
-	1    6200 7200
+P 6200 7000
+F 0 "H3" H 6300 7046 50  0000 L CNN
+F 1 "MountingHole" H 6300 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7000 50  0001 C CNN
+F 3 "~" H 6200 7000 50  0001 C CNN
+F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+	1    6200 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5DFC799C
-P 6200 7400
-F 0 "H4" H 6300 7446 50  0000 L CNN
-F 1 "MountingHole" H 6300 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7400 50  0001 C CNN
-F 3 "~" H 6200 7400 50  0001 C CNN
-F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
-	1    6200 7400
+P 6200 7200
+F 0 "H4" H 6300 7246 50  0000 L CNN
+F 1 "MountingHole" H 6300 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7200 50  0001 C CNN
+F 3 "~" H 6200 7200 50  0001 C CNN
+F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+	1    6200 7200
 	1    0    0    -1  
 $EndComp
 Text Label 1500 2550 0    50   ~ 0
@@ -1138,6 +1138,32 @@ Wire Wire Line
 	8250 1550 9950 1550
 Text Notes 550  7700 0    50   Italic 0
 The Neotron-32 is based around a Texas Instruments EK-TM4C123GH6 Tiva-C Launchpad board. This includes a TM4C123 microcontroller\nand a JTAG + USB Serial interface.\n\nDrill down into the sub-sheets to see more detail.
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5E157BE6
+P 6200 7400
+F 0 "H5" H 6300 7446 50  0000 L CNN
+F 1 "MountingHole" H 6300 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7400 50  0001 C CNN
+F 3 "~" H 6200 7400 50  0001 C CNN
+F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
+	1    6200 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5E1640CD
+P 6200 7600
+F 0 "H6" H 6300 7646 50  0000 L CNN
+F 1 "MountingHole" H 6300 7555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7600 50  0001 C CNN
+F 3 "~" H 6200 7600 50  0001 C CNN
+F 4 "~" H 4650 100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 100 50  0001 C CNN "PartNo"
+	1    6200 7600
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line

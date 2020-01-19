@@ -495,11 +495,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 3600 1450 3700
 $Comp
-L Connector_Generic:Conn_02x13_Top_Bottom J11
+L Connector_Generic:Conn_02x13_Odd_Even J11
 U 1 1 5DF553E8
 P 6400 3650
 F 0 "J11" H 6450 4467 50  0000 C CNN
-F 1 "Conn_02x13_Top_Bottom" H 6450 4376 50  0000 C CNN
+F 1 "Conn_02x13_Header" H 6450 4376 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 6400 3650 50  0001 C CNN
 F 3 "~" H 6400 3650 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"

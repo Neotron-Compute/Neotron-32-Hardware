@@ -18,14 +18,14 @@ Text HLabel 8925 3475 2    50   Output ~ 0
 $Comp
 L Connector:USB_B J9
 U 1 1 5DFCA02C
-P 3050 3500
-F 0 "J9" H 3050 3950 50  0000 C CNN
-F 1 "USB_B" H 3050 3850 50  0000 C CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 3200 3450 50  0001 C CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/USB-B1HSXX.pdf" H 3200 3450 50  0001 C CNN
-F 4 "On Shore Technology" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "USB-B1HSB6" H 0   0   50  0001 C CNN "PartNo"
-	1    3050 3500
+P 2450 3500
+F 0 "J9" H 2450 3950 50  0000 C CNN
+F 1 "USB_B" H 2450 3850 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 2600 3450 50  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/USB-B1HSXX.pdf" H 2600 3450 50  0001 C CNN
+F 4 "On Shore Technology" H -600 0   50  0001 C CNN "Manufacturer"
+F 5 "USB-B1HSB6" H -600 0   50  0001 C CNN "PartNo"
+	1    2450 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -39,8 +39,8 @@ F 3 "" H 6350 3250 50  0001 C CNN
 	1    6350 3250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3350 3500
-NoConn ~ 3350 3600
+NoConn ~ 2750 3500
+NoConn ~ 2750 3600
 $Comp
 L Device:CP C6
 U 1 1 5DFCD9F0
@@ -73,7 +73,7 @@ U 1 1 5DFCE179
 P 4700 3300
 F 0 "F1" V 4475 3300 50  0000 C CNN
 F 1 "250mA PTC" V 4566 3300 50  0000 C CNN
-F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4750 3100 50  0001 L CNN
+F 2 "Fuse:Fuse_Littelfuse_395Series" H 4750 3100 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4700 3300 50  0001 C CNN
 F 4 "Littelfuse Inc" V 4700 3300 50  0001 C CNN "Manufacturer"
 F 5 "RXEF025" V 4700 3300 50  0001 C CNN "PartNo"
@@ -113,44 +113,44 @@ F 3 "" H 6350 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 3900 3050 3950
+	2450 3900 2450 3950
 $Comp
 L Device:R R14
 U 1 1 5DFD98A8
-P 2950 4100
-F 0 "R14" H 2880 4054 50  0000 R CNN
-F 1 "DNF" H 2880 4145 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2880 4100 50  0001 C CNN
-F 3 "~" H 2950 4100 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "PartNo"
-	1    2950 4100
+P 2350 4100
+F 0 "R14" H 2280 4054 50  0000 R CNN
+F 1 "DNF" H 2280 4145 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 4100 50  0001 C CNN
+F 3 "~" H 2350 4100 50  0001 C CNN
+F 4 "~" H -600 0   50  0001 C CNN "Manufacturer"
+F 5 "~" H -600 0   50  0001 C CNN "PartNo"
+	1    2350 4100
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DFDADE6
-P 2950 4300
-F 0 "#PWR?" H 2950 4050 50  0001 C CNN
-F 1 "GND" H 2955 4127 50  0000 C CNN
-F 2 "" H 2950 4300 50  0001 C CNN
-F 3 "" H 2950 4300 50  0001 C CNN
-	1    2950 4300
+P 2350 4300
+F 0 "#PWR?" H 2350 4050 50  0001 C CNN
+F 1 "GND" H 2355 4127 50  0000 C CNN
+F 2 "" H 2350 4300 50  0001 C CNN
+F 3 "" H 2350 4300 50  0001 C CNN
+	1    2350 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 4250 2950 4300
+	2350 4250 2350 4300
 Wire Wire Line
-	2950 3900 2950 3950
+	2350 3900 2350 3950
 Wire Wire Line
 	8425 3475 8525 3475
 Text Notes 8400 2950 2    50   ~ 0
 Reset Button
 Text Notes 5150 2950 2    50   ~ 0
 Input Protection
-Text Notes 4150 2700 2    50   ~ 0
+Text Notes 3825 2700 2    50   ~ 0
 Power Switch
-Text Notes 3400 2950 2    50   ~ 0
+Text Notes 2800 2950 2    50   ~ 0
 USB Power Input
 Wire Wire Line
 	6350 3950 6350 4050
@@ -160,9 +160,6 @@ Wire Wire Line
 	5050 3300 5050 3450
 Wire Wire Line
 	5050 3750 5050 3950
-Connection ~ 5050 3950
-Wire Wire Line
-	5050 3950 5550 3950
 Wire Wire Line
 	5550 3300 5950 3300
 Wire Wire Line
@@ -239,8 +236,6 @@ Wire Wire Line
 Connection ~ 6350 3950
 Wire Wire Line
 	6350 3950 6900 3950
-Wire Wire Line
-	3050 3950 5050 3950
 Text Notes 10150 3100 2    50   ~ 0
 Tiva-C has on-board 10k pull-up
 Wire Wire Line
@@ -283,40 +278,31 @@ Connect to a 5V USB Power Supply. The board should only use around 100 mA in ope
 $Comp
 L Switch:SW_Push_DPDT SW1
 U 1 1 5E119D70
-P 3825 3300
-F 0 "SW1" H 3900 3800 50  0000 C CNN
-F 1 "SW_Push_DPDT_ON_OFF" H 3950 3700 50  0000 C CNN
-F 2 "Neotron 32:PHB2UEETS1A" H 3825 3500 50  0001 C CNN
-F 3 "~" H 3825 3500 50  0001 C CNN
-F 4 "C&K" H 3825 3300 50  0001 C CNN "Manufacturer"
-F 5 "PHB2UEETS1A" H 3825 3300 50  0001 C CNN "PartNo"
-	1    3825 3300
+P 3500 3300
+F 0 "SW1" H 3575 3800 50  0000 C CNN
+F 1 "SW_Push_DPDT_ON_OFF" H 3625 3700 50  0000 C CNN
+F 2 "Neotron 32:PHB2UEETS1A" H 3500 3500 50  0001 C CNN
+F 3 "~" H 3500 3500 50  0001 C CNN
+F 4 "C&K" H 3500 3300 50  0001 C CNN "Manufacturer"
+F 5 "PHB2UEETS1A" H 3500 3300 50  0001 C CNN "PartNo"
+	1    3500 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 3300 3525 3300
+	3200 3100 3300 3100
 Wire Wire Line
-	3525 3300 3525 3100
+	3300 3500 3200 3500
 Wire Wire Line
-	3525 3100 3625 3100
+	3925 3200 3925 3300
 Wire Wire Line
-	3625 3500 3525 3500
+	3700 3200 3925 3200
 Wire Wire Line
-	3525 3500 3525 3300
-Connection ~ 3525 3300
+	3700 3600 3925 3600
 Wire Wire Line
-	4250 3200 4250 3300
-Wire Wire Line
-	4250 3300 4550 3300
-Wire Wire Line
-	4025 3200 4250 3200
-Wire Wire Line
-	4025 3600 4250 3600
-Wire Wire Line
-	4250 3600 4250 3300
-Connection ~ 4250 3300
-NoConn ~ 4025 3400
-NoConn ~ 4025 3000
+	3925 3600 3925 3300
+Connection ~ 3925 3300
+NoConn ~ 3700 3400
+NoConn ~ 3700 3000
 $Comp
 L Switch:SW_Push_DPDT SW2
 U 1 1 5E11D73E
@@ -389,4 +375,22 @@ Wire Wire Line
 Wire Wire Line
 	7925 3775 7925 3950
 Connection ~ 7350 3950
+Text Label 4000 3300 0    50   ~ 0
+UNFUSED_5V
+Wire Wire Line
+	2450 3950 5050 3950
+Wire Wire Line
+	5050 3950 5550 3950
+Connection ~ 5050 3950
+Text Label 2900 3300 0    50   ~ 0
+VUSB
+Wire Wire Line
+	3200 3100 3200 3300
+Wire Wire Line
+	2750 3300 3200 3300
+Connection ~ 3200 3300
+Wire Wire Line
+	3200 3300 3200 3500
+Wire Wire Line
+	3925 3300 4550 3300
 $EndSCHEMATC

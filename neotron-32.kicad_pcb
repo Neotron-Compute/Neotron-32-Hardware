@@ -13,7 +13,7 @@
   (title_block
     (title "Neotron 32K Main PCB")
     (date 2019-12-09)
-    (rev [Uncontrolled])
+    (rev [v1.2.0])
     (company github.com/neotron-compute/Neotron-32-Hardware)
     (comment 1 "Copyright (c) Jonathan 'theJPster' Pallant")
     (comment 2 "CC BY-SA 4.0")
@@ -5297,7 +5297,7 @@
   (gr_text JLCJLCJLCJLC (at 126.365 156.21) (layer F.SilkS) (tstamp 5E06452A)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
   )
-  (gr_text "Rev [Uncontrolled]" (at 126.365 153.67) (layer F.SilkS) (tstamp 5E064525)
+  (gr_text "Rev [v1.2.0]" (at 126.365 153.67) (layer F.SilkS) (tstamp 5E064525)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
   )
   (gr_text "Copyright (c) Jonathan 'theJPster' Pallant" (at 163.83 151.13) (layer F.SilkS) (tstamp 5E064513)

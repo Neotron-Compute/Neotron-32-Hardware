@@ -73,7 +73,7 @@ U 1 1 5DFCE179
 P 4700 3300
 F 0 "F1" V 4475 3300 50  0000 C CNN
 F 1 "250mA PTC" V 4566 3300 50  0000 C CNN
-F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4750 3100 50  0001 L CNN
+F 2 "Fuse:Fuse_Littelfuse_395Series" H 4750 3100 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4700 3300 50  0001 C CNN
 F 4 "Littelfuse Inc" V 4700 3300 50  0001 C CNN "Manufacturer"
 F 5 "RXEF025" V 4700 3300 50  0001 C CNN "PartNo"

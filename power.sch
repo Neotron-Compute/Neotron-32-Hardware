@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 10
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
-Rev "[Uncontrolled]"
+Rev "[v1.2.1]"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
 Comment2 "CC BY-SA 4.0"

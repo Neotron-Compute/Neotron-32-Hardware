@@ -6,7 +6,11 @@ The Neotron 32 brings the classic 1980s home-computer design up-to-date. Our tec
 
 With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hardware. With only 32 KiB of RAM, the challenge is to squeeze the maximum out of the minimum amount of resources. We've got 48x36 text mode, 384x288 bitmap mode, 3-channel audio synthesiser, joystick support and FAT filesystem support ... but there's still room for you to squeeze some more out the system.
 
-![3D Render of the PCB](./neotron-32-3d.jpg)
+![Right Hand View](./neotron-32-a.jpg)
+
+![Left Hand View](./neotron-32-b.jpg)
+
+![Top View](./neotron-32-c.jpg)
 
 ## Hardware
 
@@ -68,6 +72,12 @@ $ git config --global filter.kicad_sch.smudge cat
 ```
 
 See https://jnavila.github.io/plotkicadsch/ for details.
+
+## Software
+
+You will need to flash both the [Neotron 32 BIOS](https://github.com/neotron-compute/Neotron-32-BIOS) and the [Neotron OS](https://github.com/neotron-compute/Neotron-OS). The TM4C123 Launchpad has an on-board USB programming tool, which is supported by OpenOCD, so no extra hardware is required.
+
+Once running the OS, you can load applications from the SD card. Applications can be written in C or in Rust, using the [Neotron SDK](https://github.com/neotron-compute/Neotron-SDK).
 
 ## Licence
 

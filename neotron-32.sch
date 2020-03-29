@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "Neotron 32K Main PCB"
-Date "2020-01-18"
+Date "2020-03-29"
 Rev "[Uncontrolled]"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
@@ -64,8 +64,8 @@ S 9650 5200 1050 700
 U 5DF2662E
 F0 "Keyboard, Mouse and Joystick" 50
 F1 "kbms.sch" 50
-F2 "KBMS_FROM_MCU" I L 9650 5300 50 
-F3 "KBMS_TO_MCU" O L 9650 5400 50 
+F2 "UART_FROM_HOST" I L 9650 5300 50 
+F3 "UART_TO_HOST" O L 9650 5400 50 
 F4 "~RESET" I L 9650 5500 50 
 $EndSheet
 $Comp
@@ -330,7 +330,7 @@ PE0_U7RX
 Text Label 9050 5300 0    50   ~ 0
 PE1_U7TX
 Text Label 9050 5500 0    50   ~ 0
-~RESET
+~PF4_AT_RESET
 Text Label 7000 5350 2    50   ~ 0
 PB0_U1RX
 Text Label 7000 5250 2    50   ~ 0
@@ -875,7 +875,6 @@ Text Label 9300 2250 0    50   ~ 0
 ~PE2_SPI_CS3
 Text Label 9300 1850 0    50   ~ 0
 ~PD2_IRQ3
-NoConn ~ 6500 3200
 Wire Wire Line
 	2100 1550 1450 1550
 Wire Wire Line
@@ -971,11 +970,9 @@ PD7_U2TX
 Entry Wire Line
 	9950 3150 10050 3250
 Text Notes 10200 1250 0    50   ~ 0
-Expansion Slot A
-Text Notes 10200 2250 0    50   ~ 0
-Expansion Slot B
-Text Notes 10200 2950 0    50   ~ 0
-WiFi UART
+Expansion Slot A\n3.3v Signalling\nIRQ2\nSPI CS2
+Text Notes 10175 3050 0    50   ~ 0
+WiFi UART\n3.3v Signalling\nESP01 Compatible
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J3
 U 1 1 5E4EF859
@@ -1044,14 +1041,6 @@ Text Label 1500 2050 0    50   ~ 0
 ~PD2_IRQ3
 Text Label 3000 2650 0    50   ~ 0
 PD7_U2TX
-Text Notes 10200 1350 0    50   ~ 0
-3.3v Signalling
-Text Notes 10200 2350 0    50   ~ 0
-3.3v Signalling
-Text Notes 10200 3050 0    50   ~ 0
-3.3v Signalling
-Text Notes 10200 3150 0    50   ~ 0
-ESP01 Compatible
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DFC719B
@@ -1164,6 +1153,30 @@ F 5 "~" H 4650 100 50  0001 C CNN "PartNo"
 	1    6200 7600
 	1    0    0    -1  
 $EndComp
+Text Notes 2950 1375 0    50   ~ 0
+Page 4
+Text Notes 2400 4375 0    50   ~ 0
+Page 5
+Text Notes 2400 5925 0    50   ~ 0
+Page 6
+Text Notes 5000 5875 0    50   ~ 0
+Page 8
+Text Notes 5000 4375 0    50   ~ 0
+Page 9
+Text Notes 7825 4375 0    50   ~ 0
+Page 2
+Text Notes 7825 5875 0    50   ~ 0
+Page 10
+Text Notes 10375 4400 0    50   ~ 0
+Page 3
+Text Notes 10350 5875 0    50   ~ 0
+Page 7
+Text Notes 10175 2250 0    50   ~ 0
+Expansion Slot B\n3.3v Signalling\nIRQ3\nSPI CS3
+Entry Wire Line
+	7200 3200 7300 3300
+Wire Wire Line
+	6500 3200 7200 3200
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line
@@ -1184,4 +1197,6 @@ Wire Bus Line
 	7300 1400 7300 3450
 Wire Bus Line
 	10050 950  10050 3450
+Text Label 6550 3200 0    50   ~ 0
+~PF4_AT_RESET
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
 Title "Neotron 32K Main PCB"
-Date "2019-12-16"
+Date "2020-03-29"
 Rev "[Uncontrolled]"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
@@ -43,7 +43,7 @@ L Device:R R27
 U 1 1 5E020EF6
 P 6100 3450
 F 0 "R27" V 6000 3350 50  0000 C CNN
-F 1 "470" V 6000 3550 50  0000 C CNN
+F 1 "330" V 6000 3550 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 3450 50  0001 C CNN
 F 3 "~" H 6100 3450 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 6100 3450 50  0001 C CNN "Manufacturer"
@@ -56,7 +56,7 @@ L Device:R R26
 U 1 1 5E02143C
 P 6100 3250
 F 0 "R26" V 6000 3150 50  0000 C CNN
-F 1 "470" V 6000 3350 50  0000 C CNN
+F 1 "330" V 6000 3350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 3250 50  0001 C CNN
 F 3 "~" H 6100 3250 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 6100 3250 50  0001 C CNN "Manufacturer"

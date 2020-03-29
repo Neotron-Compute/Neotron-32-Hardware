@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 10
 Title "Neotron 32K Main PCB"
-Date "2019-12-16"
+Date "2020-03-29"
 Rev "[Uncontrolled]"
 Comp "github.com/neotron-compute/Neotron-32-Hardware"
 Comment1 "Copyright (c) Jonathan 'theJPster' Pallant"
@@ -68,7 +68,7 @@ L Device:C C26
 U 1 1 5E181E57
 P 6500 2900
 F 0 "C26" H 6615 2946 50  0000 L CNN
-F 1 "470n" H 6615 2855 50  0000 L CNN
+F 1 "100n" H 6615 2855 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6538 2750 50  0001 C CNN
 F 3 "~" H 6500 2900 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
@@ -81,7 +81,7 @@ L Device:C C27
 U 1 1 5E182C3F
 P 6800 3550
 F 0 "C27" V 6650 3450 50  0000 C CNN
-F 1 "470n" V 6650 3650 50  0000 C CNN
+F 1 "100n" V 6650 3650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6838 3400 50  0001 C CNN
 F 3 "~" H 6800 3550 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
@@ -176,7 +176,7 @@ L Device:C C28
 U 1 1 5E188858
 P 7050 2800
 F 0 "C28" H 7165 2846 50  0000 L CNN
-F 1 "470n" H 7165 2755 50  0000 L CNN
+F 1 "100n" H 7165 2755 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7088 2650 50  0001 C CNN
 F 3 "~" H 7050 2800 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"

@@ -29,6 +29,7 @@ F 2 "Neotron 32:5P180_DIN_Socket" H 2600 3700 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 3700 50  0001 C CNN
 F 4 "RS" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "491-087" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 2600 3700 50  0001 C CNN "DNP"
 	1    2600 3700
 	1    0    0    -1  
 $EndComp
@@ -44,6 +45,7 @@ F 2 "Neotron 32:5P180_DIN_Socket" H 2600 2700 50  0001 C CNN
 F 3 "https://docs.rs-online.com/1ee9/0900766b81579be1.pdf" H 2600 2700 50  0001 C CNN
 F 4 "RS" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "491-087" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 2600 2700 50  0001 C CNN "DNP"
 	1    2600 2700
 	1    0    0    -1  
 $EndComp
@@ -55,8 +57,9 @@ F 0 "U3" H 4900 4117 50  0000 C CNN
 F 1 "6N138" H 4900 4026 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 5190 3350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N138-39%20Series.pdf" H 5190 3350 50  0001 C CNN
-F 4 "Lite-On Inc." H 4900 3650 50  0001 C CNN "Manufacturer"
-F 5 "6N138" H 4900 3650 50  0001 C CNN "mpn"
+F 4 "Lite-On Inc.;On Shore Technology" H 4900 3650 50  0001 C CNN "Manufacturer"
+F 5 "6N138;ED08DT" H 4900 3650 50  0001 C CNN "mpn"
+F 6 "0" H 4900 3650 50  0001 C CNN "DNP"
 	1    4900 3650
 	1    0    0    -1  
 $EndComp
@@ -68,8 +71,9 @@ F 0 "U2" H 3900 2333 50  0000 C CNN
 F 1 "74LS14" H 3900 2424 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3900 2650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3900 2650 50  0001 C CNN
-F 4 "Texas Instruments" H 3900 2650 50  0001 C CNN "Manufacturer"
-F 5 "SN74LS14N" H 3900 2650 50  0001 C CNN "mpn"
+F 4 "Texas Instruments;On Shore Technology" H 3900 2650 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N;ED14DT" H 3900 2650 50  0001 C CNN "mpn"
+F 6 "0" H 3900 2650 50  0001 C CNN "DNP"
 	1    3900 2650
 	-1   0    0    1   
 $EndComp
@@ -81,8 +85,9 @@ F 0 "U2" H 4800 2333 50  0000 C CNN
 F 1 "74LS14" H 4800 2424 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4800 2650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 4800 2650 50  0001 C CNN
-F 4 "Texas Instruments" H 4800 2650 50  0001 C CNN "Manufacturer"
-F 5 "SN74LS14N" H 4800 2650 50  0001 C CNN "mpn"
+F 4 "Texas Instruments;On Shore Technology" H 4800 2650 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N;ED14DT" H 4800 2650 50  0001 C CNN "mpn"
+F 6 "0" H 4800 2650 50  0001 C CNN "DNP"
 	2    4800 2650
 	-1   0    0    1   
 $EndComp
@@ -94,8 +99,9 @@ F 0 "U2" H 4800 4433 50  0000 C CNN
 F 1 "74LS14" H 4800 4524 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4800 4750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 4800 4750 50  0001 C CNN
-F 4 "Texas Instruments" H 4800 4750 50  0001 C CNN "Manufacturer"
-F 5 "SN74LS14N" H 4800 4750 50  0001 C CNN "mpn"
+F 4 "Texas Instruments;On Shore Technology" H 4800 4750 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N;ED14DT" H 4800 4750 50  0001 C CNN "mpn"
+F 6 "0" H 4800 4750 50  0001 C CNN "DNP"
 	3    4800 4750
 	-1   0    0    1   
 $EndComp
@@ -107,8 +113,9 @@ F 0 "U2" H 3900 4433 50  0000 C CNN
 F 1 "74LS14" H 3900 4524 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3900 4750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3900 4750 50  0001 C CNN
-F 4 "Texas Instruments" H 3900 4750 50  0001 C CNN "Manufacturer"
-F 5 "SN74LS14N" H 3900 4750 50  0001 C CNN "mpn"
+F 4 "Texas Instruments;On Shore Technology" H 3900 4750 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N;ED14DT" H 3900 4750 50  0001 C CNN "mpn"
+F 6 "0" H 3900 4750 50  0001 C CNN "DNP"
 	4    3900 4750
 	-1   0    0    1   
 $EndComp
@@ -120,8 +127,9 @@ F 0 "U2" H 8230 3646 50  0000 L CNN
 F 1 "74LS14" H 8230 3555 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 8000 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 8000 3600 50  0001 C CNN
-F 4 "Texas Instruments" H 8000 3600 50  0001 C CNN "Manufacturer"
-F 5 "SN74LS14N" H 8000 3600 50  0001 C CNN "mpn"
+F 4 "Texas Instruments;On Shore Technology" H 8000 3600 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N;ED14DT" H 8000 3600 50  0001 C CNN "mpn"
+F 6 "0" H 8000 3600 50  0001 C CNN "DNP"
 	7    8000 3600
 	1    0    0    -1  
 $EndComp
@@ -135,6 +143,7 @@ F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 3650 50  0001 C CNN
 F 3 "~" H 4250 3650 50  0001 C CNN
 F 4 "ON Semi" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "1N4148" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 4250 3650 50  0001 C CNN "DNP"
 	1    4250 3650
 	0    1    1    0   
 $EndComp
@@ -148,6 +157,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3130 3300
 F 3 "~" H 3200 3300 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 3200 3300 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT220R" H 3200 3300 50  0001 C CNN "mpn"
+F 6 "0" H 3200 3300 50  0001 C CNN "DNP"
 	1    3200 3300
 	0    1    1    0   
 $EndComp
@@ -161,6 +171,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 2650
 F 3 "~" H 3300 2650 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 3300 2650 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT220R" H 3300 2650 50  0001 C CNN "mpn"
+F 6 "0" H 3300 2650 50  0001 C CNN "DNP"
 	1    3300 2650
 	0    1    1    0   
 $EndComp
@@ -174,6 +185,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 3350
 F 3 "~" H 5550 3350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5550 3350 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT470R" H 5550 3350 50  0001 C CNN "mpn"
+F 6 "0" H 5550 3350 50  0001 C CNN "DNP"
 	1    5550 3350
 	-1   0    0    1   
 $EndComp
@@ -187,6 +199,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5330 4000
 F 3 "~" H 5400 4000 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5400 4000 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT10K0" H 5400 4000 50  0001 C CNN "mpn"
+F 6 "0" H 5400 4000 50  0001 C CNN "DNP"
 	1    5400 4000
 	-1   0    0    1   
 $EndComp
@@ -301,6 +314,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1980 2350
 F 3 "~" H 2050 2350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 2050 2350 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT220R" H 2050 2350 50  0001 C CNN "mpn"
+F 6 "0" H 2050 2350 50  0001 C CNN "DNP"
 	1    2050 2350
 	-1   0    0    1   
 $EndComp
@@ -355,6 +369,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7538 3450 50  0001 C CNN
 F 3 "~" H 7500 3600 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7500 3600 50  0001 C CNN "DNP"
 	1    7500 3600
 	1    0    0    -1  
 $EndComp

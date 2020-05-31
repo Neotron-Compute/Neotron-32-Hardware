@@ -25,6 +25,7 @@ F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 2600 3450 50  0001 C CNN
 F 3 "http://www.on-shore.com/wp-content/uploads/USB-B1HSXX.pdf" H 2600 3450 50  0001 C CNN
 F 4 "On Shore Technology" H -600 0   50  0001 C CNN "Manufacturer"
 F 5 "USB-B1HSB6" H -600 0   50  0001 C CNN "mpn"
+F 6 "0" H 2450 3500 50  0001 C CNN "DNP"
 	1    2450 3500
 	1    0    0    -1  
 $EndComp
@@ -51,6 +52,7 @@ F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5588 3450 50  0001 C CNN
 F 3 "~" H 5550 3600 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "MAL203858109E3" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5550 3600 50  0001 C CNN "DNP"
 	1    5550 3600
 	1    0    0    -1  
 $EndComp
@@ -64,6 +66,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5988 3450 50  0001 C CNN
 F 3 "~" H 5950 3600 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5950 3600 50  0001 C CNN "DNP"
 	1    5950 3600
 	1    0    0    -1  
 $EndComp
@@ -77,6 +80,7 @@ F 2 "Fuse:Fuse_Littelfuse_395Series" H 4750 3100 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4700 3300 50  0001 C CNN
 F 4 "Littelfuse Inc" V 4700 3300 50  0001 C CNN "Manufacturer"
 F 5 "RXEF025" V 4700 3300 50  0001 C CNN "mpn"
+F 6 "0" H 4700 3300 50  0001 C CNN "DNP"
 	1    4700 3300
 	0    1    1    0   
 $EndComp
@@ -90,6 +94,7 @@ F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5050 3600 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 5050 3600 50  0001 C CNN
 F 4 "Littelfuse" H 5050 3600 50  0001 C CNN "Manufacturer"
 F 5 "SA5.0A" H 5050 3600 50  0001 C CNN "mpn"
+F 6 "0" H 5050 3600 50  0001 C CNN "DNP"
 	1    5050 3600
 	0    1    1    0   
 $EndComp
@@ -124,6 +129,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 4100
 F 3 "~" H 2350 4100 50  0001 C CNN
 F 4 "~" H -600 0   50  0001 C CNN "Manufacturer"
 F 5 "~" H -600 0   50  0001 C CNN "mpn"
+F 6 "1" H 2350 4100 50  0001 C CNN "DNP"
 	1    2350 4100
 	-1   0    0    1   
 $EndComp
@@ -182,6 +188,7 @@ F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6900 3525 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 6900 3000 50  0001 C CNN
 F 4 "Microchip" H 6900 3300 50  0001 C CNN "Manufacturer"
 F 5 "TC1262-3.3VAB" H 6900 3300 50  0001 C CNN "mpn"
+F 6 "0" H 6900 3300 50  0001 C CNN "DNP"
 	1    6900 3300
 	1    0    0    -1  
 $EndComp
@@ -195,6 +202,7 @@ F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7388 3450 50  0001 C CNN
 F 3 "~" H 7350 3600 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "MAL214250479E3" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7350 3600 50  0001 C CNN "DNP"
 	1    7350 3600
 	1    0    0    -1  
 $EndComp
@@ -266,6 +274,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8605 3475
 F 3 "~" H 8675 3475 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 8675 3475 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT330R" H 8675 3475 50  0001 C CNN "mpn"
+F 6 "0" H 8675 3475 50  0001 C CNN "DNP"
 	1    8675 3475
 	0    1    1    0   
 $EndComp
@@ -285,6 +294,7 @@ F 2 "Neotron 32:PHB2UEETS1A" H 3500 3500 50  0001 C CNN
 F 3 "~" H 3500 3500 50  0001 C CNN
 F 4 "C&K" H 3500 3300 50  0001 C CNN "Manufacturer"
 F 5 "PHB2UEETS1A" H 3500 3300 50  0001 C CNN "mpn"
+F 6 "0" H 3500 3300 50  0001 C CNN "DNP"
 	1    3500 3300
 	1    0    0    -1  
 $EndComp
@@ -313,6 +323,7 @@ F 2 "Neotron 32:PHB2UEETS1A" H 8225 3775 50  0001 C CNN
 F 3 "~" H 8225 3775 50  0001 C CNN
 F 4 "C&K" H 8225 3575 50  0001 C CNN "Manufacturer"
 F 5 "PHB2UOATS1A" H 8225 3575 50  0001 C CNN "mpn"
+F 6 "0" H 8225 3575 50  0001 C CNN "DNP"
 	1    8225 3575
 	1    0    0    -1  
 $EndComp
@@ -333,6 +344,7 @@ F 2 "LED_THT:LED_D3.0mm" H 8975 3675 50  0001 C CNN
 F 3 "~" H 8975 3675 50  0001 C CNN
 F 4 "Würth Elektronik" H 8975 3675 50  0001 C CNN "Manufacturer"
 F 5 "151031SS04000" H 8975 3675 50  0001 C CNN "mpn"
+F 6 "0" H 8975 3675 50  0001 C CNN "DNP"
 	1    8975 3675
 	1    0    0    -1  
 $EndComp
@@ -348,6 +360,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8605 3675
 F 3 "~" H 8675 3675 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 8675 3675 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT330R" H 8675 3675 50  0001 C CNN "mpn"
+F 6 "0" H 8675 3675 50  0001 C CNN "DNP"
 	1    8675 3675
 	0    1    1    0   
 $EndComp

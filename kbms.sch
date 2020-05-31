@@ -153,7 +153,7 @@ F 1 "DE9 Male" H 8730 3311 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" H 8550 3400 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747467&DocType=Customer+Drawing&DocLang=English" H 8550 3400 50  0001 C CNN
 F 4 "TE" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "5747467-2" H 0   0   50  0001 C CNN "PartNo"
+F 5 "5747467-2" H 0   0   50  0001 C CNN "mpn"
 	1    8550 3400
 	1    0    0    -1  
 $EndComp
@@ -197,7 +197,7 @@ F 1 "DE9 Male" H 8730 4711 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" H 8550 4800 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747467&DocType=Customer+Drawing&DocLang=English" H 8550 4800 50  0001 C CNN
 F 4 "TE" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "5747467-2" H 0   0   50  0001 C CNN "PartNo"
+F 5 "5747467-2" H 0   0   50  0001 C CNN "mpn"
 	1    8550 4800
 	1    0    0    -1  
 $EndComp
@@ -324,7 +324,7 @@ F 1 "1k" V 5300 3400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3250 50  0001 C CNN
 F 3 "~" H 5250 3250 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5250 3250 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT1K00" H 5250 3250 50  0001 C CNN "PartNo"
+F 5 "CF14JT1K00" H 5250 3250 50  0001 C CNN "mpn"
 	1    5250 3250
 	0    1    1    0   
 $EndComp
@@ -337,7 +337,7 @@ F 1 "1k" V 5300 3550 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3400 50  0001 C CNN
 F 3 "~" H 5250 3400 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5250 3400 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT1K00" H 5250 3400 50  0001 C CNN "PartNo"
+F 5 "CF14JT1K00" H 5250 3400 50  0001 C CNN "mpn"
 	1    5250 3400
 	0    1    1    0   
 $EndComp
@@ -350,7 +350,7 @@ F 1 "1k" V 5300 3700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3550 50  0001 C CNN
 F 3 "~" H 5250 3550 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5250 3550 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT1K00" H 5250 3550 50  0001 C CNN "PartNo"
+F 5 "CF14JT1K00" H 5250 3550 50  0001 C CNN "mpn"
 	1    5250 3550
 	0    1    1    0   
 $EndComp
@@ -367,7 +367,7 @@ F 1 "100n" H 2815 1805 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2738 1700 50  0001 C CNN
 F 3 "~" H 2700 1850 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
 	1    2700 1850
 	1    0    0    -1  
 $EndComp
@@ -395,7 +395,7 @@ F 1 "100n" H 2315 2755 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2238 2650 50  0001 C CNN
 F 3 "~" H 2200 2800 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
 	1    2200 2800
 	1    0    0    1   
 $EndComp
@@ -474,7 +474,7 @@ F 1 "AVR-ISP-6" H 6520 2255 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 6600 2300 50  0001 C CNN
 F 3 "~" H 5575 1700 50  0001 C CNN
 F 4 "~" H 6850 2250 50  0001 C CNN "Manufacturer"
-F 5 "~" H 6850 2250 50  0001 C CNN "PartNo"
+F 5 "~" H 6850 2250 50  0001 C CNN "mpn"
 	1    6850 2250
 	-1   0    0    -1  
 $EndComp
@@ -580,7 +580,7 @@ F 1 "100n" H 3515 1805 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3438 1700 50  0001 C CNN
 F 3 "~" H 3400 1850 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
 	1    3400 1850
 	1    0    0    -1  
 $EndComp
@@ -610,7 +610,7 @@ F 1 "ATmega328-PU" H 2456 3755 50  0000 R CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3100 3800 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3100 3800 50  0001 C CNN
 F 4 "Microchip" H 3100 3800 50  0001 C CNN "Manufacturer"
-F 5 "ATmega328-PU" H 3100 3800 50  0001 C CNN "PartNo"
+F 5 "ATmega328-PU" H 3100 3800 50  0001 C CNN "mpn"
 	1    3100 3800
 	1    0    0    -1  
 $EndComp
@@ -638,7 +638,7 @@ F 1 "Double-mini-DIN-6" H 9850 4607 50  0000 C CNN
 F 2 "Neotron 32:Double_mini-DIN_6" H 9850 4250 50  0001 C CNN
 F 3 "http://www.kycon.com/Pub_Eng_Draw/KMDGX-6S-6S-S4N.pdf" H 9850 4250 50  0001 C CNN
 F 4 "Kycon" H 9850 4000 50  0001 C CNN "Manufacturer"
-F 5 "KMDGX-6S-6S-S4N." H 9850 4000 50  0001 C CNN "PartNo"
+F 5 "KMDGX-6S-6S-S4N." H 9850 4000 50  0001 C CNN "mpn"
 	1    9850 4000
 	1    0    0    -1  
 $EndComp

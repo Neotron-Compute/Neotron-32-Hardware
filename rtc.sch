@@ -25,8 +25,9 @@ F 0 "U7" H 5250 3700 50  0000 C CNN
 F 1 "MCP7940N-xP" H 4550 3700 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 4950 3350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 4950 3350 50  0001 C CNN
-F 4 "Microchip" H 4950 3350 50  0001 C CNN "Manufacturer"
-F 5 "MCP7940N-I/P" H 4950 3350 50  0001 C CNN "mpn"
+F 4 "Microchip;On Shore Technology" H 4950 3350 50  0001 C CNN "Manufacturer"
+F 5 "MCP7940N-I/P;ED08DT" H 4950 3350 50  0001 C CNN "mpn"
+F 6 "0" H 4950 3350 50  0001 C CNN "DNP"
 	1    4950 3350
 	1    0    0    -1  
 $EndComp
@@ -38,8 +39,9 @@ F 0 "BT1" H 6418 3496 50  0000 L CNN
 F 1 "CR2032" H 6418 3405 50  0000 L CNN
 F 2 "Neotron 32:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
 F 3 "~" V 6300 3460 50  0001 C CNN
-F 4 "Keystone" H 6300 3400 50  0001 C CNN "Manufacturer"
-F 5 "103" H 6300 3400 50  0001 C CNN "mpn"
+F 4 "Keystone;Panasonic" H 6300 3400 50  0001 C CNN "Manufacturer"
+F 5 "103;CR2032" H 6300 3400 50  0001 C CNN "mpn"
+F 6 "0" H 6300 3400 50  0001 C CNN "DNP"
 	1    6300 3400
 	1    0    0    -1  
 $EndComp
@@ -68,6 +70,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7088 3200 50  0001 C CNN
 F 3 "~" H 7050 3350 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7050 3350 50  0001 C CNN "DNP"
 	1    7050 3350
 	1    0    0    -1  
 $EndComp
@@ -127,6 +130,7 @@ F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal" H 5550 3350 50  0001 C CNN
 F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5550 3350 50  0001 C CNN
 F 4 "Citizen" H 5550 3350 50  0001 C CNN "Manufacturer"
 F 5 "CFS-20632768DZBB " H 5550 3350 50  0001 C CNN "mpn"
+F 6 "0" H 5550 3350 50  0001 C CNN "DNP"
 	1    5550 3350
 	0    1    1    0   
 $EndComp
@@ -189,6 +193,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5588 2800 50  0001 C CNN
 F 3 "~" H 5550 2950 50  0001 C CNN
 F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "FG18C0G1H060DNT06" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5550 2950 50  0001 C CNN "DNP"
 	1    5550 2950
 	1    0    0    -1  
 $EndComp
@@ -202,6 +207,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5588 3600 50  0001 C CNN
 F 3 "~" H 5550 3750 50  0001 C CNN
 F 4 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "FG18C0G1H060DNT06" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5550 3750 50  0001 C CNN "DNP"
 	1    5550 3750
 	1    0    0    -1  
 $EndComp

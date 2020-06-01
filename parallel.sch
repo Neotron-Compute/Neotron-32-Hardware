@@ -89,8 +89,9 @@ F 0 "U5" H 3650 4550 50  0000 C CNN
 F 1 "MCP23S17_SP" H 3850 4450 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3650 2500 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3650 2400 50  0001 L CNN
-F 4 "Microchip" H 3450 3500 50  0001 C CNN "Manufacturer"
-F 5 "MCP23S17-E/SP" H 3450 3500 50  0001 C CNN "mpn"
+F 4 "Microchip;On Shore Technology" H 3450 3500 50  0001 C CNN "Manufacturer"
+F 5 "MCP23S17-E/SP;ED281DT" H 3450 3500 50  0001 C CNN "mpn"
+F 6 "0" H 3450 3500 50  0001 C CNN "DNP"
 	1    3450 3500
 	1    0    0    -1  
 $EndComp
@@ -355,6 +356,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 2650 50  0001 C CNN
 F 3 "~" H 8100 2800 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 2800 50  0001 C CNN "DNP"
 	1    8100 2800
 	0    1    1    0   
 $EndComp
@@ -368,6 +370,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 4050 50  0001 C CNN
 F 3 "~" H 8100 4200 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 4200 50  0001 C CNN "DNP"
 	1    8100 4200
 	0    1    1    0   
 $EndComp
@@ -381,6 +384,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 2850 50  0001 C CNN
 F 3 "~" H 8100 3000 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 3000 50  0001 C CNN "DNP"
 	1    8100 3000
 	0    1    1    0   
 $EndComp
@@ -394,6 +398,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 3050 50  0001 C CNN
 F 3 "~" H 8100 3200 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 3200 50  0001 C CNN "DNP"
 	1    8100 3200
 	0    1    1    0   
 $EndComp
@@ -407,6 +412,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 3250 50  0001 C CNN
 F 3 "~" H 8100 3400 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 3400 50  0001 C CNN "DNP"
 	1    8100 3400
 	0    1    1    0   
 $EndComp
@@ -420,6 +426,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 3850 50  0001 C CNN
 F 3 "~" H 8100 4000 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 4000 50  0001 C CNN "DNP"
 	1    8100 4000
 	0    1    1    0   
 $EndComp
@@ -433,6 +440,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 3650 50  0001 C CNN
 F 3 "~" H 8100 3800 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 3800 50  0001 C CNN "DNP"
 	1    8100 3800
 	0    1    1    0   
 $EndComp
@@ -446,6 +454,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 8138 3450 50  0001 C CNN
 F 3 "~" H 8100 3600 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K223K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8100 3600 50  0001 C CNN "DNP"
 	1    8100 3600
 	0    1    1    0   
 $EndComp
@@ -474,6 +483,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1488 3300 50  0001 C CNN
 F 3 "~" H 1450 3450 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 1450 3450 50  0001 C CNN "DNP"
 	1    1450 3450
 	1    0    0    -1  
 $EndComp
@@ -502,8 +512,9 @@ F 0 "J11" H 6450 4467 50  0000 C CNN
 F 1 "Conn_02x13_Header" H 6450 4376 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 6400 3650 50  0001 C CNN
 F 3 "~" H 6400 3650 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "mpn"
+F 4 "On Shore Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "302-S261" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 6400 3650 50  0001 C CNN "DNP"
 	1    6400 3650
 	1    0    0    -1  
 $EndComp

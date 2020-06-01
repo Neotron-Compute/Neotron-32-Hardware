@@ -29,8 +29,9 @@ F 0 "U8" H 6100 4750 50  0000 C CNN
 F 1 "ICL3232CPZMAX" H 5150 4750 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5650 2600 50  0001 L CNN
 F 3 "https://www.renesas.com/en-us/www/doc/datasheet/hin232-36-37-38-39-40-41.pdf" H 5600 3750 50  0001 C CNN
-F 4 "Renesas" H 5600 3650 50  0001 C CNN "Manufacturer"
-F 5 "ICL3232CPZ" H 5600 3650 50  0001 C CNN "mpn"
+F 4 "Renesas;On Shore Technology" H 5600 3650 50  0001 C CNN "Manufacturer"
+F 5 "ICL3232CPZ;ED16DT" H 5600 3650 50  0001 C CNN "mpn"
+F 6 "0" H 5600 3650 50  0001 C CNN "DNP"
 	1    5600 3650
 	1    0    0    -1  
 $EndComp
@@ -73,6 +74,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6538 2750 50  0001 C CNN
 F 3 "~" H 6500 2900 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 6500 2900 50  0001 C CNN "DNP"
 	1    6500 2900
 	1    0    0    -1  
 $EndComp
@@ -86,6 +88,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 6838 3400 50  0001 C CNN
 F 3 "~" H 6800 3550 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 6800 3550 50  0001 C CNN "DNP"
 	1    6800 3550
 	0    1    1    0   
 $EndComp
@@ -99,6 +102,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 4688 2750 50  0001 C CNN
 F 3 "~" H 4650 2900 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 4650 2900 50  0001 C CNN "DNP"
 	1    4650 2900
 	-1   0    0    1   
 $EndComp
@@ -112,6 +116,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3388 2950 50  0001 C CNN
 F 3 "~" H 3350 3100 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 3350 3100 50  0001 C CNN "DNP"
 	1    3350 3100
 	-1   0    0    1   
 $EndComp
@@ -181,6 +186,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7088 2650 50  0001 C CNN
 F 3 "~" H 7050 2800 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K474Z20Y5VE5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7050 2800 50  0001 C CNN "DNP"
 	1    7050 2800
 	1    0    0    -1  
 $EndComp
@@ -220,8 +226,9 @@ F 0 "J18" H 8150 3625 50  0000 C CNN
 F 1 "Conn_02x05" H 8150 3716 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 8100 4050 50  0001 C CNN
 F 3 "~" H 8100 4050 50  0001 C CNN
-F 4 "Harwin" H 8100 4050 50  0001 C CNN "Manufacturer"
-F 5 "M20-9760546" H 8100 4050 50  0001 C CNN "mpn"
+F 4 "On Shore Technology" H 8100 4050 50  0001 C CNN "Manufacturer"
+F 5 "302-S101" H 8100 4050 50  0001 C CNN "mpn"
+F 6 "0" H 8100 4050 50  0001 C CNN "DNP"
 	1    8100 4050
 	1    0    0    1   
 $EndComp

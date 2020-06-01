@@ -25,6 +25,7 @@ F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 7100 4150 50  0001 
 F 3 "~" H 7100 4150 50  0001 C CNN
 F 4 "CUI" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "SJ1-3533NG " H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7100 4150 50  0001 C CNN "DNP"
 	1    7100 4150
 	-1   0    0    1   
 $EndComp
@@ -42,6 +43,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7250 3300 50 
 F 3 "~" H 7250 3300 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "~" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7250 3300 50  0001 C CNN "DNP"
 	1    7250 3300
 	-1   0    0    1   
 $EndComp
@@ -75,6 +77,7 @@ F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5938 3050 50  0001 C CNN
 F 3 "~" H 5900 3200 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "MAL203858109E3" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5900 3200 50  0001 C CNN "DNP"
 	1    5900 3200
 	0    -1   -1   0   
 $EndComp
@@ -88,6 +91,7 @@ F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5938 3750 50  0001 C CNN
 F 3 "~" H 5900 3900 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "MAL203858109E3" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5900 3900 50  0001 C CNN "DNP"
 	1    5900 3900
 	0    -1   -1   0   
 $EndComp
@@ -102,6 +106,7 @@ F 3 "~" H 5600 3400 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5600 3400 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT150R" H 5600 3400 50  0001 C CNN "mpn"
 F 6 "CF14JT150RCT-ND" H 5600 3400 50  0001 C CNN "digikey#"
+F 7 "0" H 5600 3400 50  0001 C CNN "DNP"
 	1    5600 3400
 	1    0    0    -1  
 $EndComp
@@ -116,6 +121,7 @@ F 3 "~" H 5600 4100 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5600 4100 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT150R" H 5600 4100 50  0001 C CNN "mpn"
 F 6 "CF14JT150RCT-ND" H 5600 4100 50  0001 C CNN "digikey#"
+F 7 "0" H 5600 4100 50  0001 C CNN "DNP"
 	1    5600 4100
 	1    0    0    -1  
 $EndComp
@@ -130,6 +136,7 @@ F 3 "~" H 4700 3900 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 4700 3900 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT270R" H 4700 3900 50  0001 C CNN "mpn"
 F 6 "CF14JT270RCT-ND" H 4700 3900 50  0001 C CNN "digikey#"
+F 7 "0" H 4700 3900 50  0001 C CNN "DNP"
 	1    4700 3900
 	0    1    1    0   
 $EndComp
@@ -144,6 +151,7 @@ F 3 "~" H 4700 3200 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 4700 3200 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT270R" H 4700 3200 50  0001 C CNN "mpn"
 F 6 "CF14JT270RCT-ND" H 4700 3200 50  0001 C CNN "digikey#"
+F 7 "0" H 4700 3200 50  0001 C CNN "DNP"
 	1    4700 3200
 	0    1    1    0   
 $EndComp
@@ -209,6 +217,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5188 3950 50  0001 C CNN
 F 3 "~" H 5150 4100 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K333K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5150 4100 50  0001 C CNN "DNP"
 	1    5150 4100
 	-1   0    0    1   
 $EndComp
@@ -222,6 +231,7 @@ F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5188 3250 50  0001 C CNN
 F 3 "~" H 5150 3400 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "K333K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 5150 3400 50  0001 C CNN "DNP"
 	1    5150 3400
 	-1   0    0    1   
 $EndComp

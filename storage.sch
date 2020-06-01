@@ -63,7 +63,8 @@ F 1 "DNF" H 7350 4200 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7230 4250 50  0001 C CNN
 F 3 "~" H 7300 4250 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "PartNo"
+F 5 "~" H 0   0   50  0001 C CNN "mpn"
+F 6 "1" H 7300 4250 50  0001 C CNN "DNP"
 	1    7300 4250
 	1    0    0    -1  
 $EndComp
@@ -84,7 +85,9 @@ F 1 "47k" V 4450 2950 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 2900 50  0001 C CNN
 F 3 "~" H 4550 2900 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 4550 2900 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT47K0" H 4550 2900 50  0001 C CNN "PartNo"
+F 5 "CF14JT47K0" H 4550 2900 50  0001 C CNN "mpn"
+F 6 "CF14JT47K0CT-ND" H 4550 2900 50  0001 C CNN "digikey#"
+F 7 "0" H 4550 2900 50  0001 C CNN "DNP"
 	1    4550 2900
 	0    1    1    0   
 $EndComp
@@ -97,7 +100,9 @@ F 1 "47k" V 4450 2750 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 2700 50  0001 C CNN
 F 3 "~" H 4550 2700 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 4550 2700 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT47K0" H 4550 2700 50  0001 C CNN "PartNo"
+F 5 "CF14JT47K0" H 4550 2700 50  0001 C CNN "mpn"
+F 6 "CF14JT47K0CT-ND" H 4550 2700 50  0001 C CNN "digikey#"
+F 7 "0" H 4550 2700 50  0001 C CNN "DNP"
 	1    4550 2700
 	0    1    1    0   
 $EndComp
@@ -121,7 +126,8 @@ F 1 "100n" H 8015 3455 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7938 3350 50  0001 C CNN
 F 3 "~" H 7900 3500 50  0001 C CNN
 F 4 "Vishay" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "PartNo"
+F 5 "K104K15X7RF5TL2" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7900 3500 50  0001 C CNN "DNP"
 	1    7900 3500
 	1    0    0    -1  
 $EndComp
@@ -149,7 +155,9 @@ F 1 "330" V 7050 2100 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7080 2050 50  0001 C CNN
 F 3 "~" H 7150 2050 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 7150 2050 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT330R" H 7150 2050 50  0001 C CNN "PartNo"
+F 5 "CF14JT330R" H 7150 2050 50  0001 C CNN "mpn"
+F 6 "CF14JT330RCT-ND" H 7150 2050 50  0001 C CNN "digikey#"
+F 7 "0" H 7150 2050 50  0001 C CNN "DNP"
 	1    7150 2050
 	0    1    1    0   
 $EndComp
@@ -162,7 +170,8 @@ F 1 "Red LED" H 7593 2175 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 7600 2050 50  0001 C CNN
 F 3 "~" H 7600 2050 50  0001 C CNN
 F 4 "Würth Elektronik" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "151031SS04000" H 0   0   50  0001 C CNN "PartNo"
+F 5 "151031SS04000" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 7600 2050 50  0001 C CNN "DNP"
 	1    7600 2050
 	1    0    0    -1  
 $EndComp
@@ -183,8 +192,9 @@ F 0 "U2" H 5850 2350 50  0000 C CNN
 F 1 "74LS14" H 5850 2250 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5850 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 5850 2050 50  0001 C CNN
-F 4 "Texas Instruments" H 5850 2050 50  0001 C CNN "Manufacturer"
-F 5 "SN74LS14N" H 5850 2050 50  0001 C CNN "PartNo"
+F 4 "Texas Instruments;On Shore Technology" H 5850 2050 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N;ED14DT" H 5850 2050 50  0001 C CNN "mpn"
+F 6 "0" H 5850 2050 50  0001 C CNN "DNP"
 	6    5850 2050
 	1    0    0    -1  
 $EndComp
@@ -198,8 +208,9 @@ F 0 "U2" H 6550 2350 50  0000 C CNN
 F 1 "74LS14" H 6550 2250 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 6550 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6550 2050 50  0001 C CNN
-F 4 "Texas Instruments" H 6550 2050 50  0001 C CNN "Manufacturer"
-F 5 "SN74LS14N" H 6550 2050 50  0001 C CNN "PartNo"
+F 4 "Texas Instruments;On Shore Technology" H 6550 2050 50  0001 C CNN "Manufacturer"
+F 5 "SN74LS14N;ED14DT" H 6550 2050 50  0001 C CNN "mpn"
+F 6 "0" H 6550 2050 50  0001 C CNN "DNP"
 	5    6550 2050
 	1    0    0    -1  
 $EndComp
@@ -241,7 +252,8 @@ F 1 "micro SD Card" H 6200 4026 50  0000 C CNN
 F 2 "Neotron 32:Molex_4730_2651" H 7400 3700 50  0001 C CNN
 F 3 "" H 6250 3400 50  0001 C CNN
 F 4 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "47309-2651" H 0   0   50  0001 C CNN "PartNo"
+F 5 "47309-2651" H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 6250 3400 50  0001 C CNN "DNP"
 	1    6250 3400
 	1    0    0    -1  
 $EndComp

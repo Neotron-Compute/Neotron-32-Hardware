@@ -393,7 +393,8 @@ F 1 "Conn_02x06" H 9000 1376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 8950 1050 50  0001 C CNN
 F 3 "~" H 8950 1050 50  0001 C CNN
 F 4 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "M20-9763646" H 0   0   50  0001 C CNN "PartNo"
+F 5 "M20-9760346 " H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8950 1050 50  0001 C CNN "DNP"
 	1    8950 1050
 	1    0    0    -1  
 $EndComp
@@ -432,7 +433,8 @@ F 1 "Conn_02x06" H 9000 2376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 8950 2050 50  0001 C CNN
 F 3 "~" H 8950 2050 50  0001 C CNN
 F 4 "Harwin" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "M20-9763646" H 0   0   50  0001 C CNN "PartNo"
+F 5 "M20-9760346 " H 0   0   50  0001 C CNN "mpn"
+F 6 "0" H 8950 2050 50  0001 C CNN "DNP"
 	1    8950 2050
 	1    0    0    -1  
 $EndComp
@@ -693,8 +695,10 @@ F 0 "U1" H 5700 3465 50  0000 C CNN
 F 1 "TM4C123G_Launchpad" H 5700 3374 50  0000 C CNN
 F 2 "Neotron 32:Launchpad_4x10" H 5700 2200 50  0001 C CNN
 F 3 "~" H 5700 2200 50  0001 C CNN
-F 4 "~" H 5700 2200 50  0001 C CNN "Manufacturer"
-F 5 "~" H 5700 2200 50  0001 C CNN "PartNo"
+F 4 "Texas Instruments;Harwin;Harwin" H 5700 2200 50  0001 C CNN "Manufacturer"
+F 5 "EK-TM4C123GXL;M20-9981046;M20-9981046" H 5700 2200 50  0001 C CNN "mpn"
+F 6 "296-35760-ND " H 5700 2200 50  0001 C CNN "digikey#"
+F 7 "0" H 5700 2200 50  0001 C CNN "DNP"
 	1    5700 2200
 	1    0    0    -1  
 $EndComp
@@ -736,7 +740,8 @@ F 1 "47k x 8" V 1634 2250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1675 2250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 1200 2250 50  0001 C CNN
 F 4 "Bourns" H 1200 2250 50  0001 C CNN "Manufacturer"
-F 5 "4609X-101-473LF" H 1200 2250 50  0001 C CNN "PartNo"
+F 5 "4609X-101-473LF" H 1200 2250 50  0001 C CNN "mpn"
+F 6 "0" H 1200 2250 50  0001 C CNN "DNP"
 	1    1200 2250
 	0    -1   -1   0   
 $EndComp
@@ -765,7 +770,8 @@ F 1 "47k x 8" V 3184 2250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 3225 2250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 2750 2250 50  0001 C CNN
 F 4 "Bourns" H 2750 2250 50  0001 C CNN "Manufacturer"
-F 5 "4609X-101-473LF" H 2750 2250 50  0001 C CNN "PartNo"
+F 5 "4609X-101-473LF" H 2750 2250 50  0001 C CNN "mpn"
+F 6 "0" H 2750 2250 50  0001 C CNN "DNP"
 	1    2750 2250
 	0    -1   -1   0   
 $EndComp
@@ -892,7 +898,9 @@ F 1 "1k" V 1200 1650 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1550 50  0001 C CNN
 F 3 "~" H 1300 1550 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 1300 1550 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT1K00" H 1300 1550 50  0001 C CNN "PartNo"
+F 5 "CF14JT1K00" H 1300 1550 50  0001 C CNN "mpn"
+F 6 "CF14JT1K00CT-ND" H 1300 1550 50  0001 C CNN "digikey#"
+F 7 "0" H 1300 1550 50  0001 C CNN "DNP"
 	1    1300 1550
 	0    1    1    0   
 $EndComp
@@ -905,7 +913,9 @@ F 1 "1k" V 1200 1450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1350 50  0001 C CNN
 F 3 "~" H 1300 1350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 1300 1350 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT1K00" H 1300 1350 50  0001 C CNN "PartNo"
+F 5 "CF14JT1K00" H 1300 1350 50  0001 C CNN "mpn"
+F 6 "CF14JT1K00CT-ND" H 1300 1350 50  0001 C CNN "digikey#"
+F 7 "0" H 1300 1350 50  0001 C CNN "DNP"
 	1    1300 1350
 	0    1    1    0   
 $EndComp
@@ -981,8 +991,9 @@ F 0 "J3" H 9100 3267 50  0000 C CNN
 F 1 "Conn_02x04" H 9100 3176 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 9050 2950 50  0001 C CNN
 F 3 "~" H 9050 2950 50  0001 C CNN
-F 4 "~" H 100 0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 100 0   50  0001 C CNN "PartNo"
+F 4 "Adam Tech" H 100 0   50  0001 C CNN "Manufacturer"
+F 5 "RS2-08-G" H 100 0   50  0001 C CNN "mpn"
+F 6 "0" H 9050 2950 50  0001 C CNN "DNP"
 	1    9050 2950
 	-1   0    0    -1  
 $EndComp
@@ -1050,7 +1061,8 @@ F 1 "MountingHole" H 6300 6555 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6600 50  0001 C CNN
 F 3 "~" H 6200 6600 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
+F 6 "1" H 6200 6600 50  0001 C CNN "DNP"
 	1    6200 6600
 	1    0    0    -1  
 $EndComp
@@ -1063,7 +1075,8 @@ F 1 "MountingHole" H 6300 6755 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6800 50  0001 C CNN
 F 3 "~" H 6200 6800 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
+F 6 "1" H 6200 6800 50  0001 C CNN "DNP"
 	1    6200 6800
 	1    0    0    -1  
 $EndComp
@@ -1076,7 +1089,8 @@ F 1 "MountingHole" H 6300 6955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7000 50  0001 C CNN
 F 3 "~" H 6200 7000 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7000 50  0001 C CNN "DNP"
 	1    6200 7000
 	1    0    0    -1  
 $EndComp
@@ -1089,7 +1103,8 @@ F 1 "MountingHole" H 6300 7155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7200 50  0001 C CNN
 F 3 "~" H 6200 7200 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "PartNo"
+F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7200 50  0001 C CNN "DNP"
 	1    6200 7200
 	1    0    0    -1  
 $EndComp
@@ -1136,7 +1151,8 @@ F 1 "MountingHole" H 6300 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7400 50  0001 C CNN
 F 3 "~" H 6200 7400 50  0001 C CNN
 F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -100 50  0001 C CNN "PartNo"
+F 5 "~" H 4650 -100 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7400 50  0001 C CNN "DNP"
 	1    6200 7400
 	1    0    0    -1  
 $EndComp
@@ -1149,7 +1165,8 @@ F 1 "MountingHole" H 6300 7555 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7600 50  0001 C CNN
 F 3 "~" H 6200 7600 50  0001 C CNN
 F 4 "~" H 4650 100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 100 50  0001 C CNN "PartNo"
+F 5 "~" H 4650 100 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7600 50  0001 C CNN "DNP"
 	1    6200 7600
 	1    0    0    -1  
 $EndComp

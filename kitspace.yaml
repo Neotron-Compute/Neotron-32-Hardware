@@ -1,0 +1,4 @@
+eda: 
+  type: kicad
+  pcb: neotron-32.kicad_pcb
+

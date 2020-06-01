@@ -15,14 +15,14 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
 ## Hardware
 
   - **CPU:** Texas Instruments Tiva-C TM4C123
-  - **Processor Core**: 80 MHz ARM Cortex-M4
+  - **Processor Core**: 80 MHz ARM Cortex-M4 (approximately 95% CPU taken drawing the screen, leaving a ~ 4 MHz ARM)
   - **RAM:** 32 KiB on-chip SRAM
   - **ROM:** 256 KiB on-chip Flash
   - **GPU:** No GPU - CPU generates 8 colour 400x300 video
   - **GPU RAM:** Shared with main SRAM
   - **Video Output:** VGA (fixed at 800x600 60 Hz)
   - **Storage:** Micro SD Card slot, supports FAT16/FAT32 and MS-DOS partition tables
-  - **USB:** 1x USB 2.0 Full-speed OTG micro-AB port (internal)
+  - **USB:** 1x USB 2.0 Full-speed OTG micro-AB port (internal - support TBD)
   - **Audio:** 3.5mm Line Out with Mono/Stereo jumper
   - **Keyboard/Mouse:** 2x PS/2 Ports (2x 6-pin mini-DIN)
   - **MIDI**: MIDI In and MIDI Out (2x 5-pin 180-degree DIN)
@@ -30,6 +30,7 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **Parallel**: 3.3v PC-style Parallel Port on 26-pin 2.54mm header suitable for DB-25 plug on IDC ribbon. Also functions as 3.3v GPIO with 12 outputs and 4 inputs.
   - **Joystick**: 2x 9-pin game ports (supports Atari-compatible two-button joysticks, or SEGA MegaDrive/Genesis controllers)
   - **Expansion**: 2x internal 2.54mm 2x6 headers carrying power, SPI, I2C and a dedicated IRQ line
+  - **Wi-Fi**: 2x4 pin socket for ESP-01 Wi-Fi module
   - **RTC**: MCP7940 Real-time clock, with coin-cell battery backup
   - **Mechanical Form Factor:** Fits Hammond [1598C] case
 
@@ -52,13 +53,12 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **USB**: The Tiva-C Launchpad has a USB micro-AB connector into which you can plug a Raspberry Pi Zero compatible micro-A to full-size A adaptor. There is no USB support in firmware yet, and the board can only supply a limited amount of current, so don't expect your mobile phone to charge.
   - **Switches**: You'll need a 250 mA On/Off switch you can fix to the case to power the unit on (or short the header with a jumper), plus a momentary switch to reset the system.
 
-You can find a complete BOM (excluding the custom PCB, but including case and switches), on [Octopart].
+You can find a complete BOM (excluding the custom PCB, but including case and switches), on [Octopart]. Gerbers and BOM are also available on [OpenHardware].
 
-You can buy complete kits and bare PCBs on [Tindie].
 
 [Neotron-32 Release Area]: https://github.com/Neotron-Compute/Neotron-32-Hardware/releases
 [Octopart]: https://octopart.com/bom-tool/nj44p0Ic
-[Tindie]: https://www.tindie.com/stores/thejpster/
+[OpenHardware]: https://www.openhardware.io/view/783/Neotron-32
 
 ## Git Setup
 

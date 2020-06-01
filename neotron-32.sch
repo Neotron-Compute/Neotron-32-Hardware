@@ -693,8 +693,9 @@ F 0 "U1" H 5700 3465 50  0000 C CNN
 F 1 "TM4C123G_Launchpad" H 5700 3374 50  0000 C CNN
 F 2 "Neotron 32:Launchpad_4x10" H 5700 2200 50  0001 C CNN
 F 3 "~" H 5700 2200 50  0001 C CNN
-F 4 "~" H 5700 2200 50  0001 C CNN "Manufacturer"
-F 5 "~" H 5700 2200 50  0001 C CNN "mpn"
+F 4 "Texas Instruments" H 5700 2200 50  0001 C CNN "Manufacturer"
+F 5 "EK-TM4C123GXL " H 5700 2200 50  0001 C CNN "mpn"
+F 6 "296-35760-ND " H 5700 2200 50  0001 C CNN "digikey#"
 	1    5700 2200
 	1    0    0    -1  
 $EndComp
@@ -894,6 +895,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1550
 F 3 "~" H 1300 1550 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 1300 1550 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT1K00" H 1300 1550 50  0001 C CNN "mpn"
+F 6 "CF14JT1K00CT-ND" H 1300 1550 50  0001 C CNN "digikey#"
 	1    1300 1550
 	0    1    1    0   
 $EndComp
@@ -907,6 +909,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1350
 F 3 "~" H 1300 1350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 1300 1350 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT1K00" H 1300 1350 50  0001 C CNN "mpn"
+F 6 "CF14JT1K00CT-ND" H 1300 1350 50  0001 C CNN "digikey#"
 	1    1300 1350
 	0    1    1    0   
 $EndComp
@@ -984,8 +987,8 @@ F 0 "J3" H 9100 3267 50  0000 C CNN
 F 1 "Conn_02x04" H 9100 3176 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 9050 2950 50  0001 C CNN
 F 3 "~" H 9050 2950 50  0001 C CNN
-F 4 "~" H 100 0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 100 0   50  0001 C CNN "mpn"
+F 4 "Harwin" H 100 0   50  0001 C CNN "Manufacturer"
+F 5 "M20-7830446" H 100 0   50  0001 C CNN "mpn"
 	1    9050 2950
 	-1   0    0    -1  
 $EndComp

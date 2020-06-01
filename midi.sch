@@ -134,7 +134,7 @@ F 1 "1N4148" V 4200 3300 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 3650 50  0001 C CNN
 F 3 "~" H 4250 3650 50  0001 C CNN
 F 4 "ON Semi" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "1N4148" H 0   0   50  0001 C CNN "mpn"
+F 5 "1N4148TR" H 0   0   50  0001 C CNN "mpn"
 	1    4250 3650
 	0    1    1    0   
 $EndComp
@@ -148,6 +148,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3130 3300
 F 3 "~" H 3200 3300 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 3200 3300 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT220R" H 3200 3300 50  0001 C CNN "mpn"
+F 6 " CF14JT220RCT-ND" H 3200 3300 50  0001 C CNN "digikey#"
 	1    3200 3300
 	0    1    1    0   
 $EndComp
@@ -161,6 +162,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 2650
 F 3 "~" H 3300 2650 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 3300 2650 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT220R" H 3300 2650 50  0001 C CNN "mpn"
+F 6 " CF14JT220RCT-ND" H 3300 2650 50  0001 C CNN "digikey#"
 	1    3300 2650
 	0    1    1    0   
 $EndComp
@@ -174,6 +176,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 3350
 F 3 "~" H 5550 3350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5550 3350 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT470R" H 5550 3350 50  0001 C CNN "mpn"
+F 6 "CF14JT470RCT-ND" H 5550 3350 50  0001 C CNN "digikey#"
 	1    5550 3350
 	-1   0    0    1   
 $EndComp
@@ -187,6 +190,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5330 4000
 F 3 "~" H 5400 4000 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5400 4000 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT10K0" H 5400 4000 50  0001 C CNN "mpn"
+F 6 "CF14JT10K0CT-ND" H 5400 4000 50  0001 C CNN "digikey#"
 	1    5400 4000
 	-1   0    0    1   
 $EndComp
@@ -301,6 +305,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1980 2350
 F 3 "~" H 2050 2350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 2050 2350 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT220R" H 2050 2350 50  0001 C CNN "mpn"
+F 6 " CF14JT220RCT-ND" H 2050 2350 50  0001 C CNN "digikey#"
 	1    2050 2350
 	-1   0    0    1   
 $EndComp

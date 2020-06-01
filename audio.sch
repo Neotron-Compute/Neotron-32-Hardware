@@ -101,6 +101,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5530 3400
 F 3 "~" H 5600 3400 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5600 3400 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT150R" H 5600 3400 50  0001 C CNN "mpn"
+F 6 "CF14JT150RCT-ND" H 5600 3400 50  0001 C CNN "digikey#"
 	1    5600 3400
 	1    0    0    -1  
 $EndComp
@@ -114,6 +115,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5530 4100
 F 3 "~" H 5600 4100 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 5600 4100 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT150R" H 5600 4100 50  0001 C CNN "mpn"
+F 6 "CF14JT150RCT-ND" H 5600 4100 50  0001 C CNN "digikey#"
 	1    5600 4100
 	1    0    0    -1  
 $EndComp
@@ -127,6 +129,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 3900
 F 3 "~" H 4700 3900 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 4700 3900 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT270R" H 4700 3900 50  0001 C CNN "mpn"
+F 6 "CF14JT270RCT-ND" H 4700 3900 50  0001 C CNN "digikey#"
 	1    4700 3900
 	0    1    1    0   
 $EndComp
@@ -140,6 +143,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 3200
 F 3 "~" H 4700 3200 50  0001 C CNN
 F 4 "Stackpole Electronics Inc" H 4700 3200 50  0001 C CNN "Manufacturer"
 F 5 "CF14JT270R" H 4700 3200 50  0001 C CNN "mpn"
+F 6 "CF14JT270RCT-ND" H 4700 3200 50  0001 C CNN "digikey#"
 	1    4700 3200
 	0    1    1    0   
 $EndComp

@@ -64,9 +64,9 @@ S 9650 5200 1050 700
 U 5DF2662E
 F0 "Keyboard, Mouse and Joystick" 50
 F1 "kbms.sch" 50
-F2 "UART_FROM_HOST" I L 9650 5300 50 
-F3 "UART_TO_HOST" O L 9650 5400 50 
-F4 "~RESET" I L 9650 5500 50 
+F2 "~RESET" I L 9650 5500 50 
+F3 "KBMS_FROM_MCU" I L 9650 5300 50 
+F4 "KBMS_TO_MCU" O L 9650 5400 50 
 $EndSheet
 $Comp
 L power:+3.3VP #PWR?
@@ -270,8 +270,6 @@ Entry Wire Line
 Entry Wire Line
 	8900 5400 9000 5500
 Wire Wire Line
-	9000 5500 9650 5500
-Wire Wire Line
 	9650 5400 9000 5400
 Wire Wire Line
 	9000 5300 9650 5300
@@ -329,8 +327,6 @@ Text Label 9050 5400 0    50   ~ 0
 PE0_U7RX
 Text Label 9050 5300 0    50   ~ 0
 PE1_U7TX
-Text Label 9050 5500 0    50   ~ 0
-~PF4_AT_RESET
 Text Label 7000 5350 2    50   ~ 0
 PB0_U1RX
 Text Label 7000 5250 2    50   ~ 0
@@ -385,10 +381,10 @@ Text Label 6550 1800 0    50   ~ 0
 Text Label 4850 3000 2    50   ~ 0
 ~PE2_SPI_CS3
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J1
+L Connector_Generic:Conn_02x06_Odd_Even J101
 U 1 1 5DF61F52
 P 8950 1050
-F 0 "J1" H 9000 1467 50  0000 C CNN
+F 0 "J101" H 9000 1467 50  0000 C CNN
 F 1 "Conn_02x06" H 9000 1376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 8950 1050 50  0001 C CNN
 F 3 "~" H 8950 1050 50  0001 C CNN
@@ -425,10 +421,10 @@ Entry Wire Line
 Wire Wire Line
 	8400 1450 8400 1350
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J2
+L Connector_Generic:Conn_02x06_Odd_Even J102
 U 1 1 5DFAE92D
 P 8950 2050
-F 0 "J2" H 9000 2467 50  0000 C CNN
+F 0 "J102" H 9000 2467 50  0000 C CNN
 F 1 "Conn_02x06" H 9000 2376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 8950 2050 50  0001 C CNN
 F 3 "~" H 8950 2050 50  0001 C CNN
@@ -688,11 +684,11 @@ Wire Wire Line
 Wire Wire Line
 	4900 2100 4150 2100
 $Comp
-L neotron-32-rescue:TM4C123G_Launchpad-TM4C_Launchpads U1
+L neotron-32:EK-TM4C123GXL U101
 U 1 1 5DF69932
 P 5700 2200
-F 0 "U1" H 5700 3465 50  0000 C CNN
-F 1 "TM4C123G_Launchpad" H 5700 3374 50  0000 C CNN
+F 0 "U101" H 5700 3465 50  0000 C CNN
+F 1 "EK-TM4C123GXL" H 5700 3374 50  0000 C CNN
 F 2 "Neotron 32:Launchpad_4x10" H 5700 2200 50  0001 C CNN
 F 3 "~" H 5700 2200 50  0001 C CNN
 F 4 "Texas Instruments;Harwin;Harwin" H 5700 2200 50  0001 C CNN "Manufacturer"
@@ -732,10 +728,10 @@ Wire Wire Line
 	6500 3100 7200 3100
 Connection ~ 7300 3450
 $Comp
-L Device:R_Network08 RN1
+L Device:R_Network08 RN101
 U 1 1 5E032EDF
 P 1200 2250
-F 0 "RN1" V 1725 2250 50  0000 C CNN
+F 0 "RN101" V 1725 2250 50  0000 C CNN
 F 1 "47k x 8" V 1634 2250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1675 2250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 1200 2250 50  0001 C CNN
@@ -762,10 +758,10 @@ Text Label 3000 2550 0    50   ~ 0
 Text Label 3000 2350 0    50   ~ 0
 ~PB6_SPI_CS2
 $Comp
-L Device:R_Network08 RN2
+L Device:R_Network08 RN102
 U 1 1 5E053171
 P 2750 2250
-F 0 "RN2" V 3275 2250 50  0000 C CNN
+F 0 "RN102" V 3275 2250 50  0000 C CNN
 F 1 "47k x 8" V 3184 2250 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 3225 2250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 2750 2250 50  0001 C CNN
@@ -890,10 +886,10 @@ Entry Wire Line
 Entry Wire Line
 	2100 1350 2200 1450
 $Comp
-L Device:R R2
+L Device:R R102
 U 1 1 5E0634FC
 P 1300 1550
-F 0 "R2" V 1200 1450 50  0000 C CNN
+F 0 "R102" V 1200 1450 50  0000 C CNN
 F 1 "1k" V 1200 1650 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1550 50  0001 C CNN
 F 3 "~" H 1300 1550 50  0001 C CNN
@@ -905,10 +901,10 @@ F 7 "0" H 1300 1550 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R101
 U 1 1 5E063120
 P 1300 1350
-F 0 "R1" V 1200 1250 50  0000 C CNN
+F 0 "R101" V 1200 1250 50  0000 C CNN
 F 1 "1k" V 1200 1450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1350 50  0001 C CNN
 F 3 "~" H 1300 1350 50  0001 C CNN
@@ -984,10 +980,10 @@ Expansion Slot A\n3.3v Signalling\nIRQ2\nSPI CS2
 Text Notes 10175 3050 0    50   ~ 0
 WiFi UART\n3.3v Signalling\nESP01 Compatible
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J3
+L Connector_Generic:Conn_02x04_Odd_Even J103
 U 1 1 5E4EF859
 P 9050 2950
-F 0 "J3" H 9100 3267 50  0000 C CNN
+F 0 "J103" H 9100 3267 50  0000 C CNN
 F 1 "Conn_02x04" H 9100 3176 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 9050 2950 50  0001 C CNN
 F 3 "~" H 9050 2950 50  0001 C CNN
@@ -1053,12 +1049,12 @@ Text Label 1500 2050 0    50   ~ 0
 Text Label 3000 2650 0    50   ~ 0
 PD7_U2TX
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole H101
 U 1 1 5DFC719B
 P 6200 6600
-F 0 "H1" H 6300 6646 50  0000 L CNN
+F 0 "H101" H 6300 6646 50  0000 L CNN
 F 1 "MountingHole" H 6300 6555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6600 50  0001 C CNN
 F 3 "~" H 6200 6600 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
 F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
@@ -1067,12 +1063,12 @@ F 6 "1" H 6200 6600 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole H102
 U 1 1 5DFC7744
 P 6200 6800
-F 0 "H2" H 6300 6846 50  0000 L CNN
+F 0 "H102" H 6300 6846 50  0000 L CNN
 F 1 "MountingHole" H 6300 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6800 50  0001 C CNN
 F 3 "~" H 6200 6800 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
 F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
@@ -1081,12 +1077,12 @@ F 6 "1" H 6200 6800 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H103
 U 1 1 5DFC781B
 P 6200 7000
-F 0 "H3" H 6300 7046 50  0000 L CNN
+F 0 "H103" H 6300 7046 50  0000 L CNN
 F 1 "MountingHole" H 6300 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7000 50  0001 C CNN
 F 3 "~" H 6200 7000 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
 F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
@@ -1095,12 +1091,12 @@ F 6 "1" H 6200 7000 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole H104
 U 1 1 5DFC799C
 P 6200 7200
-F 0 "H4" H 6300 7246 50  0000 L CNN
+F 0 "H104" H 6300 7246 50  0000 L CNN
 F 1 "MountingHole" H 6300 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7200 50  0001 C CNN
 F 3 "~" H 6200 7200 50  0001 C CNN
 F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
 F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
@@ -1143,12 +1139,12 @@ Wire Wire Line
 Text Notes 550  7700 0    50   Italic 0
 The Neotron-32 is based around a Texas Instruments EK-TM4C123GH6 Tiva-C Launchpad board. This includes a TM4C123 microcontroller\nand a JTAG + USB Serial interface.\n\nDrill down into the sub-sheets to see more detail.
 $Comp
-L Mechanical:MountingHole H5
+L Mechanical:MountingHole H105
 U 1 1 5E157BE6
 P 6200 7400
-F 0 "H5" H 6300 7446 50  0000 L CNN
+F 0 "H105" H 6300 7446 50  0000 L CNN
 F 1 "MountingHole" H 6300 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7400 50  0001 C CNN
 F 3 "~" H 6200 7400 50  0001 C CNN
 F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
 F 5 "~" H 4650 -100 50  0001 C CNN "mpn"
@@ -1157,12 +1153,12 @@ F 6 "1" H 6200 7400 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H6
+L Mechanical:MountingHole H106
 U 1 1 5E1640CD
 P 6200 7600
-F 0 "H6" H 6300 7646 50  0000 L CNN
+F 0 "H106" H 6300 7646 50  0000 L CNN
 F 1 "MountingHole" H 6300 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 7600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7600 50  0001 C CNN
 F 3 "~" H 6200 7600 50  0001 C CNN
 F 4 "~" H 4650 100 50  0001 C CNN "Manufacturer"
 F 5 "~" H 4650 100 50  0001 C CNN "mpn"
@@ -1194,6 +1190,14 @@ Entry Wire Line
 	7200 3200 7300 3300
 Wire Wire Line
 	6500 3200 7200 3200
+Text Label 6550 3200 0    50   ~ 0
+~PF4_AT_RESET
+Text Notes 4250 3300 0    50   ~ 0
+Also drives Red LED
+Text Label 9050 5500 0    50   ~ 0
+~PF4_AT_RESET
+Wire Wire Line
+	9000 5500 9650 5500
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line
@@ -1214,6 +1218,4 @@ Wire Bus Line
 	7300 1400 7300 3450
 Wire Bus Line
 	10050 950  10050 3450
-Text Label 6550 3200 0    50   ~ 0
-~PF4_AT_RESET
 $EndSCHEMATC

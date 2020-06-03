@@ -1,4 +1,5 @@
 eda: 
   type: kicad
   pcb: neotron-32.kicad_pcb
-
+bom: kitspace-bom.csv
+summary: A simple 32K ARM-powered home computer

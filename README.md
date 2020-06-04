@@ -39,7 +39,7 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
 ## Parts Required
 
   - **PCBA**: Load the [Neotron-32 schematic](./neotron-32.sch) in Kicad, or see the [Neotron-32 Release Area] on Github for PDFs, Gerbers and a CSV bill-of-materials.
-  - **Case**: Hammond [1598C], in your choice of colour. The case should include mounting screws, feet and two un-cut end panels.
+  - **Case**: Hammond [1598C], in your choice of colour. The case will include mounting screws, feet and two un-cut end panels.
   - **End panels**: Cut the panels supplied with the case according to [the drawing](./endpanels/endpanels.dxf). There is a PDF version in the [Neotron-32 Release Area].
   - **SD Card**: Any micro-SD or micro-SDHC card should work. Tested with Sandisk 8GB micro-SDHC cards, formatted with a single FAT32 partition.
   - **Monitor**: You will need monitor with 15-pin VGA input that can handle 800x600 resolution @ 60 Hz. Most higher resolution LCD panels will up-scale the image, but the quality of the scaling may not be ideal. A CRT will give a better image, but you may need to wind up the contrast and brightness to get a workable picture. An old 800x600 native resolution LCD would be ideal.
@@ -53,12 +53,12 @@ With an ARM Cortex-M4 based MCU the Neotron-32 gets you right back into the hard
   - **USB**: The Tiva-C Launchpad has a USB micro-AB connector into which you can plug a Raspberry Pi Zero compatible micro-A to full-size A adaptor. There is no USB support in firmware yet, and the board can only supply a limited amount of current, so don't expect your mobile phone to charge.
   - **Switches**: You'll need a 250 mA On/Off switch you can fix to the case to power the unit on (or short the header with a jumper), plus a momentary switch to reset the system.
 
-You can find a complete BOM (excluding the custom PCB, but including case and switches), on [Octopart]. Gerbers and BOM are also available on [OpenHardware].
-
+You can find a complete BOM (including the Tiva-C Launchpad and all the connectors, but excluding the PCB, case and Serial/Parallel ribbon cables), on [Octopart]. Gerbers and BOM are also available on [OpenHardware] and [Kitspace]. Don't forget, if you get the Hammond case, you'll need to drill out or mill the endplates yourself to take the connectors.
 
 [Neotron-32 Release Area]: https://github.com/Neotron-Compute/Neotron-32-Hardware/releases
-[Octopart]: https://octopart.com/bom-tool/nj44p0Ic
+[Octopart]: https://octopart.com/bom-tool/tBdBR3vl
 [OpenHardware]: https://www.openhardware.io/view/783/Neotron-32
+[Kitspace]: https://kitspace.org/boards/github.com/neotron-compute/neotron-32-hardware/
 
 ## Git Setup
 

@@ -16,10 +16,10 @@ $EndDescr
 Text HLabel 8925 3475 2    50   Output ~ 0
 ~RESET
 $Comp
-L Connector:USB_B J9
+L Connector:USB_B J401
 U 1 1 5DFCA02C
 P 2450 3500
-F 0 "J9" H 2450 3950 50  0000 C CNN
+F 0 "J401" H 2450 3950 50  0000 C CNN
 F 1 "USB_B" H 2450 3850 50  0000 C CNN
 F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 2600 3450 50  0001 C CNN
 F 3 "http://www.on-shore.com/wp-content/uploads/USB-B1HSXX.pdf" H 2600 3450 50  0001 C CNN
@@ -43,10 +43,10 @@ $EndComp
 NoConn ~ 2750 3500
 NoConn ~ 2750 3600
 $Comp
-L Device:CP C6
+L Device:CP C401
 U 1 1 5DFCD9F0
 P 5550 3600
-F 0 "C6" H 5668 3646 50  0000 L CNN
+F 0 "C401" H 5668 3646 50  0000 L CNN
 F 1 "10u" H 5668 3555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5588 3450 50  0001 C CNN
 F 3 "~" H 5550 3600 50  0001 C CNN
@@ -57,10 +57,10 @@ F 6 "0" H 5550 3600 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C402
 U 1 1 5DFCDDA8
 P 5950 3600
-F 0 "C7" H 6065 3646 50  0000 L CNN
+F 0 "C402" H 6065 3646 50  0000 L CNN
 F 1 "100n" H 6065 3555 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5988 3450 50  0001 C CNN
 F 3 "~" H 5950 3600 50  0001 C CNN
@@ -71,10 +71,10 @@ F 6 "0" H 5950 3600 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F1
+L Device:Polyfuse F401
 U 1 1 5DFCE179
 P 4700 3300
-F 0 "F1" V 4475 3300 50  0000 C CNN
+F 0 "F401" V 4475 3300 50  0000 C CNN
 F 1 "250mA PTC" V 4566 3300 50  0000 C CNN
 F 2 "Fuse:Fuse_Littelfuse_395Series" H 4750 3100 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rxef025_product_specification.pdf.pdf" H 4700 3300 50  0001 C CNN
@@ -85,10 +85,10 @@ F 6 "0" H 4700 3300 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D2
+L Device:D_TVS D401
 U 1 1 5DFD0F1E
 P 5050 3600
-F 0 "D2" V 5004 3679 50  0000 L CNN
+F 0 "D401" V 5004 3679 50  0000 L CNN
 F 1 "SA5.0A" V 5095 3679 50  0000 L CNN
 F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5050 3600 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_sa_datasheet.pdf.pdf" H 5050 3600 50  0001 C CNN
@@ -120,10 +120,10 @@ $EndComp
 Wire Wire Line
 	2450 3900 2450 3950
 $Comp
-L Device:R R14
+L Device:R R401
 U 1 1 5DFD98A8
 P 2350 4100
-F 0 "R14" H 2280 4054 50  0000 R CNN
+F 0 "R401" H 2280 4054 50  0000 R CNN
 F 1 "DNF" H 2280 4145 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 4100 50  0001 C CNN
 F 3 "~" H 2350 4100 50  0001 C CNN
@@ -179,10 +179,10 @@ Connection ~ 5550 3950
 Wire Wire Line
 	5550 3950 5950 3950
 $Comp
-L Regulator_Linear:TC1262-33 U4
+L Regulator_Linear:TC1262-33 U401
 U 1 1 5DF0E799
 P 6900 3300
-F 0 "U4" H 6900 3550 50  0000 C CNN
+F 0 "U401" H 6900 3550 50  0000 C CNN
 F 1 "TC1262-33" H 6900 3450 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6900 3525 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 6900 3000 50  0001 C CNN
@@ -193,10 +193,10 @@ F 6 "0" H 6900 3300 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C8
+L Device:CP C403
 U 1 1 5DF0ED61
 P 7350 3600
-F 0 "C8" H 7465 3646 50  0000 L CNN
+F 0 "C403" H 7465 3646 50  0000 L CNN
 F 1 "47u" H 7465 3555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7388 3450 50  0001 C CNN
 F 3 "~" H 7350 3600 50  0001 C CNN
@@ -265,10 +265,10 @@ Connection ~ 6100 3300
 Wire Wire Line
 	6100 3300 6350 3300
 $Comp
-L Device:R R28
+L Device:R R402
 U 1 1 5E09309F
 P 8675 3475
-F 0 "R28" V 8468 3475 50  0000 C CNN
+F 0 "R402" V 8468 3475 50  0000 C CNN
 F 1 "330" V 8559 3475 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8605 3475 50  0001 C CNN
 F 3 "~" H 8675 3475 50  0001 C CNN
@@ -286,10 +286,10 @@ Text Notes 8800 3200 0    50   ~ 0
 Text Notes 550  7700 0    50   Italic 0
 Connect to a 5V USB Power Supply. The board should only use around 100 mA in operation, so almost any USB 'phone charger'\nshould work, provided you have a full-size USB B cable (rather than USB micro-B). We use the full-size B as it is easier to solder the\nconnector.\n\nWe have our own 3.3V LDO to avoid overloading the LDO on the Launchpad.\n\nTaking the RESET pin low should reset the Launchpad, the AtMega and the MCP23S17.
 $Comp
-L Switch:SW_Push_DPDT SW1
+L Switch:SW_Push_DPDT SW401
 U 1 1 5E119D70
 P 3500 3300
-F 0 "SW1" H 3575 3800 50  0000 C CNN
+F 0 "SW401" H 3575 3800 50  0000 C CNN
 F 1 "SW_Push_DPDT_ON_OFF" H 3625 3700 50  0000 C CNN
 F 2 "Neotron 32:PHB2UEETS1A" H 3500 3500 50  0001 C CNN
 F 3 "~" H 3500 3500 50  0001 C CNN
@@ -315,10 +315,10 @@ Connection ~ 3925 3300
 NoConn ~ 3700 3400
 NoConn ~ 3700 3000
 $Comp
-L Switch:SW_Push_DPDT SW2
+L Switch:SW_Push_DPDT SW402
 U 1 1 5E11D73E
 P 8225 3575
-F 0 "SW2" H 8225 4060 50  0000 C CNN
+F 0 "SW402" H 8225 4060 50  0000 C CNN
 F 1 "SW_Push_DPDT_ON_MO" H 8225 3969 50  0000 C CNN
 F 2 "Neotron 32:PHB2UEETS1A" H 8225 3775 50  0001 C CNN
 F 3 "~" H 8225 3775 50  0001 C CNN
@@ -336,10 +336,10 @@ Wire Wire Line
 	8025 3775 7925 3775
 Connection ~ 7925 3775
 $Comp
-L Device:LED D4
+L Device:LED D402
 U 1 1 5E12B86C
 P 8975 3675
-F 0 "D4" H 8975 3475 50  0000 C CNN
+F 0 "D402" H 8975 3475 50  0000 C CNN
 F 1 "Red LED" H 8975 3550 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 8975 3675 50  0001 C CNN
 F 3 "~" H 8975 3675 50  0001 C CNN
@@ -352,10 +352,10 @@ $EndComp
 Wire Wire Line
 	8425 3675 8525 3675
 $Comp
-L Device:R R4
+L Device:R R403
 U 1 1 5E12DD30
 P 8675 3675
-F 0 "R4" V 8875 3675 50  0000 C CNN
+F 0 "R403" V 8875 3675 50  0000 C CNN
 F 1 "330" V 8800 3675 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8605 3675 50  0001 C CNN
 F 3 "~" H 8675 3675 50  0001 C CNN

@@ -3,3 +3,6 @@ eda:
   pcb: neotron-32.kicad_pcb
 bom: kitspace-bom.csv
 summary: A simple 32K ARM-powered home computer
+color: green
+site: https://neotron-compute.github.io/
+

@@ -10,4 +10,8 @@ $CMP EK-TM4C123GXL
 D Texas Instruments TM4C123GXL Launchpad
 $ENDCMP
 #
+$CMP MIC2005A-2YM5
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579487
+$ENDCMP
+#
 #End Doc Library

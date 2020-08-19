@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 12
 Title "Neotron 32K Main PCB"
 Date "2020-03-29"
 Rev "[Uncontrolled]"
@@ -30,11 +30,12 @@ F2 "AUDIO_L_FROM_MCU" I L 9650 3800 50
 F3 "AUDIO_R_FROM_MCU" I L 9650 3900 50 
 $EndSheet
 $Sheet
-S 2550 1000 700  400 
+S 2550 1050 700  400 
 U 5DF5D5D7
 F0 "Power" 50
 F1 "power.sch" 50
 F2 "~RESET" O R 3250 1150 50 
+F3 "~ENABLE" I R 3250 1300 50 
 $EndSheet
 $Sheet
 S 1650 3700 1050 700 
@@ -58,15 +59,6 @@ F5 "~MCU_PAR_CS" I L 1650 5550 50
 F6 "~MCU_PAR_IRQ" O L 1650 5650 50 
 F7 "~RESET" I L 1650 5850 50 
 F8 "~MCU_PAR_STROBE" I L 1650 5750 50 
-$EndSheet
-$Sheet
-S 9650 5200 1050 700 
-U 5DF2662E
-F0 "Keyboard, Mouse and Joystick" 50
-F1 "kbms.sch" 50
-F2 "~RESET" I L 9650 5500 50 
-F3 "KBMS_FROM_MCU" I L 9650 5300 50 
-F4 "KBMS_TO_MCU" O L 9650 5400 50 
 $EndSheet
 $Comp
 L power:+3.3VP #PWR?
@@ -173,8 +165,6 @@ Text Label 6550 1900 0    50   ~ 0
 PA4_SPI_MISO
 Text Label 6550 1700 0    50   ~ 0
 PB7_VGA_GREEN
-Text Label 6550 1400 0    50   ~ 0
-PE0_U7RX
 Wire Wire Line
 	6500 950  6500 1200
 Entry Wire Line
@@ -193,8 +183,6 @@ Entry Wire Line
 	7200 1900 7300 2000
 Entry Wire Line
 	7200 1700 7300 1800
-Entry Wire Line
-	7200 1400 7300 1500
 Wire Wire Line
 	7200 1700 6500 1700
 Wire Wire Line
@@ -264,15 +252,11 @@ Entry Wire Line
 Entry Wire Line
 	8900 3800 9000 3900
 Entry Wire Line
-	8900 5200 9000 5300
+	8900 5150 9000 5250
 Entry Wire Line
-	8900 5300 9000 5400
+	8900 5250 9000 5350
 Entry Wire Line
-	8900 5400 9000 5500
-Wire Wire Line
-	9650 5400 9000 5400
-Wire Wire Line
-	9000 5300 9650 5300
+	8900 5350 9000 5450
 Wire Wire Line
 	9000 3900 9650 3900
 Wire Wire Line
@@ -323,18 +307,12 @@ Text Label 9050 3800 0    50   ~ 0
 PE4_AUDIO_L
 Text Label 9050 3900 0    50   ~ 0
 PE5_AUDIO_R
-Text Label 9050 5400 0    50   ~ 0
-PE0_U7RX
-Text Label 9050 5300 0    50   ~ 0
-PE1_U7TX
 Text Label 7000 5350 2    50   ~ 0
 PB0_U1RX
 Text Label 7000 5250 2    50   ~ 0
 PB1_U1TX
 Entry Wire Line
 	4050 3100 4150 3000
-Entry Wire Line
-	4050 3000 4150 2900
 Entry Wire Line
 	4050 3300 4150 3200
 Entry Wire Line
@@ -788,8 +766,6 @@ Entry Wire Line
 Entry Wire Line
 	2100 2050 2200 2150
 Entry Wire Line
-	2100 2150 2200 2250
-Entry Wire Line
 	2100 2250 2200 2350
 Entry Wire Line
 	2100 2350 2200 2450
@@ -811,8 +787,6 @@ Wire Wire Line
 	1400 1950 2100 1950
 Wire Wire Line
 	2100 2050 1400 2050
-Wire Wire Line
-	1400 2150 2100 2150
 Wire Wire Line
 	2100 2250 1400 2250
 Wire Wire Line
@@ -878,9 +852,9 @@ Text Label 9300 2250 0    50   ~ 0
 Text Label 9300 1850 0    50   ~ 0
 ~PD2_IRQ3
 Wire Wire Line
-	2100 1550 1450 1550
+	2100 1550 1500 1550
 Wire Wire Line
-	1450 1350 2100 1350
+	1500 1350 2100 1350
 Entry Wire Line
 	2100 1550 2200 1650
 Entry Wire Line
@@ -888,31 +862,31 @@ Entry Wire Line
 $Comp
 L Device:R R102
 U 1 1 5E0634FC
-P 1300 1550
-F 0 "R102" V 1200 1450 50  0000 C CNN
-F 1 "1k" V 1200 1650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1550 50  0001 C CNN
-F 3 "~" H 1300 1550 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 1300 1550 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT1K00" H 1300 1550 50  0001 C CNN "mpn"
-F 6 "CF14JT1K00CT-ND" H 1300 1550 50  0001 C CNN "digikey#"
-F 7 "0" H 1300 1550 50  0001 C CNN "DNP"
-	1    1300 1550
+P 1350 1550
+F 0 "R102" V 1250 1450 50  0000 C CNN
+F 1 "1k" V 1250 1650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1280 1550 50  0001 C CNN
+F 3 "~" H 1350 1550 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 1350 1550 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT1K00" H 1350 1550 50  0001 C CNN "mpn"
+F 6 "CF14JT1K00CT-ND" H 1350 1550 50  0001 C CNN "digikey#"
+F 7 "0" H 1350 1550 50  0001 C CNN "DNP"
+	1    1350 1550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R101
 U 1 1 5E063120
-P 1300 1350
-F 0 "R101" V 1200 1250 50  0000 C CNN
-F 1 "1k" V 1200 1450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 1350 50  0001 C CNN
-F 3 "~" H 1300 1350 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 1300 1350 50  0001 C CNN "Manufacturer"
-F 5 "CF14JT1K00" H 1300 1350 50  0001 C CNN "mpn"
-F 6 "CF14JT1K00CT-ND" H 1300 1350 50  0001 C CNN "digikey#"
-F 7 "0" H 1300 1350 50  0001 C CNN "DNP"
-	1    1300 1350
+P 1350 1350
+F 0 "R101" V 1250 1250 50  0000 C CNN
+F 1 "1k" V 1250 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1280 1350 50  0001 C CNN
+F 3 "~" H 1350 1350 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 1350 1350 50  0001 C CNN "Manufacturer"
+F 5 "CF14JT1K00" H 1350 1350 50  0001 C CNN "mpn"
+F 6 "CF14JT1K00CT-ND" H 1350 1350 50  0001 C CNN "digikey#"
+F 7 "0" H 1350 1350 50  0001 C CNN "DNP"
+	1    1350 1350
 	0    1    1    0   
 $EndComp
 Text Label 1600 1550 0    50   ~ 0
@@ -933,11 +907,11 @@ F 3 "" H 1100 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 1350 1100 1350
+	1200 1350 1100 1350
 Wire Wire Line
 	1100 1350 1100 1150
 Wire Wire Line
-	1150 1550 1100 1550
+	1200 1550 1100 1550
 Wire Wire Line
 	1100 1550 1100 1350
 Connection ~ 1100 1350
@@ -959,8 +933,6 @@ Text Label 3000 2450 0    50   ~ 0
 PC7_MIDI_OUT
 Text Label 1500 1950 0    50   ~ 0
 PB1_U1TX
-Text Label 1500 2150 0    50   ~ 0
-PE1_U7TX
 Wire Wire Line
 	4900 2700 4150 2700
 Entry Wire Line
@@ -1051,57 +1023,57 @@ PD7_U2TX
 $Comp
 L Mechanical:MountingHole H101
 U 1 1 5DFC719B
-P 6200 6600
-F 0 "H101" H 6300 6646 50  0000 L CNN
-F 1 "MountingHole" H 6300 6555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6600 50  0001 C CNN
-F 3 "~" H 6200 6600 50  0001 C CNN
-F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
-F 6 "1" H 6200 6600 50  0001 C CNN "DNP"
-	1    6200 6600
+P 6200 6200
+F 0 "H101" H 6300 6246 50  0000 L CNN
+F 1 "MountingHole" H 6300 6155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6200 50  0001 C CNN
+F 3 "~" H 6200 6200 50  0001 C CNN
+F 4 "~" H 4650 -700 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -700 50  0001 C CNN "mpn"
+F 6 "1" H 6200 6200 50  0001 C CNN "DNP"
+	1    6200 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H102
 U 1 1 5DFC7744
-P 6200 6800
-F 0 "H102" H 6300 6846 50  0000 L CNN
-F 1 "MountingHole" H 6300 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6800 50  0001 C CNN
-F 3 "~" H 6200 6800 50  0001 C CNN
-F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
-F 6 "1" H 6200 6800 50  0001 C CNN "DNP"
-	1    6200 6800
+P 6200 6400
+F 0 "H102" H 6300 6446 50  0000 L CNN
+F 1 "MountingHole" H 6300 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6400 50  0001 C CNN
+F 3 "~" H 6200 6400 50  0001 C CNN
+F 4 "~" H 4650 -700 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -700 50  0001 C CNN "mpn"
+F 6 "1" H 6200 6400 50  0001 C CNN "DNP"
+	1    6200 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H103
 U 1 1 5DFC781B
-P 6200 7000
-F 0 "H103" H 6300 7046 50  0000 L CNN
-F 1 "MountingHole" H 6300 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7000 50  0001 C CNN
-F 3 "~" H 6200 7000 50  0001 C CNN
-F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
-F 6 "1" H 6200 7000 50  0001 C CNN "DNP"
-	1    6200 7000
+P 6200 6600
+F 0 "H103" H 6300 6646 50  0000 L CNN
+F 1 "MountingHole" H 6300 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6600 50  0001 C CNN
+F 3 "~" H 6200 6600 50  0001 C CNN
+F 4 "~" H 4650 -700 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -700 50  0001 C CNN "mpn"
+F 6 "1" H 6200 6600 50  0001 C CNN "DNP"
+	1    6200 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H104
 U 1 1 5DFC799C
-P 6200 7200
-F 0 "H104" H 6300 7246 50  0000 L CNN
-F 1 "MountingHole" H 6300 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7200 50  0001 C CNN
-F 3 "~" H 6200 7200 50  0001 C CNN
-F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
-F 6 "1" H 6200 7200 50  0001 C CNN "DNP"
-	1    6200 7200
+P 6200 6800
+F 0 "H104" H 6300 6846 50  0000 L CNN
+F 1 "MountingHole" H 6300 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 6800 50  0001 C CNN
+F 3 "~" H 6200 6800 50  0001 C CNN
+F 4 "~" H 4650 -700 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -700 50  0001 C CNN "mpn"
+F 6 "1" H 6200 6800 50  0001 C CNN "DNP"
+	1    6200 6800
 	1    0    0    -1  
 $EndComp
 Text Label 1500 2550 0    50   ~ 0
@@ -1141,49 +1113,49 @@ The Neotron-32 is based around a Texas Instruments EK-TM4C123GH6 Tiva-C Launchpa
 $Comp
 L Mechanical:MountingHole H105
 U 1 1 5E157BE6
-P 6200 7400
-F 0 "H105" H 6300 7446 50  0000 L CNN
-F 1 "MountingHole" H 6300 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7400 50  0001 C CNN
-F 3 "~" H 6200 7400 50  0001 C CNN
-F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 -100 50  0001 C CNN "mpn"
-F 6 "1" H 6200 7400 50  0001 C CNN "DNP"
-	1    6200 7400
+P 6200 7000
+F 0 "H105" H 6300 7046 50  0000 L CNN
+F 1 "MountingHole" H 6300 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7000 50  0001 C CNN
+F 3 "~" H 6200 7000 50  0001 C CNN
+F 4 "~" H 4650 -500 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -500 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7000 50  0001 C CNN "DNP"
+	1    6200 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H106
 U 1 1 5E1640CD
-P 6200 7600
-F 0 "H106" H 6300 7646 50  0000 L CNN
-F 1 "MountingHole" H 6300 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7600 50  0001 C CNN
-F 3 "~" H 6200 7600 50  0001 C CNN
-F 4 "~" H 4650 100 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4650 100 50  0001 C CNN "mpn"
-F 6 "1" H 6200 7600 50  0001 C CNN "DNP"
-	1    6200 7600
+P 6200 7200
+F 0 "H106" H 6300 7246 50  0000 L CNN
+F 1 "MountingHole" H 6300 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7200 50  0001 C CNN
+F 3 "~" H 6200 7200 50  0001 C CNN
+F 4 "~" H 4650 -300 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -300 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7200 50  0001 C CNN "DNP"
+	1    6200 7200
 	1    0    0    -1  
 $EndComp
-Text Notes 2950 1375 0    50   ~ 0
+Text Notes 2600 1400 0    50   ~ 0
 Page 4
 Text Notes 2400 4375 0    50   ~ 0
 Page 5
 Text Notes 2400 5925 0    50   ~ 0
 Page 6
 Text Notes 5000 5875 0    50   ~ 0
-Page 8
+Page 7
 Text Notes 5000 4375 0    50   ~ 0
-Page 9
+Page 8
 Text Notes 7825 4375 0    50   ~ 0
 Page 2
 Text Notes 7825 5875 0    50   ~ 0
-Page 10
+Page 9
 Text Notes 10375 4400 0    50   ~ 0
 Page 3
-Text Notes 10350 5875 0    50   ~ 0
-Page 7
+Text Notes 10350 5700 0    50   ~ 0
+Page 10
 Text Notes 10175 2250 0    50   ~ 0
 Expansion Slot B\n3.3v Signalling\nIRQ3\nSPI CS3
 Entry Wire Line
@@ -1191,21 +1163,63 @@ Entry Wire Line
 Wire Wire Line
 	6500 3200 7200 3200
 Text Label 6550 3200 0    50   ~ 0
-~PF4_AT_RESET
+~PF4_HID_IRQ
 Text Notes 4250 3300 0    50   ~ 0
 Also drives Red LED
-Text Label 9050 5500 0    50   ~ 0
-~PF4_AT_RESET
+$Sheet
+S 9650 5200 1050 550 
+U 5DF2662E
+F0 "Keyboard, Mouse and Joystick" 50
+F1 "kbms.sch" 50
+F2 "I2C_SCL" I L 9650 5350 50 
+F3 "I2C_SDA" B L 9650 5250 50 
+F4 "IRQ" O L 9650 5450 50 
+F5 "~RESET" O L 9650 5550 50 
+F6 "~POWER_EN" O L 9650 5650 50 
+$EndSheet
 Wire Wire Line
-	9000 5500 9650 5500
+	9000 5350 9650 5350
+Wire Wire Line
+	9000 5250 9650 5250
+Text Label 9550 5250 2    50   ~ 0
+PA7_I2C_SDA
+Text Label 9550 5350 2    50   ~ 0
+PA6_I2C_SCL
+Wire Wire Line
+	9000 5450 9650 5450
+Entry Wire Line
+	8900 5450 9000 5550
+Entry Wire Line
+	8900 5550 9000 5650
+Wire Wire Line
+	9000 5650 9650 5650
+Wire Wire Line
+	9650 5550 9000 5550
+Text Label 9550 5550 2    50   ~ 0
+~RESET
+Entry Wire Line
+	3950 1300 4050 1400
+Wire Wire Line
+	3250 1300 3950 1300
+Text Label 3350 1300 0    50   ~ 0
+~POWER_ON
+Text Label 9550 5650 2    50   ~ 0
+~POWER_ON
+Text Label 6550 1400 0    50   ~ 0
+PE0_U7RX
+NoConn ~ 4150 2900
+NoConn ~ 7200 1400
+Text Label 9550 5450 2    50   ~ 0
+~PF4_HID_IRQ
+NoConn ~ 1400 2150
 Wire Bus Line
 	8150 2900 8150 3450
-Wire Bus Line
-	8900 3450 8900 5400
 Wire Bus Line
 	6250 3450 6250 5450
 Wire Bus Line
 	3500 3450 3500 5250
+Wire Bus Line
+	8900 3450 8900 5550
 Wire Bus Line
 	2200 1450 2200 3450
 Wire Bus Line
@@ -1218,4 +1232,32 @@ Wire Bus Line
 	7300 1400 7300 3450
 Wire Bus Line
 	10050 950  10050 3450
+$Comp
+L Mechanical:MountingHole H107
+U 1 1 5F42AFC6
+P 6200 7400
+F 0 "H107" H 6300 7446 50  0000 L CNN
+F 1 "MountingHole" H 6300 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7400 50  0001 C CNN
+F 3 "~" H 6200 7400 50  0001 C CNN
+F 4 "~" H 4650 -100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 -100 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7400 50  0001 C CNN "DNP"
+	1    6200 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H108
+U 1 1 5F42B3C3
+P 6200 7600
+F 0 "H108" H 6300 7646 50  0000 L CNN
+F 1 "MountingHole" H 6300 7555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 6200 7600 50  0001 C CNN
+F 3 "~" H 6200 7600 50  0001 C CNN
+F 4 "~" H 4650 100 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4650 100 50  0001 C CNN "mpn"
+F 6 "1" H 6200 7600 50  0001 C CNN "DNP"
+	1    6200 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

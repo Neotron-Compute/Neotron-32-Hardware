@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name neotron-32-rescue)(type Legacy)(uri ${KIPRJMOD}/neotron-32-rescue.lib)(options "")(descr ""))
   (lib (name neotron-32)(type Legacy)(uri ${KIPRJMOD}/neotron-32.lib)(options "")(descr ""))
+  (lib (name neotron-32-rescue)(type Legacy)(uri ${KIPRJMOD}/neotron-32-rescue.lib)(options "")(descr ""))
 )

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 12
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
 Rev "[Uncontrolled]"
@@ -15,9 +15,9 @@ Comment4 ""
 $EndDescr
 Text HLabel 5250 3300 0    50   Input ~ 0
 MCU_SPI_MOSI
-Text HLabel 5250 3700 0    50   Output ~ 0
+Text HLabel 5250 3800 0    50   Output ~ 0
 MCU_SPI_MISO
-Text HLabel 5250 3500 0    50   Input ~ 0
+Text HLabel 5250 3600 0    50   Input ~ 0
 MCU_SPI_CLK
 Text HLabel 5200 2050 0    50   Input ~ 0
 ~MCU_SD_CS
@@ -35,47 +35,43 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DF24591
-P 4400 4150
-F 0 "#PWR?" H 4400 3900 50  0001 C CNN
-F 1 "GND" H 4450 3950 50  0000 C CNN
-F 2 "" H 4400 4150 50  0001 C CNN
-F 3 "" H 4400 4150 50  0001 C CNN
-	1    4400 4150
+P 4400 4250
+F 0 "#PWR?" H 4400 4000 50  0001 C CNN
+F 1 "GND" H 4450 4050 50  0000 C CNN
+F 2 "" H 4400 4250 50  0001 C CNN
+F 3 "" H 4400 4250 50  0001 C CNN
+	1    4400 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DF25504
-P 7300 4450
-F 0 "#PWR?" H 7300 4200 50  0001 C CNN
-F 1 "GND" H 7350 4250 50  0000 C CNN
-F 2 "" H 7300 4450 50  0001 C CNN
-F 3 "" H 7300 4450 50  0001 C CNN
-	1    7300 4450
+P 7400 4150
+F 0 "#PWR?" H 7400 3900 50  0001 C CNN
+F 1 "GND" H 7450 3950 50  0000 C CNN
+F 2 "" H 7400 4150 50  0001 C CNN
+F 3 "" H 7400 4150 50  0001 C CNN
+	1    7400 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R504
 U 1 1 5DF25D3A
-P 7300 4250
-F 0 "R504" H 7350 4300 50  0000 L CNN
-F 1 "DNF" H 7350 4200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7230 4250 50  0001 C CNN
-F 3 "~" H 7300 4250 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "~" H 0   0   50  0001 C CNN "mpn"
-F 6 "1" H 7300 4250 50  0001 C CNN "DNP"
-	1    7300 4250
+P 7400 3950
+F 0 "R504" H 7450 4000 50  0000 L CNN
+F 1 "DNF" H 7450 3900 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7330 3950 50  0001 C CNN
+F 3 "~" H 7400 3950 50  0001 C CNN
+F 4 "~" H 100 -300 50  0001 C CNN "Manufacturer"
+F 5 "~" H 100 -300 50  0001 C CNN "mpn"
+F 6 "1" H 7400 3950 50  0001 C CNN "DNP"
+	1    7400 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4400 7300 4450
+	7400 4100 7400 4150
 Wire Wire Line
 	5250 3300 5350 3300
-Wire Wire Line
-	5250 3500 5350 3500
-Wire Wire Line
-	5250 3700 5350 3700
 $Comp
 L Device:R R502
 U 1 1 5DF267A9
@@ -238,35 +234,13 @@ F 3 "" H 8000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 3050 4250 3800
+	7400 3700 7400 3800
 Wire Wire Line
-	7300 4000 7300 4100
-$Comp
-L Connector:Micro_SD_Card J?
-U 1 1 5E19DB95
-P 6250 3400
-AR Path="/5E19DB95" Ref="J?"  Part="1" 
-AR Path="/5DF1D0B0/5E19DB95" Ref="J501"  Part="1" 
-F 0 "J501" H 6200 4117 50  0000 C CNN
-F 1 "micro SD Card" H 6200 4026 50  0000 C CNN
-F 2 "Neotron 32:Molex_4730_2651" H 7400 3700 50  0001 C CNN
-F 3 "" H 6250 3400 50  0001 C CNN
-F 4 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "47309-2651" H 0   0   50  0001 C CNN "mpn"
-F 6 "0" H 6250 3400 50  0001 C CNN "DNP"
-	1    6250 3400
-	1    0    0    -1  
-$EndComp
+	5350 3900 4250 3900
 Wire Wire Line
-	5350 3400 4050 3400
+	4400 3700 4400 4250
 Wire Wire Line
-	5350 3800 4250 3800
-Wire Wire Line
-	5350 3600 4400 3600
-Wire Wire Line
-	4400 3600 4400 4150
-Wire Wire Line
-	7050 4000 7300 4000
+	7150 3700 7400 3700
 Wire Wire Line
 	5350 3100 5000 3100
 Wire Wire Line
@@ -289,8 +263,41 @@ Wire Wire Line
 Wire Wire Line
 	4400 2900 4050 2900
 Connection ~ 4050 2900
-Wire Wire Line
-	4050 2900 4050 3400
 Text Notes 550  7700 0    50   Italic 0
 We use a micro-SD card for space reasons. The SD card is driven in SPI mode.
+$Comp
+L Connector:SD_Card J501
+U 1 1 5F44DB03
+P 6250 3500
+F 0 "J501" H 6250 4165 50  0000 C CNN
+F 1 "SD_Card" H 6250 4074 50  0000 C CNN
+F 2 "Connector_Card:SD_Kyocera_145638109511859+" H 6250 3500 50  0001 C CNN
+F 3 "" H 6250 3500 50  0001 C CNN
+	1    6250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3700 5350 3700
+Wire Wire Line
+	5250 3600 5350 3600
+Wire Wire Line
+	5250 3800 5350 3800
+Wire Wire Line
+	4050 3500 5350 3500
+Wire Wire Line
+	4050 2900 4050 3500
+Wire Wire Line
+	4250 3050 4250 3900
+Wire Wire Line
+	5350 3400 4400 3400
+Wire Wire Line
+	4400 3400 4400 3700
+Connection ~ 4400 3700
+Wire Wire Line
+	7150 3600 7400 3600
+Wire Wire Line
+	7400 3600 7400 3700
+Connection ~ 7400 3700
+NoConn ~ 7150 3300
+NoConn ~ 7150 3400
 $EndSCHEMATC

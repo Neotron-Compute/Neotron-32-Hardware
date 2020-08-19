@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 8 12
 Title "Neotron 32K Main PCB"
 Date "2020-03-29"
 Rev "[Uncontrolled]"
@@ -18,8 +18,8 @@ L Connector:DB15_Female_HighDensity_MountingHoles J?
 U 1 1 5DF388AB
 P 5550 3250
 AR Path="/5DF388AB" Ref="J?"  Part="1" 
-AR Path="/5DF25A09/5DF388AB" Ref="J901"  Part="1" 
-F 0 "J901" H 5550 4117 50  0000 C CNN
+AR Path="/5DF25A09/5DF388AB" Ref="J801"  Part="1" 
+F 0 "J801" H 5550 4117 50  0000 C CNN
 F 1 "DB15HD_Female" H 5550 4026 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 4600 3650 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/c-cd-0012.pdf" H 4600 3650 50  0001 C CNN
@@ -40,10 +40,10 @@ VGA_H_FROM_MCU
 Text HLabel 6400 3450 2    50   Input ~ 0
 VGA_V_FROM_MCU
 $Comp
-L Device:R R906
+L Device:R R806
 U 1 1 5E020EF6
 P 6100 3450
-F 0 "R906" V 6000 3350 50  0000 C CNN
+F 0 "R806" V 6000 3350 50  0000 C CNN
 F 1 "330" V 6000 3550 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 3450 50  0001 C CNN
 F 3 "~" H 6100 3450 50  0001 C CNN
@@ -55,10 +55,10 @@ F 7 "0" H 6100 3450 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R905
+L Device:R R805
 U 1 1 5E02143C
 P 6100 3250
-F 0 "R905" V 6000 3150 50  0000 C CNN
+F 0 "R805" V 6000 3150 50  0000 C CNN
 F 1 "330" V 6000 3350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 3250 50  0001 C CNN
 F 3 "~" H 6100 3250 50  0001 C CNN
@@ -70,10 +70,10 @@ F 7 "0" H 6100 3250 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R901
+L Device:R R801
 U 1 1 5E021698
 P 5000 2850
-F 0 "R901" V 4900 2700 50  0000 C CNN
+F 0 "R801" V 4900 2700 50  0000 C CNN
 F 1 "330" V 4900 2950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2850 50  0001 C CNN
 F 3 "~" H 5000 2850 50  0001 C CNN
@@ -85,10 +85,10 @@ F 7 "0" H 5000 2850 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R902
+L Device:R R802
 U 1 1 5E021BC3
 P 5000 3050
-F 0 "R902" V 4900 2900 50  0000 C CNN
+F 0 "R802" V 4900 2900 50  0000 C CNN
 F 1 "330" V 4900 3150 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 3050 50  0001 C CNN
 F 3 "~" H 5000 3050 50  0001 C CNN
@@ -100,10 +100,10 @@ F 7 "0" H 5000 3050 50  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R903
+L Device:R R803
 U 1 1 5E021E5E
 P 5000 3250
-F 0 "R903" V 4900 3100 50  0000 C CNN
+F 0 "R803" V 4900 3100 50  0000 C CNN
 F 1 "330" V 4900 3350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 3250 50  0001 C CNN
 F 3 "~" H 5000 3250 50  0001 C CNN
@@ -169,10 +169,10 @@ F 3 "" H 5200 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R904
+L Device:R R804
 U 1 1 5E3BC4C1
 P 5900 3950
-F 0 "R904" V 5800 3850 50  0000 C CNN
+F 0 "R804" V 5800 3850 50  0000 C CNN
 F 1 "DNF" V 5800 4050 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5830 3950 50  0001 C CNN
 F 3 "~" H 5900 3950 50  0001 C CNN

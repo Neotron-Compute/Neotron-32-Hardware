@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 7 12
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
 Rev "[Uncontrolled]"
@@ -18,10 +18,10 @@ MCU_I2C_SDA
 Text HLabel 4450 3150 0    50   Input ~ 0
 MCU_I2C_SCL
 $Comp
-L Timer:MCP7940N-xP U801
+L Timer:MCP7940N-xP U701
 U 1 1 5E0F47D7
 P 4950 3350
-F 0 "U801" H 5250 3700 50  0000 C CNN
+F 0 "U701" H 5250 3700 50  0000 C CNN
 F 1 "MCP7940N-xP" H 4550 3700 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 4950 3350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 4950 3350 50  0001 C CNN
@@ -32,10 +32,10 @@ F 6 "0" H 4950 3350 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT801
+L Device:Battery_Cell BT701
 U 1 1 5E0F507E
 P 6300 3400
-F 0 "BT801" H 6418 3496 50  0000 L CNN
+F 0 "BT701" H 6418 3496 50  0000 L CNN
 F 1 "CR2032" H 6418 3405 50  0000 L CNN
 F 2 "Neotron 32:BatteryHolder_Keystone_103_1x20mm" V 6300 3460 50  0001 C CNN
 F 3 "~" V 6300 3460 50  0001 C CNN
@@ -63,8 +63,8 @@ L Device:C C?
 U 1 1 5E0203CB
 P 7050 3350
 AR Path="/5DF1D0B0/5E0203CB" Ref="C?"  Part="1" 
-AR Path="/5DF66898/5E0203CB" Ref="C803"  Part="1" 
-F 0 "C803" H 7165 3396 50  0000 L CNN
+AR Path="/5DF66898/5E0203CB" Ref="C703"  Part="1" 
+F 0 "C703" H 7165 3396 50  0000 L CNN
 F 1 "100n" H 7165 3305 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7088 3200 50  0001 C CNN
 F 3 "~" H 7050 3350 50  0001 C CNN
@@ -121,10 +121,10 @@ F 3 "" H 4950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y801
+L Device:Crystal Y701
 U 1 1 5E028A76
 P 5550 3350
-F 0 "Y801" V 5500 3500 50  0000 L CNN
+F 0 "Y701" V 5500 3500 50  0000 L CNN
 F 1 "32,768 Hz" V 5600 3500 50  0000 L CNN
 F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal" H 5550 3350 50  0001 C CNN
 F 3 "http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_TF/CFS-206_CFS-145_E.pdf" H 5550 3350 50  0001 C CNN
@@ -184,10 +184,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 3500 6300 3600
 $Comp
-L Device:C C801
+L Device:C C701
 U 1 1 5E02C5CE
 P 5550 2950
-F 0 "C801" H 5665 2996 50  0000 L CNN
+F 0 "C701" H 5665 2996 50  0000 L CNN
 F 1 "6p" H 5665 2905 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5588 2800 50  0001 C CNN
 F 3 "~" H 5550 2950 50  0001 C CNN
@@ -198,10 +198,10 @@ F 6 "0" H 5550 2950 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C802
+L Device:C C702
 U 1 1 5E02CC31
 P 5550 3750
-F 0 "C802" H 5665 3796 50  0000 L CNN
+F 0 "C702" H 5665 3796 50  0000 L CNN
 F 1 "6p" H 5665 3705 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5588 3600 50  0001 C CNN
 F 3 "~" H 5550 3750 50  0001 C CNN

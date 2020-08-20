@@ -240,13 +240,13 @@ F 3 "" H 6800 4350 50  0001 C CNN
 	1    6800 4350
 	1    0    0    -1  
 $EndComp
-Text Label 4250 2700 0    50   ~ 0
-ACK
-Text Label 4250 2800 0    50   ~ 0
-~BUSY
-Text Label 4250 2900 0    50   ~ 0
-POUT
 Text Label 4250 3000 0    50   ~ 0
+ACK
+Text Label 4250 2900 0    50   ~ 0
+~BUSY
+Text Label 4250 2800 0    50   ~ 0
+POUT
+Text Label 4250 2700 0    50   ~ 0
 SELECT
 Text Label 7900 4200 2    50   ~ 0
 D7
@@ -644,13 +644,13 @@ Text Notes 7750 4700 0    50   ~ 0
 Fit close to J801
 Text Notes 1200 4100 0    50   ~ 0
 Fit close to Vdd
-Text Label 4250 3100 0    50   ~ 0
-~LF
-Text Label 4250 3200 0    50   ~ 0
-ERROR
-Text Label 4250 3300 0    50   ~ 0
-RESET
 Text Label 4250 3400 0    50   ~ 0
+~LF
+Text Label 4250 3300 0    50   ~ 0
+ERROR
+Text Label 4250 3200 0    50   ~ 0
+RESET
+Text Label 4250 3100 0    50   ~ 0
 ~SELPRI
 Text Notes 550  7700 0    50   Italic 0
 Provides an 25-pin Parallel Port as found on an IBM PC. Implementation of SPP, EPP or ECP is down to the software on the MCU, as this is a\nbasic 3.3v SPI to GPIO convertor chip.\n\nThe strobe signal is direct from the CPU to allow it to be toggled on and off relatively quickly. The MCP23S17 can be configured to generate\ninputs to avoid the CPU busy-waiting for ACK from the remote device.\n\nIf you want a proper DB25 Parallel port, you will need a 26-way IDC ribbon to DB25 male cable. These were commonly fitted to PCs in the\n1990s as the ISA I/O expansion cards and/or motherboards of the time often didn't have room for all of the ports on the backplate. We\ndidn't fit a DB25 to this board due to similar space issues.

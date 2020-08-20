@@ -629,29 +629,16 @@ Voltage Monitoring: measure\nagainst 1.1V band-gap ref\n\n(5.0V * 1000) / (6810 
 Text HLabel 8550 2950 2    50   Output ~ 0
 ~POWER_EN
 $Comp
-L Switch:SW_Push SW1001
-U 1 1 5F570471
-P 8450 4550
-F 0 "SW1001" V 8404 4698 50  0000 L CNN
-F 1 "SW_Push" V 8495 4698 50  0000 L CNN
-F 2 "Neotron 32:PHB2UEETS1A" H 8450 4750 50  0001 C CNN
-F 3 "~" H 8450 4750 50  0001 C CNN
-	1    8450 4550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8450 4250 8450 4350
-$Comp
 L power:GND #PWR?
 U 1 1 5F57B3A4
-P 8450 4900
+P 8550 4900
 AR Path="/5F57B3A4" Ref="#PWR?"  Part="1" 
 AR Path="/5DF2662E/5F57B3A4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8450 4650 50  0001 C CNN
-F 1 "GND" H 8455 4727 50  0000 C CNN
-F 2 "" H 8450 4900 50  0001 C CNN
-F 3 "" H 8450 4900 50  0001 C CNN
-	1    8450 4900
+F 0 "#PWR?" H 8550 4650 50  0001 C CNN
+F 1 "GND" H 8555 4727 50  0000 C CNN
+F 2 "" H 8550 4900 50  0001 C CNN
+F 3 "" H 8550 4900 50  0001 C CNN
+	1    8550 4900
 	1    0    0    -1  
 $EndComp
 Text Notes 7300 4750 0    50   Italic 0
@@ -659,15 +646,14 @@ Power Button:\nTap to turn on/off\nHold to hard power off\n(if main MCU has cras
 Wire Wire Line
 	7250 2950 8450 2950
 Wire Wire Line
-	8450 4250 8450 2950
+	8450 4250 8450 3900
 Connection ~ 8450 2950
 Wire Wire Line
 	8450 2950 8550 2950
-Connection ~ 8450 4250
 Wire Wire Line
 	7250 4250 8450 4250
 Wire Wire Line
-	8450 4900 8450 4750
+	8550 4900 8550 4850
 $Bitmap
 Pos 5600 6950
 Scale 1.000000
@@ -3854,9 +3840,57 @@ U 1 1 5F3EB1C2
 P 10000 5800
 F 0 "J1004" H 9670 5896 50  0000 R CNN
 F 1 "AVR-ISP-6" H 9670 5805 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" V 9750 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 9750 5850 50  0001 C CNN
 F 3 " ~" H 8725 5250 50  0001 C CNN
 	1    10000 5800
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push_DPDT SW?
+U 1 1 5F4081CD
+P 8750 4550
+AR Path="/5DF5D5D7/5F4081CD" Ref="SW?"  Part="1" 
+AR Path="/5DF2662E/5F4081CD" Ref="SW1001"  Part="1" 
+F 0 "SW1001" V 8650 4550 50  0000 C CNN
+F 1 "SW_Push_DPDT_ON_MO" V 8650 3800 50  0000 C CNN
+F 2 "Neotron 32:PHB2UEETS1A" H 8750 4750 50  0001 C CNN
+F 3 "~" H 8750 4750 50  0001 C CNN
+F 4 "C&K" H 8750 4550 50  0001 C CNN "Manufacturer"
+F 5 "PHB2UOATS1A" H 8750 4550 50  0001 C CNN "mpn"
+F 6 "0" H 8750 4550 50  0001 C CNN "DNP"
+	1    8750 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 4850 8950 4850
+Wire Wire Line
+	8950 4850 8950 4750
+Connection ~ 8550 4850
+Wire Wire Line
+	8550 4850 8550 4750
+Wire Wire Line
+	8450 4250 8650 4250
+Wire Wire Line
+	8650 4250 8650 4350
+Connection ~ 8450 4250
+Wire Wire Line
+	9050 4250 9050 4350
+Wire Wire Line
+	8650 4250 9050 4250
+Connection ~ 8650 4250
+$Comp
+L Device:R R1010
+U 1 1 5F427BC4
+P 8450 3750
+F 0 "R1010" H 8520 3796 50  0000 L CNN
+F 1 "10k" H 8520 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8380 3750 50  0001 C CNN
+F 3 "~" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3600 8450 2950
+NoConn ~ 8850 4350
+NoConn ~ 8450 4350
 $EndSCHEMATC

@@ -1212,26 +1212,6 @@ NoConn ~ 7200 1400
 Text Label 9550 5450 2    50   ~ 0
 ~PF4_HID_IRQ
 NoConn ~ 1400 2150
-Wire Bus Line
-	8150 2900 8150 3450
-Wire Bus Line
-	6250 3450 6250 5450
-Wire Bus Line
-	3500 3450 3500 5250
-Wire Bus Line
-	8900 3450 8900 5550
-Wire Bus Line
-	2200 1450 2200 3450
-Wire Bus Line
-	3650 2050 3650 3450
-Wire Bus Line
-	950  3450 950  5750
-Wire Bus Line
-	4050 1250 4050 3450
-Wire Bus Line
-	7300 1400 7300 3450
-Wire Bus Line
-	10050 950  10050 3450
 $Comp
 L Mechanical:MountingHole H107
 U 1 1 5F42AFC6
@@ -1260,4 +1240,24 @@ F 6 "1" H 6200 7600 50  0001 C CNN "DNP"
 	1    6200 7600
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	8150 2900 8150 3450
+Wire Bus Line
+	6250 3450 6250 5450
+Wire Bus Line
+	3500 3450 3500 5250
+Wire Bus Line
+	8900 3450 8900 5550
+Wire Bus Line
+	2200 1450 2200 3450
+Wire Bus Line
+	3650 2050 3650 3450
+Wire Bus Line
+	950  3450 950  5750
+Wire Bus Line
+	4050 1250 4050 3450
+Wire Bus Line
+	7300 1400 7300 3450
+Wire Bus Line
+	10050 950  10050 3450
 $EndSCHEMATC

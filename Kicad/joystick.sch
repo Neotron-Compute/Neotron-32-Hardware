@@ -23,7 +23,7 @@ AR Path="/5DF2662E/5F3EBC7F" Ref="J?"  Part="1"
 AR Path="/5DF2662E/5F3E9731/5F3EBC7F" Ref="J1101"  Part="1" 
 AR Path="/5DF2662E/5F3EF2EB/5F3EBC7F" Ref="J?"  Part="1" 
 AR Path="/5DF2662E/5F80F300/5F3EBC7F" Ref="J1201"  Part="1" 
-F 0 "J1101" H 6530 3652 50  0000 L CNN
+F 0 "J1201" H 6530 3652 50  0000 L CNN
 F 1 "DE9 Male" H 6530 3561 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset8.20mm" H 6350 3650 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5747467&DocType=Customer+Drawing&DocLang=English" H 6350 3650 50  0001 C CNN

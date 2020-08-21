@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "Neotron 32K Main PCB"
 Date "2020-03-29"
 Rev "[Uncontrolled]"
@@ -1154,7 +1154,7 @@ Text Notes 7825 5875 0    50   ~ 0
 Page 9
 Text Notes 10375 4400 0    50   ~ 0
 Page 3
-Text Notes 10350 5700 0    50   ~ 0
+Text Notes 10350 5850 0    50   ~ 0
 Page 10
 Text Notes 10175 2250 0    50   ~ 0
 Expansion Slot B\n3.3v Signalling\nIRQ3\nSPI CS3
@@ -1167,9 +1167,9 @@ Text Label 6550 3200 0    50   ~ 0
 Text Notes 4250 3300 0    50   ~ 0
 Also drives Red LED
 $Sheet
-S 9650 5200 1050 550 
+S 9650 5200 1050 700 
 U 5DF2662E
-F0 "Keyboard, Mouse and Joystick" 50
+F0 "Keyboard and Mouse" 50
 F1 "kbms.sch" 50
 F2 "I2C_SCL" I L 9650 5350 50 
 F3 "I2C_SDA" B L 9650 5250 50 
@@ -1240,6 +1240,26 @@ F 6 "1" H 6200 7600 50  0001 C CNN "DNP"
 	1    6200 7600
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 1650 6550 1050 300 
+U 5F46EF57
+F0 "Joystick" 50
+F1 "joystick.sch" 50
+F2 "I2C_SCL" I L 1650 6750 50 
+F3 "I2C_SDA" B L 1650 6650 50 
+$EndSheet
+Wire Wire Line
+	1050 6750 1650 6750
+Wire Wire Line
+	1050 6650 1650 6650
+Text Label 1600 6650 2    50   ~ 0
+PA7_I2C_SDA
+Text Label 1600 6750 2    50   ~ 0
+PA6_I2C_SCL
+Entry Wire Line
+	1050 6750 950  6650
+Entry Wire Line
+	1050 6650 950  6550
 Wire Bus Line
 	8150 2900 8150 3450
 Wire Bus Line
@@ -1253,11 +1273,13 @@ Wire Bus Line
 Wire Bus Line
 	3650 2050 3650 3450
 Wire Bus Line
-	950  3450 950  5750
-Wire Bus Line
 	4050 1250 4050 3450
 Wire Bus Line
 	7300 1400 7300 3450
 Wire Bus Line
+	950  3450 950  6800
+Wire Bus Line
 	10050 950  10050 3450
+Text Notes 2350 6800 0    50   ~ 0
+Page 11
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 12
+Sheet 3 13
 Title "Neotron 32K Main PCB"
 Date "2019-12-16"
 Rev "[Uncontrolled]"
